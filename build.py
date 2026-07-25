@@ -221,7 +221,8 @@ DISCLAIMER = """
 VERIFY = {
     # Google Search Console — "URL 접두어" 속성의 HTML 태그 방식 content 값
     "google":   "prwsKG6JlRxVMzUakGjBY0Nqhqv1Lqbi3nJBZ9NPS8o",
-    "naver":    "",   # 네이버 서치어드바이저   <meta name="naver-site-verification">
+    # 네이버 서치어드바이저 — 웹마스터 도구 HTML 태그 방식 content 값
+    "naver":    "c263c4e3eac81eacf5513faee88091648d122793",
     "bing":     "",   # Bing Webmaster        <meta name="msvalidate.01">
 }
 
