@@ -233,6 +233,12 @@ h1, h2, h3, h4 { line-height: 1.32; letter-spacing: -.026em; font-weight: 700; }
 .dropdown::before {
   content: ''; position: absolute; top: -10px; left: 0; right: 0; height: 10px;
 }
+/* 마지막 메뉴는 오른쪽 정렬 — 좁은 데스크톱에서 화면 밖으로 나가지 않도록 */
+.nav__item:last-child .dropdown {
+  left: auto; right: 0; transform: translate(0, 8px);
+}
+.nav__item:last-child:hover > .dropdown,
+.nav__item:last-child:focus-within > .dropdown { transform: translate(0, 0); }
 .dropdown a {
   display: block; padding: 9px 13px; border-radius: var(--r-sm);
   font-size: .9rem; font-weight: 500; color: var(--ink-700);
@@ -792,6 +798,36 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
 .cta-band p { margin-top: 12px; color: var(--text-muted); max-width: 52ch; margin-inline: auto; }
 .cta-band .btn { margin-top: 26px; }
 
+/* ---------- 18b. Ads (Kakao AdFit) ---------- */
+/* 상단 728x90 — 배너가 온전히 들어가는 폭에서만 노출 */
+.ad--top {
+  display: none;
+  justify-content: center;
+  padding: 16px 22px 4px;
+}
+.ad--top .kakao_ad_area { margin-inline: auto; }
+@media (min-width: 800px) {
+  /* 광고가 늦게 로드돼도 본문이 밀리지 않도록 높이를 미리 확보 (CLS 방지) */
+  .ad--top { display: flex; min-height: 110px; align-items: center; }
+}
+
+/* 우측 160x600 — 본문 바깥 여백이 확보되는 폭에서만 고정 노출 */
+.ad--side {
+  display: none;
+  position: fixed;
+  top: calc(var(--header-h) + 28px);
+  /* 본문(최대 1180px) 바깥 여백에만 자리잡도록 계산 — 넓은 화면에서도 본문 곁에 붙음 */
+  right: max(16px, calc((100vw - var(--wrap)) / 2 - 200px));
+  z-index: 60;
+  width: 160px;
+}
+@media (min-width: 1560px) {
+  .ad--side { display: block; }
+}
+/* 오버레이가 열리면 광고가 위로 뜨지 않도록 */
+.drawer.is-open ~ .ad--side,
+.search.is-open ~ .ad--side { display: none; }
+
 /* ---------- 19. Footer ---------- */
 .footer { background: var(--cream-100); border-top: 1px solid var(--border); padding-block: 56px 32px; margin-top: 20px; }
 .footer__grid { display: grid; grid-template-columns: 1.6fr repeat(3, 1fr); gap: 40px; }
@@ -802,8 +838,27 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
 .footer ul { display: grid; gap: 9px; }
 .footer li a { font-size: .875rem; color: var(--text-muted); transition: color .16s; }
 .footer li a:hover { color: var(--rose-600); }
+/* 사업자 정보 */
+.biz {
+  margin-top: 44px; padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.biz h4 { margin-bottom: 14px; }
+.biz__list {
+  display: grid; gap: 8px 34px;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+}
+.biz__list > div { display: flex; gap: 10px; align-items: baseline; }
+.biz dt {
+  flex-shrink: 0; min-width: 84px;
+  font-size: .78rem; font-weight: 700; color: var(--ink-400);
+}
+.biz dd { font-size: .83rem; color: var(--text-muted); }
+.biz dd a { border-bottom: 1px solid transparent; transition: color .16s, border-color .16s; }
+.biz dd a:hover { color: var(--rose-600); border-bottom-color: var(--rose-300); }
+
 .footer__bottom {
-  margin-top: 44px; padding-top: 24px; border-top: 1px solid var(--border);
+  margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border);
   display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between;
   font-size: .8rem; color: var(--ink-400);
 }

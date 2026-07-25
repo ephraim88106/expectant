@@ -157,13 +157,47 @@ def footer_html(page_path):
       </div>
       %(cols)s
     </div>
+
+    <section class="biz" aria-labelledby="biz-title">
+      <h4 id="biz-title">사업자 정보</h4>
+      <dl class="biz__list">
+        <div><dt>상호</dt><dd>에브라임 시드 (Ephraim Seed)</dd></div>
+        <div><dt>대표자</dt><dd>김남호</dd></div>
+        <div><dt>사업자등록번호</dt><dd>359-05-03748</dd></div>
+        <div><dt>주소</dt><dd>인천광역시 연수구 아카데미로 446</dd></div>
+        <div><dt>이메일</dt><dd><a href="mailto:namho8816@naver.com">namho8816@naver.com</a></dd></div>
+        <div><dt>전화</dt><dd><a href="tel:01059440714">010-5944-0714</a></dd></div>
+      </dl>
+    </section>
+
     <div class="footer__bottom">
-      <span>&copy; <span data-year>2026</span> Expectant. 의료 조언을 대체하지 않습니다.</span>
+      <span>&copy; <span data-year>2026</span> Ephseed AI. All rights reserved. 의료 조언을 대체하지 않습니다.</span>
       <span>최종 업데이트 %(today)s</span>
     </div>
   </div>
 </footer>
 """ % dict(home=link("index.html", page_path), mark=I["heart"], cols="".join(cols), today=TODAY)
+
+# ---------------------------------------------------------------- ads (Kakao AdFit)
+AD_TOP = """
+<div class="ad ad--top" aria-label="광고">
+  <ins class="kakao_ad_area" style="display:none;"
+       data-ad-unit="DAN-MHSpt9N6WJmbCvFE"
+       data-ad-width="728"
+       data-ad-height="90"></ins>
+</div>
+"""
+
+AD_SIDE = """
+<aside class="ad ad--side" aria-label="광고">
+  <ins class="kakao_ad_area" style="display:none;"
+       data-ad-unit="DAN-81oJa1C0kry2wmSl"
+       data-ad-width="160"
+       data-ad-height="600"></ins>
+</aside>
+"""
+
+AD_SCRIPT = '<script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
 
 DISCLAIMER = """
 <div class="disclaimer">
@@ -257,6 +291,9 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
   </div>
 </div>
 
+{ad_top}
+{ad_side}
+
 <main id="main">
 {body}
 </main>
@@ -264,9 +301,11 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
 {footer}
 <script src="{r}assets/js/search-index.js" defer></script>
 <script src="{r}assets/js/site.js" defer></script>
+{ad_script}
 </body>
 </html>
 """.format(
+        ad_top=AD_TOP, ad_side=AD_SIDE, ad_script=AD_SCRIPT,
         r=r, title=title, desc=desc,
         kw=('<meta name="keywords" content="%s">' % keywords) if keywords else "",
         canonical=canonical, og_type=og_type,
