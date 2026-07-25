@@ -183,15 +183,15 @@ AD_TOP = """
 <div class="ad ad--top" aria-label="광고">
   <div class="ad__pc">
     <ins class="kakao_ad_area" style="display:none;"
-         data-ad-unit="DAN-MHSpt9N6WJmbCvFE"
+         data-ad-unit="DAN-vNyfoETdyeT8B3rI"
          data-ad-width="728"
          data-ad-height="90"></ins>
   </div>
   <div class="ad__mo">
     <ins class="kakao_ad_area" style="display:none;"
-         data-ad-unit="DAN-VthMQex1Zl00SsDa"
-         data-ad-width="320"
-         data-ad-height="100"></ins>
+         data-ad-unit="DAN-3e6XiUNV1J8PGksN"
+         data-ad-width="300"
+         data-ad-height="250"></ins>
   </div>
 </div>
 """
@@ -199,7 +199,7 @@ AD_TOP = """
 AD_SIDE_TOP = """
 <aside class="ad ad--side" aria-label="광고 및 추천 상품">
   <ins class="kakao_ad_area" style="display:none;"
-       data-ad-unit="DAN-81oJa1C0kry2wmSl"
+       data-ad-unit="DAN-s1aNFXqr5pTlzwGv"
        data-ad-width="160"
        data-ad-height="600"></ins>
 """
@@ -322,7 +322,7 @@ def coupang_rail(page_path):
   <div class="rail__coupang">
     <span class="rail__label">추천 상품</span>
     <iframe src="{iframe}" width="120" height="240" frameborder="0" scrolling="no"
-            referrerpolicy="unsafe-url" browsingtopics title="{name}" loading="lazy"></iframe>
+            referrerpolicy="unsafe-url" browsingtopics title="{name}"></iframe>
     <p class="rail__disc">{disc}</p>
   </div>
 """.format(iframe=p["iframe"], name=esc_attr(p["name"]), disc=COUPANG_DISCLOSURE)
@@ -335,7 +335,7 @@ def coupang_inline(page_path):
 <aside class="reco" aria-label="추천 상품">
   <div class="reco__frame">
     <iframe src="{iframe}" width="120" height="240" frameborder="0" scrolling="no"
-            referrerpolicy="unsafe-url" browsingtopics title="{name}" loading="lazy"></iframe>
+            referrerpolicy="unsafe-url" browsingtopics title="{name}"></iframe>
   </div>
   <div class="reco__body">
     <span class="reco__label">추천 상품</span>

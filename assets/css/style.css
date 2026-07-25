@@ -833,15 +833,15 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 18px 4px;
-  min-height: 122px;
+  padding: 14px 8px 6px;
+  min-height: 272px;   /* 모바일 300x250 자리 선점 */
 }
 .ad--top .kakao_ad_area { margin-inline: auto; }
 .ad__pc, .ad__mo { display: none; justify-content: center; width: 100%; }
 .ad__mo { display: flex; }
 
 @media (min-width: 800px) {
-  .ad--top { min-height: 112px; padding-inline: 22px; }
+  .ad--top { min-height: 112px; padding-inline: 22px; }  /* PC 728x90 */
   .ad__pc { display: flex; }
   .ad__mo { display: none; }
 }
