@@ -799,16 +799,23 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
 .cta-band .btn { margin-top: 26px; }
 
 /* ---------- 18b. Ads (Kakao AdFit) ---------- */
-/* 상단 728x90 — 배너가 온전히 들어가는 폭에서만 노출 */
+/* 상단 배너 — 화면 폭에 따라 PC(728x90) / 모바일(320x100) 전환.
+   광고가 늦게 로드돼도 본문이 밀리지 않도록 높이를 미리 확보 (CLS 방지) */
 .ad--top {
-  display: none;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 16px 22px 4px;
+  padding: 14px 18px 4px;
+  min-height: 122px;
 }
 .ad--top .kakao_ad_area { margin-inline: auto; }
+.ad__pc, .ad__mo { display: none; justify-content: center; width: 100%; }
+.ad__mo { display: flex; }
+
 @media (min-width: 800px) {
-  /* 광고가 늦게 로드돼도 본문이 밀리지 않도록 높이를 미리 확보 (CLS 방지) */
-  .ad--top { display: flex; min-height: 110px; align-items: center; }
+  .ad--top { min-height: 112px; padding-inline: 22px; }
+  .ad__pc { display: flex; }
+  .ad__mo { display: none; }
 }
 
 /* 우측 160x600 — 본문 바깥 여백이 확보되는 폭에서만 고정 노출 */
