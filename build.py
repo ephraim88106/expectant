@@ -5,7 +5,7 @@
 import os, re, json, shutil, datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SITE_URL = "https://expectant.pages.dev"
+SITE_URL = "https://expectant.ephseed.com"
 TODAY = datetime.date.today().isoformat()
 
 # ---------------------------------------------------------------- icons

@@ -23,4 +23,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://expectant.pages.dev/sitemap.xml
+Sitemap: https://expectant.ephseed.com/sitemap.xml

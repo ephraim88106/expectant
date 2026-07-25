@@ -1,6 +1,6 @@
 # Expectant — 임신·출산 정보 가이드
 
-https://expectant.pages.dev
+https://expectant.ephseed.com
 
 임신 테스트기(임테기) 사용법부터 주차별 증상, 출산 예정일 계산기까지
 임신을 확인하고 준비하는 과정을 안내하는 정적 웹사이트입니다.

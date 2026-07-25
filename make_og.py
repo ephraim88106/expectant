@@ -73,7 +73,7 @@ TPL = """<!DOCTYPE html>
     <span class="eyebrow">{eyebrow}</span>
     <h1>{l1}<br><em>{l2}</em></h1>
   </div>
-  <div class="url">expectant.pages.dev</div>
+  <div class="url">expectant.ephseed.com</div>
 </body></html>
 """
 
