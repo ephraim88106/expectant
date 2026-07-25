@@ -196,16 +196,162 @@ AD_TOP = """
 </div>
 """
 
-AD_SIDE = """
-<aside class="ad ad--side" aria-label="광고">
+AD_SIDE_TOP = """
+<aside class="ad ad--side" aria-label="광고 및 추천 상품">
   <ins class="kakao_ad_area" style="display:none;"
        data-ad-unit="DAN-81oJa1C0kry2wmSl"
        data-ad-width="160"
        data-ad-height="600"></ins>
-</aside>
 """
+AD_SIDE_BOTTOM = "</aside>\n"
 
 AD_SCRIPT = '<script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>'
+
+# ---------------------------------------------------------------- 쿠팡 파트너스
+# 페이지 주제에 맞는 상품이 자동으로 노출되도록 매칭한다.
+COUPANG_DISCLOSURE = ("이 포스팅은 쿠팡 파트너스 활동의 일환으로, "
+                      "이에 따른 일정액의 수수료를 제공받습니다.")
+
+COUPANG_PRODUCTS = {
+    "folate":   {"name": "솔가 엽산",                "iframe": "https://coupa.ng/cojGon",
+                 "link": "https://link.coupang.com/a/fGao4FozkW",
+                 "why":  "임신 초기 신경관 형성기에 챙기는 엽산"},
+    "lacto":    {"name": "락토핏 생유산균",           "iframe": "https://coupa.ng/cojGqp",
+                 "link": "https://link.coupang.com/a/fGau9QShQy",
+                 "why":  "장 운동이 느려지는 시기의 유산균"},
+    "book":     {"name": "임신출산육아대백과",        "iframe": "https://coupa.ng/cojGrq",
+                 "link": "https://link.coupang.com/a/fGaxBQzBMO",
+                 "why":  "임신 전 과정을 한 권에 담은 기본서"},
+    "daily":    {"name": "임신출산 데일리북",         "iframe": "https://coupa.ng/cojGsm",
+                 "link": "https://link.coupang.com/a/fGaA0UKOo8",
+                 "why":  "주차별 기록을 남기는 다이어리"},
+    "cream":    {"name": "부담제로 임산부 크림",      "iframe": "https://coupa.ng/cojGtm",
+                 "link": "https://link.coupang.com/a/fGaEvXD8TI",
+                 "why":  "배가 빠르게 커지는 시기의 보습 관리"},
+    "vitamin":  {"name": "마더스케어 올인원 플러스",  "iframe": "https://coupa.ng/cojGwg",
+                 "link": "https://link.coupang.com/a/fGaO4mmak0",
+                 "why":  "임산부용 종합 영양제"},
+    "letter":   {"name": "임밍아웃 편지지",           "iframe": "https://coupa.ng/cojGwZ",
+                 "link": "https://link.coupang.com/a/fGaQ5xAnKu",
+                 "why":  "두 줄을 확인했다면, 소식을 전할 준비"},
+    "tooth":    {"name": "임산부 치약",               "iframe": "https://coupa.ng/cojGyh",
+                 "link": "https://link.coupang.com/a/fGaUJZ4ZFI",
+                 "why":  "잇몸이 예민해지는 시기의 저자극 치약"},
+    "coffee":   {"name": "제로칼로리 커피",           "iframe": "https://coupa.ng/cojGzi",
+                 "link": "https://link.coupang.com/a/fGaXPJrgHI",
+                 "why":  "카페인을 줄여야 할 때의 대안"},
+    "warmer":   {"name": "임산부 배 워머",            "iframe": "https://coupa.ng/cojGz9",
+                 "link": "https://link.coupang.com/a/fGa0Q64NB6",
+                 "why":  "배가 무거워지는 시기의 보온"},
+    "tea":      {"name": "톡투허 퉁퉁이별티",         "iframe": "https://coupa.ng/cojGAL",
+                 "link": "https://link.coupang.com/a/fGa3jZuk0q",
+                 "why":  "손발이 붓는 시기에 마시는 차"},
+    "calendar": {"name": "우가차차 임신 캘린더",      "iframe": "https://coupa.ng/cojGBH",
+                 "link": "https://link.coupang.com/a/fGa7tfYgSG",
+                 "why":  "열 달을 과일 크기로 따라가는 캘린더"},
+    "fiber":    {"name": "맘스앱솔루트 식이섬유주스", "iframe": "https://coupa.ng/cojGCP",
+                 "link": "https://link.coupang.com/a/fGbbQBzsv6",
+                 "why":  "변비가 잦아지는 시기의 식이섬유 보충"},
+    "pillow":   {"name": "해피테일즈 임산부 바디필로우", "iframe": "https://coupa.ng/cojGD8",
+                 "link": "https://link.coupang.com/a/fGbgJ3o4oC",
+                 "why":  "옆으로 누워 자야 하는 시기의 바디필로우"},
+}
+
+# 페이지별 상품 매칭 (정확히 일치하는 경로를 먼저 본다)
+COUPANG_EXACT = {
+    "index.html":                          "book",
+    "pregnancy-test/index.html":           "letter",
+    "pregnancy-test/two-lines.html":       "letter",
+    "pregnancy-test/reversal.html":        "letter",
+    "pregnancy-test/ultrasound.html":      "letter",
+    "pregnancy-test/blood-test.html":      "vitamin",
+    "symptoms/index.html":                 "calendar",
+    "symptoms/very-early.html":            "folate",
+    "symptoms/first-trimester.html":       "coffee",
+    "symptoms/second-trimester.html":      "pillow",
+    "symptoms/third-trimester.html":       "tea",
+    "guide/index.html":                    "book",
+    "guide/health/index.html":             "vitamin",
+    "guide/birth/index.html":              "warmer",
+    "guide/postpartum/index.html":         "lacto",
+    "tools/index.html":                    "calendar",
+    "404.html":                            "book",
+}
+
+COUPANG_MATCH = [
+    ("guide/health/",      "fiber"),
+    ("guide/preparation/", "folate"),
+    ("guide/birth/",       "warmer"),
+    ("guide/postpartum/",  "lacto"),
+    ("pregnancy-test/",    "folate"),
+    ("symptoms/",          "cream"),
+    ("guide/postpartum/",  "lacto"),
+    ("tools/test-timing",  "folate"),
+    ("tools/",             "daily"),
+    ("guide/",             "book"),
+]
+
+
+def coupang_for(page_path):
+    if page_path in COUPANG_EXACT:
+        return COUPANG_PRODUCTS[COUPANG_EXACT[page_path]]
+    for prefix, key in COUPANG_MATCH:
+        if page_path.startswith(prefix):
+            return COUPANG_PRODUCTS[key]
+    return COUPANG_PRODUCTS["book"]
+
+
+# 레일에는 본문과 다른 상품을 띄워 노출 슬롯을 두 배로 쓴다
+RAIL_ORDER = ["cream", "tooth", "fiber", "pillow", "tea", "warmer", "calendar",
+              "lacto", "vitamin", "coffee", "daily", "book", "folate", "letter"]
+
+
+def coupang_rail_for(page_path):
+    primary = coupang_for(page_path)
+    idx = sum(ord(c) for c in page_path) % len(RAIL_ORDER)
+    for i in range(len(RAIL_ORDER)):
+        cand = COUPANG_PRODUCTS[RAIL_ORDER[(idx + i) % len(RAIL_ORDER)]]
+        if cand["iframe"] != primary["iframe"]:
+            return cand
+    return primary
+
+
+def coupang_rail(page_path):
+    p = coupang_rail_for(page_path)
+    return """
+  <div class="rail__coupang">
+    <span class="rail__label">추천 상품</span>
+    <iframe src="{iframe}" width="120" height="240" frameborder="0" scrolling="no"
+            referrerpolicy="unsafe-url" browsingtopics title="{name}" loading="lazy"></iframe>
+    <p class="rail__disc">{disc}</p>
+  </div>
+""".format(iframe=p["iframe"], name=esc_attr(p["name"]), disc=COUPANG_DISCLOSURE)
+
+
+def coupang_inline(page_path):
+    """본문 안에 들어가는 추천 상품 박스 — 모바일 포함 모든 화면에서 보인다."""
+    p = coupang_for(page_path)
+    return """
+<aside class="reco" aria-label="추천 상품">
+  <div class="reco__frame">
+    <iframe src="{iframe}" width="120" height="240" frameborder="0" scrolling="no"
+            referrerpolicy="unsafe-url" browsingtopics title="{name}" loading="lazy"></iframe>
+  </div>
+  <div class="reco__body">
+    <span class="reco__label">추천 상품</span>
+    <b>{name}</b>
+    <p>{why}</p>
+    <a class="btn btn--ghost btn--sm" href="{link}" target="_blank" rel="nofollow sponsored noopener">
+      쿠팡에서 보기</a>
+    <p class="reco__disc">{disc}</p>
+  </div>
+</aside>
+""".format(iframe=p["iframe"], name=esc_attr(p["name"]), why=esc_attr(p["why"]),
+           link=p["link"], disc=COUPANG_DISCLOSURE)
+
+
+def esc_attr(s):
+    return s.replace('"', "&quot;")
 
 DISCLAIMER = """
 <div class="disclaimer">
@@ -454,7 +600,8 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
 </body>
 </html>
 """.format(
-        ad_top=AD_TOP, ad_side=AD_SIDE, ad_script=AD_SCRIPT,
+        ad_top=AD_TOP, ad_side=AD_SIDE_TOP + coupang_rail(page_path) + AD_SIDE_BOTTOM,
+        ad_script=AD_SCRIPT,
         r=r, title=title, desc=desc, verify=verify_tags, og_extra=og_extra,
         kw=('<meta name="keywords" content="%s">' % keywords) if keywords else "",
         canonical=canonical, og_type=og_type,
@@ -538,6 +685,7 @@ def article_page(path, title, h1, desc, keywords, trail, body, rel_items, prev=N
     <div class="prose">
       {body}
     </div>
+    {reco}
     {disc}
     {rel}
     {pg}
@@ -556,7 +704,7 @@ def article_page(path, title, h1, desc, keywords, trail, body, rel_items, prev=N
         crumb=breadcrumb(path, trail),
         cat=CATEGORY_LABEL.get(path.split("/")[0], "가이드"),
         h1=h1, desc=desc, ic=I["clock"], icc=I["calendar"], reading=reading, today=TODAY,
-        body=body, disc=DISCLAIMER,
+        body=body, reco=coupang_inline(path), disc=DISCLAIMER,
         rel=related(path, rel_items), pg=pager(path, prev, nxt),
         tools=link("tools/index.html", path),
     )

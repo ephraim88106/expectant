@@ -512,6 +512,8 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
   padding-block: 44px 88px;
 }
 @media (max-width: 980px) { .article-layout { grid-template-columns: 1fr; gap: 0; } }
+/* 그리드 항목이 넓은 표에 밀려 화면 밖으로 나가는 것 방지 */
+.article-layout > * { min-width: 0; }
 
 .breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; font-size: .82rem; color: var(--text-muted); margin-bottom: 18px; }
 .breadcrumb a:hover { color: var(--rose-600); }
@@ -778,6 +780,32 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
   transition: width .7s var(--ease);
 }
 
+/* ---------- 16b. 본문 추천 상품 (쿠팡 파트너스) ---------- */
+.reco {
+  display: grid; grid-template-columns: 132px 1fr; gap: 22px; align-items: center;
+  margin-top: 44px; padding: 22px;
+  background: linear-gradient(150deg, var(--cream-100), var(--rose-50));
+  border: 1px solid var(--rose-200); border-radius: var(--r-lg);
+}
+.reco__frame {
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: var(--r-md); padding: 6px; display: grid; place-items: center;
+}
+.reco__frame iframe { border-radius: 8px; display: block; }
+.reco__label {
+  display: inline-block; font-size: .68rem; font-weight: 800; letter-spacing: .09em;
+  text-transform: uppercase; color: var(--rose-600);
+  background: var(--rose-100); padding: 4px 11px; border-radius: var(--r-full);
+}
+.reco__body b { display: block; margin-top: 11px; font-size: 1.06rem; letter-spacing: -.025em; }
+.reco__body > p { margin-top: 6px; font-size: .9rem; color: var(--text-muted); }
+.reco__body .btn { margin-top: 14px; }
+.reco__disc { margin-top: 12px; font-size: .72rem; line-height: 1.5; color: var(--ink-400); }
+@media (max-width: 560px) {
+  .reco { grid-template-columns: 1fr; justify-items: center; text-align: center; gap: 16px; }
+  .reco__body b { margin-top: 0; }
+}
+
 /* ---------- 17. Disclaimer ---------- */
 .disclaimer {
   margin-top: 48px; padding: 20px 22px;
@@ -822,8 +850,8 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
 .ad--side {
   display: none;
   position: fixed;
-  top: calc(var(--header-h) + 28px);
   /* 본문(최대 1180px) 바깥 여백에만 자리잡도록 계산 — 넓은 화면에서도 본문 곁에 붙음 */
+  top: calc(var(--header-h) + 12px);
   right: max(16px, calc((100vw - var(--wrap)) / 2 - 200px));
   z-index: 60;
   width: 160px;
@@ -831,6 +859,31 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
 @media (min-width: 1560px) {
   .ad--side { display: block; }
 }
+/* 우측 레일 안의 쿠팡 추천 상품 — 광고 바로 아래 */
+.rail__coupang {
+  margin-top: 10px;
+  padding: 10px 8px 8px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  text-align: center;
+  box-shadow: var(--shadow-xs);
+}
+.rail__label {
+  display: block; line-height: 1.2;
+  font-size: .66rem; font-weight: 800; letter-spacing: .1em;
+  color: var(--ink-400); text-transform: uppercase; margin-bottom: 7px;
+}
+.rail__coupang iframe { margin-inline: auto; border-radius: 6px; }
+.rail__disc {
+  margin-top: 7px; font-size: .56rem; line-height: 1.4;
+  color: var(--ink-300); word-break: keep-all;
+}
+/* 세로 공간이 부족한 화면에서는 광고만 남기고 추천 상품은 감춘다 */
+@media (max-height: 1030px) {
+  .rail__coupang { display: none; }
+}
+
 /* 오버레이가 열리면 광고가 위로 뜨지 않도록 */
 .drawer.is-open ~ .ad--side,
 .search.is-open ~ .ad--side { display: none; }
