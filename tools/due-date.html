@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko" data-base="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>출산 예정일 계산기 — 마지막 생리일로 D-day 계산 | Expectant</title>
+<meta name="description" content="마지막 생리 시작일과 평균 생리 주기를 입력하면 출산 예정일, 오늘 기준 임신 주수, 추정 배란일을 한 번에 계산해 드립니다.">
+<meta name="keywords" content="출산예정일 계산기,분만예정일,네겔레 법칙,임신 D-day">
+<link rel="canonical" href="https://expectant.pages.dev/tools/due-date.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Expectant">
+<meta property="og:title" content="출산 예정일 계산기 — 마지막 생리일로 D-day 계산 | Expectant">
+<meta property="og:description" content="마지막 생리 시작일과 평균 생리 주기를 입력하면 출산 예정일, 오늘 기준 임신 주수, 추정 배란일을 한 번에 계산해 드립니다.">
+<meta property="og:url" content="https://expectant.pages.dev/tools/due-date.html">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFCFA">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='11' fill='%23D4808B'/%3E%3Cpath d='M23.6 11.4a4.4 4.4 0 0 0-6.2 0L16 12.8l-1.4-1.4a4.4 4.4 0 1 0-6.2 6.2L16 25l7.6-7.4a4.4 4.4 0 0 0 0-6.2z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "출산 예정일 계산기 — 마지막 생리일로 D-day 계산 | Expectant", "description": "마지막 생리 시작일과 평균 생리 주기를 입력하면 출산 예정일, 오늘 기준 임신 주수, 추정 배란일을 한 번에 계산해 드립니다.", "inLanguage": "ko-KR", "url": "https://expectant.pages.dev/tools/due-date.html"}</script>
+</head>
+<body>
+<a class="sr-only" href="#main">본문 바로가기</a>
+
+<header class="header">
+  <div class="wrap header__inner">
+    <a class="logo" href="../index.html">
+      <span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 6.6a5.1 5.1 0 0 0-7.2 0L12 8.2l-1.6-1.6a5.1 5.1 0 1 0-7.2 7.2L12 22l8.8-8.2a5.1 5.1 0 0 0 0-7.2z"/></svg></span>
+      <span class="logo__text">expect<em>ant</em></span>
+    </a>
+    <nav class="nav" aria-label="주 메뉴"><div class="nav__item"><a class="nav__link" href="../pregnancy-test/index.html">임신 확인<span class="nav__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></a><div class="dropdown"><div class="dropdown__label">임신 테스트기</div><a href="../pregnancy-test/when-to-test.html">임테기 사용시기</a><a href="../pregnancy-test/early-test.html">얼리 임테기</a><a href="../pregnancy-test/how-to-use.html">임테기 사용법</a><a href="../pregnancy-test/two-lines.html">임테기 두 줄 판독</a><a href="../pregnancy-test/errors.html">임테기 오류·증발선</a><a href="../pregnancy-test/reversal.html">임테기 역전</a><div class="dropdown__sep"></div><div class="dropdown__label">병원 검사</div><a href="../pregnancy-test/blood-test.html">피검사 (hCG 수치)</a><a href="../pregnancy-test/ultrasound.html">초음파 검사</a></div></div><div class="nav__item"><a class="nav__link" href="../symptoms/index.html">주차별 증상<span class="nav__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></a><div class="dropdown"><div class="dropdown__label">시기별 가이드</div><a href="../symptoms/very-early.html">임신 극초기 증상</a><a href="../symptoms/first-trimester.html">임신 초기 증상 (1~13주)</a><a href="../symptoms/second-trimester.html">임신 중기 증상 (14~27주)</a><a href="../symptoms/third-trimester.html">임신 막달 증상 (28~40주)</a><div class="dropdown__sep"></div><a href="../symptoms/index.html#timeline">주차별 전체 타임라인</a></div></div><div class="nav__item"><a class="nav__link" href="../tools/index.html" aria-current="page">계산기<span class="nav__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></a><div class="dropdown"><a href="../tools/due-date.html">출산 예정일 계산기</a><a href="../tools/pregnancy-week.html">임신 주수 계산기</a><a href="../tools/test-timing.html">임테기 검사시기 계산기</a></div></div><div class="nav__item"><a class="nav__link" href="../guide/index.html">더보기<span class="nav__chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></a><div class="dropdown"><a href="../guide/preparation.html">임신 준비</a><a href="../guide/health.html">임신 중 건강</a><a href="../guide/birth.html">출산 준비</a><a href="../guide/postpartum.html">산후 회복</a></div></div></nav>
+    <div class="header__actions">
+      <button class="icon-btn" data-search-open aria-label="검색 열기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+      <button class="icon-btn burger" data-drawer-open aria-label="메뉴 열기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" role="dialog" aria-modal="true" aria-label="모바일 메뉴">
+  <div class="drawer__scrim"></div>
+  <div class="drawer__panel">
+    <div class="drawer__head">
+      <a class="logo" href="../index.html"><span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 6.6a5.1 5.1 0 0 0-7.2 0L12 8.2l-1.6-1.6a5.1 5.1 0 1 0-7.2 7.2L12 22l8.8-8.2a5.1 5.1 0 0 0 0-7.2z"/></svg></span><span class="logo__text">expect<em>ant</em></span></a>
+      <button class="icon-btn" data-drawer-close aria-label="메뉴 닫기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="drawer__group"><button class="drawer__toggle" aria-expanded="false">임신 확인<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="drawer__panel-list"><div><a href="../pregnancy-test/index.html"><b>임신 확인 전체보기</b></a><a href="../pregnancy-test/when-to-test.html">임테기 사용시기</a><a href="../pregnancy-test/early-test.html">얼리 임테기</a><a href="../pregnancy-test/how-to-use.html">임테기 사용법</a><a href="../pregnancy-test/two-lines.html">임테기 두 줄 판독</a><a href="../pregnancy-test/errors.html">임테기 오류·증발선</a><a href="../pregnancy-test/reversal.html">임테기 역전</a><a href="../pregnancy-test/blood-test.html">피검사 (hCG 수치)</a><a href="../pregnancy-test/ultrasound.html">초음파 검사</a></div></div></div><div class="drawer__group"><button class="drawer__toggle" aria-expanded="false">주차별 증상<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="drawer__panel-list"><div><a href="../symptoms/index.html"><b>주차별 증상 전체보기</b></a><a href="../symptoms/very-early.html">임신 극초기 증상</a><a href="../symptoms/first-trimester.html">임신 초기 증상 (1~13주)</a><a href="../symptoms/second-trimester.html">임신 중기 증상 (14~27주)</a><a href="../symptoms/third-trimester.html">임신 막달 증상 (28~40주)</a><a href="../symptoms/index.html#timeline">주차별 전체 타임라인</a></div></div></div><div class="drawer__group"><button class="drawer__toggle" aria-expanded="false">계산기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="drawer__panel-list"><div><a href="../tools/index.html"><b>계산기 전체보기</b></a><a href="../tools/due-date.html">출산 예정일 계산기</a><a href="../tools/pregnancy-week.html">임신 주수 계산기</a><a href="../tools/test-timing.html">임테기 검사시기 계산기</a></div></div></div><div class="drawer__group"><button class="drawer__toggle" aria-expanded="false">더보기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></button><div class="drawer__panel-list"><div><a href="../guide/index.html"><b>더보기 전체보기</b></a><a href="../guide/preparation.html">임신 준비</a><a href="../guide/health.html">임신 중 건강</a><a href="../guide/birth.html">출산 준비</a><a href="../guide/postpartum.html">산후 회복</a></div></div></div>
+  </div>
+</div>
+
+<div class="search" role="dialog" aria-modal="true" aria-label="사이트 검색">
+  <div class="search__scrim"></div>
+  <div class="search__box">
+    <div class="search__field">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" placeholder="임테기, 초기 증상, 예정일…" aria-label="검색어" autocomplete="off">
+      <span class="search__kbd">ESC</span>
+    </div>
+    <div class="search__results"></div>
+  </div>
+</div>
+
+<main id="main">
+
+<section class="hub-hero">
+  <div class="hero__bg" aria-hidden="true"><span class="blob blob--1"></span></div>
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="현재 위치"><a href="../index.html">홈</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg><a href="../tools/index.html">계산기</a><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg><span>출산 예정일 계산기</span></nav>
+    <span class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="3"/><path d="M8 6h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15v4M8 19h4"/></svg> 계산기</span>
+    <h1>출산 예정일 계산기</h1>
+    <p>마지막 생리 시작일만 알면 됩니다. 생리 주기가 28일과 다르다면 함께 입력해 주세요. 더 정확하게 계산됩니다.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap" style="max-width:900px">
+    <div class="tool-card">
+<form data-calc="due" novalidate>
+  <div class="field">
+    <label for="t-lmp">마지막 생리 시작일</label>
+    <input type="date" id="t-lmp" name="lmp" required>
+  </div>
+  <div class="field">
+    <label for="t-cycle">평균 생리 주기 (기본 28일)</label>
+    <select id="t-cycle" name="cycle"><option value="21">21일</option><option value="22">22일</option><option value="23">23일</option><option value="24">24일</option><option value="25">25일</option><option value="26">26일</option><option value="27">27일</option><option value="28" selected>28일</option><option value="29">29일</option><option value="30">30일</option><option value="31">31일</option><option value="32">32일</option><option value="33">33일</option><option value="34">34일</option><option value="35">35일</option><option value="36">36일</option><option value="37">37일</option><option value="38">38일</option><option value="39">39일</option><option value="40">40일</option></select>
+  </div>
+  <button class="btn btn--primary" type="submit" style="width:100%;margin-top:22px">예정일 계산하기</button>
+  <div class="result" data-out hidden></div>
+</form>
+</div>
+    <div class="prose" style="margin-top:52px">
+<h2>어떤 방식으로 계산하나요?</h2>
+<p>산부인과에서 표준으로 사용하는 <b>네겔레 법칙(Naegele's rule)</b>을 따릅니다.
+마지막 생리 시작일(LMP)에 <b>280일(40주)</b>을 더한 날이 출산 예정일이에요.
+생리 주기가 28일이 아닌 경우 배란일이 앞뒤로 밀리므로, 주기 길이에서 28을 뺀 만큼 예정일을 보정합니다.</p>
+<div class="table-wrap"><table><thead><tr><th>구분</th><th>기준</th><th>설명</th></tr></thead><tbody><tr><td>임신 주수 시작점</td><td>마지막 생리 시작일</td><td>실제 수정보다 약 2주 이릅니다</td></tr><tr><td>추정 배란·수정일</td><td>LMP + 14일 (주기 보정)</td><td>이 시점이 실제 임신 시작</td></tr><tr><td>출산 예정일</td><td>LMP + 280일</td><td>40주 0일에 해당</td></tr><tr><td>정상 만삭 범위</td><td>37주 0일 ~ 41주 6일</td><td>예정일에 정확히 낳는 경우는 약 5%</td></tr></tbody></table></div>
+<h2>예정일은 바뀔 수 있어요</h2>
+<p>초음파로 아기의 크기(임신 초기에는 머리엉덩길이, CRL)를 측정하면 실제 임신 주수를 더 정확히 알 수 있습니다.
+특히 <b>임신 8~13주 사이의 초음파</b>는 오차가 가장 작아, 이 시기 측정값과 LMP 기준 계산이 크게 다르면
+병원에서 예정일을 조정합니다. 계산기 결과는 참고용으로 봐주세요.</p>
+<div class="callout callout--info"><span class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 16v-5M12 8h.01"/></svg></span><div><b>예정일에 딱 맞춰 태어나는 아기는 드뭅니다</b><p>출산의 대부분은 예정일 전후 2주 안에 이루어집니다. 예정일은 '이날 태어난다'가 아니라 '이 무렵이 만삭'이라는 기준점으로 이해하시면 좋아요.</p></div></div><h2>자주 묻는 질문</h2><div class="faq"><div class="faq__item"><button class="faq__q" aria-expanded="false"><span>생리 주기가 불규칙한데 계산이 맞나요?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq__a"><div><p>주기가 불규칙하면 배란일 추정이 어려워 오차가 커집니다. 이 경우 초음파 측정으로 예정일을 정하는 것이 훨씬 정확합니다. 계산 결과는 대략적인 참고로만 활용해 주세요.</p></div></div></div><div class="faq__item"><button class="faq__q" aria-expanded="false"><span>시험관·인공수정으로 임신했어요.</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq__a"><div><p>보조생식술은 배아 이식일과 배아의 배양 일수를 기준으로 계산하므로 LMP 방식과 다릅니다. 시술받은 병원에서 안내한 예정일을 따라주세요.</p></div></div></div><div class="faq__item"><button class="faq__q" aria-expanded="false"><span>쌍둥이도 예정일이 같나요?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq__a"><div><p>계산 방식은 같지만, 다태 임신은 평균적으로 더 이른 시기에 출산합니다. 쌍태아는 보통 임신 36~37주 무렵을 만삭으로 봅니다.</p></div></div></div></div></div>
+    
+<div class="disclaimer">
+  <b>의학 정보 안내</b> — 이 페이지의 내용은 일반적인 건강 정보를 제공할 목적으로 작성되었으며,
+  의사의 진단이나 치료를 대신할 수 없습니다. 증상이 걱정되거나 개인적인 상황에 대한 판단이 필요하다면
+  반드시 산부인과 전문의와 상담해 주세요. 응급 증상(심한 출혈, 극심한 복통, 실신 등)이 있다면 즉시 의료기관을 방문하세요.
+</div>
+
+  </div>
+</section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__about">
+        <a class="logo" href="../index.html"><span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 6.6a5.1 5.1 0 0 0-7.2 0L12 8.2l-1.6-1.6a5.1 5.1 0 1 0-7.2 7.2L12 22l8.8-8.2a5.1 5.1 0 0 0 0-7.2z"/></svg></span>
+        <span class="logo__text">expect<em>ant</em></span></a>
+        <p>임신을 준비하고, 확인하고, 함께 기다리는 모든 순간을 위한 정보 가이드입니다.</p>
+      </div>
+      <div><h4>임신 확인</h4><ul><li><a href="../pregnancy-test/when-to-test.html">임테기 사용시기</a></li><li><a href="../pregnancy-test/early-test.html">얼리 임테기</a></li><li><a href="../pregnancy-test/how-to-use.html">임테기 사용법</a></li><li><a href="../pregnancy-test/two-lines.html">임테기 두 줄 판독</a></li><li><a href="../pregnancy-test/errors.html">임테기 오류·증발선</a></li><li><a href="../pregnancy-test/reversal.html">임테기 역전</a></li><li><a href="../pregnancy-test/blood-test.html">피검사 (hCG 수치)</a></li><li><a href="../pregnancy-test/ultrasound.html">초음파 검사</a></li></ul></div><div><h4>주차별 증상</h4><ul><li><a href="../symptoms/very-early.html">임신 극초기 증상</a></li><li><a href="../symptoms/first-trimester.html">임신 초기 증상 (1~13주)</a></li><li><a href="../symptoms/second-trimester.html">임신 중기 증상 (14~27주)</a></li><li><a href="../symptoms/third-trimester.html">임신 막달 증상 (28~40주)</a></li><li><a href="../symptoms/index.html#timeline">주차별 전체 타임라인</a></li></ul></div><div><h4>계산기</h4><ul><li><a href="../tools/due-date.html">출산 예정일 계산기</a></li><li><a href="../tools/pregnancy-week.html">임신 주수 계산기</a></li><li><a href="../tools/test-timing.html">임테기 검사시기 계산기</a></li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; <span data-year>2026</span> Expectant. 의료 조언을 대체하지 않습니다.</span>
+      <span>최종 업데이트 2026-07-25</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/search-index.js" defer></script>
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>
