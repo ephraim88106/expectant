@@ -120,6 +120,12 @@
     $$('[data-search-open]').forEach(function (b) { b.addEventListener('click', openSearch); });
     $('.search__scrim') && $('.search__scrim').addEventListener('click', closeSearch);
 
+    /* /?s=키워드 로 들어오면 검색창을 열어준다 (schema.org SearchAction 대응) */
+    try {
+      var q0 = new URLSearchParams(window.location.search).get('s');
+      if (q0) { input.value = q0; openSearch(); render(q0); }
+    } catch (e) { /* noop */ }
+
     document.addEventListener('keydown', function (e) {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); openSearch(); }
       if (e.key === 'Escape' && search.classList.contains('is-open')) closeSearch();

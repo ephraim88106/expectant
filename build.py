@@ -215,23 +215,152 @@ DISCLAIMER = """
 </div>
 """
 
+# ---------------------------------------------------------------- SEO 설정
+# 각 검색엔진 웹마스터도구에서 발급받은 소유확인 코드를 넣으면 메타태그가 자동 삽입된다.
+# 값이 빈 문자열이면 해당 태그는 출력되지 않는다.
+VERIFY = {
+    "google":   "",   # Google Search Console  <meta name="google-site-verification">
+    "naver":    "",   # 네이버 서치어드바이저   <meta name="naver-site-verification">
+    "bing":     "",   # Bing Webmaster        <meta name="msvalidate.01">
+}
+
+ORG = {
+    "name": "에브라임 시드",
+    "alt": "Ephraim Seed",
+    "email": "namho8816@naver.com",
+    "phone": "+82-10-5944-0714",
+    "street": "아카데미로 446",
+    "locality": "연수구",
+    "region": "인천광역시",
+    "country": "KR",
+}
+
+# 구조화 데이터 수집 버퍼 — 본문을 만들 때 채워지고 layout()에서 비워진다
+_FAQ_BUF = []
+_CRUMB_BUF = []
+
+
+def og_image_for(page_path):
+    """페이지 경로 → OG 이미지. 카테고리 전용 이미지가 있으면 그것을, 없으면 기본 이미지."""
+    top = page_path.split("/")[0]
+    cand = "assets/og/%s.png" % top
+    if top and os.path.exists(os.path.join(ROOT, cand)):
+        return SITE_URL + "/" + cand
+    return SITE_URL + "/assets/og/default.png"
+
+
+def _schema_graph(page_path, title, desc, article, crumbs, faqs):
+    canonical = SITE_URL + url_of(page_path)
+    org_id, site_id = SITE_URL + "/#organization", SITE_URL + "/#website"
+
+    org = {
+        "@type": "Organization",
+        "@id": org_id,
+        "name": ORG["name"],
+        "alternateName": ORG["alt"],
+        "url": SITE_URL + "/",
+        "email": ORG["email"],
+        "telephone": ORG["phone"],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": ORG["street"],
+            "addressLocality": ORG["locality"],
+            "addressRegion": ORG["region"],
+            "addressCountry": ORG["country"],
+        },
+    }
+    website = {
+        "@type": "WebSite",
+        "@id": site_id,
+        "url": SITE_URL + "/",
+        "name": "Expectant",
+        "description": "임신 확인부터 주차별 증상, 출산 준비까지 안내하는 임신·출산 정보 가이드",
+        "inLanguage": "ko-KR",
+        "publisher": {"@id": org_id},
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {"@type": "EntryPoint", "urlTemplate": SITE_URL + "/?s={search_term_string}"},
+            "query-input": "required name=search_term_string",
+        },
+    }
+    graph = [org, website]
+
+    page = {
+        "@type": "Article" if article else "WebPage",
+        "@id": canonical + "#page",
+        "url": canonical,
+        "name": title,
+        "description": desc,
+        "inLanguage": "ko-KR",
+        "isPartOf": {"@id": site_id},
+        "primaryImageOfPage": og_image_for(page_path),
+    }
+    if article:
+        page.update({
+            "headline": title.split(" | ")[0],
+            "image": og_image_for(page_path),
+            "datePublished": TODAY,
+            "dateModified": TODAY,
+            "author": {"@id": org_id},
+            "publisher": {"@id": org_id},
+        })
+    graph.append(page)
+
+    if crumbs:
+        items = [{"@type": "ListItem", "position": 1, "name": "홈", "item": SITE_URL + "/"}]
+        for i, (label, p) in enumerate(crumbs, start=2):
+            it = {"@type": "ListItem", "position": i, "name": label}
+            if p:
+                it["item"] = SITE_URL + url_of(p)
+            items.append(it)
+        graph.append({"@type": "BreadcrumbList", "@id": canonical + "#breadcrumb", "itemListElement": items})
+
+    if faqs:
+        graph.append({
+            "@type": "FAQPage",
+            "@id": canonical + "#faq",
+            "mainEntity": [
+                {"@type": "Question", "name": strip_tags(q),
+                 "acceptedAnswer": {"@type": "Answer", "text": strip_tags(a)}}
+                for q, a in faqs
+            ],
+        })
+
+    return {"@context": "https://schema.org", "@graph": graph}
+
+
+def strip_tags(s):
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", s)).strip()
+
+
 # ---------------------------------------------------------------- layout
 def layout(page_path, title, desc, body, keywords="", article=False, og_type="website"):
     r = rel(page_path)
     canonical = SITE_URL + url_of(page_path)
-    schema = {
-        "@context": "https://schema.org",
-        "@type": "Article" if article else "WebSite",
-        "headline" if article else "name": title,
-        "description": desc,
-        "inLanguage": "ko-KR",
-        "url": canonical,
-    }
+
+    faqs = list(_FAQ_BUF); _FAQ_BUF.clear()
+    crumbs = list(_CRUMB_BUF[-1]) if _CRUMB_BUF else []
+    _CRUMB_BUF.clear()
+    schema = _schema_graph(page_path, title, desc, article, crumbs, faqs)
+
+    verify_tags = "".join(
+        '\n<meta name="%s" content="%s">' % (n, v) for n, v in (
+            ("google-site-verification", VERIFY["google"]),
+            ("naver-site-verification", VERIFY["naver"]),
+            ("msvalidate.01", VERIFY["bing"]),
+        ) if v
+    )
+    og_img = og_image_for(page_path)
+    og_extra = (
+        '<meta property="og:image" content="{img}">\n'
+        '<meta property="og:image:width" content="1200">\n'
+        '<meta property="og:image:height" content="630">\n'
+        '<meta property="og:image:alt" content="{alt}">\n'
+        '<meta name="twitter:image" content="{img}">'
+    ).format(img=og_img, alt=title.split(" | ")[0].replace('"', "&quot;"))
     if article:
-        schema["datePublished"] = TODAY
-        schema["dateModified"] = TODAY
-        schema["author"] = {"@type": "Organization", "name": "Expectant"}
-        schema["publisher"] = {"@type": "Organization", "name": "Expectant"}
+        og_extra += ('\n<meta property="article:published_time" content="%sT00:00:00+09:00">'
+                     '\n<meta property="article:modified_time" content="%sT00:00:00+09:00">' % (TODAY, TODAY))
 
     return """<!DOCTYPE html>
 <html lang="ko" data-base="">
@@ -241,15 +370,17 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
 <title>{title}</title>
 <meta name="description" content="{desc}">
 {kw}
-<link rel="canonical" href="{canonical}">
+<link rel="canonical" href="{canonical}">{verify}
 <meta property="og:type" content="{og_type}">
 <meta property="og:site_name" content="Expectant">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:locale" content="ko_KR">
+{og_extra}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#FFFCFA">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='11' fill='%23D4808B'/%3E%3Cpath d='M23.6 11.4a4.4 4.4 0 0 0-6.2 0L16 12.8l-1.4-1.4a4.4 4.4 0 1 0-6.2 6.2L16 25l7.6-7.4a4.4 4.4 0 0 0 0-6.2z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -322,7 +453,7 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
 </html>
 """.format(
         ad_top=AD_TOP, ad_side=AD_SIDE, ad_script=AD_SCRIPT,
-        r=r, title=title, desc=desc,
+        r=r, title=title, desc=desc, verify=verify_tags, og_extra=og_extra,
         kw=('<meta name="keywords" content="%s">' % keywords) if keywords else "",
         canonical=canonical, og_type=og_type,
         schema=json.dumps(schema, ensure_ascii=False),
@@ -335,6 +466,7 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
 # ---------------------------------------------------------------- components
 def breadcrumb(page_path, trail):
     """trail: list of (label, path|None)"""
+    _CRUMB_BUF.append(list(trail))
     parts = ['<a href="%s">홈</a>' % link("index.html", page_path)]
     for label, p in trail:
         parts.append(I["caret"])
@@ -352,6 +484,7 @@ def keypoints(items):
             % (I["spark"], lis))
 
 def faq(items):
+    _FAQ_BUF.extend(items)
     out = []
     for q, a in items:
         out.append(
@@ -461,7 +594,27 @@ if __name__ == "__main__":
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
                 '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % urls)
     with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f:
-        f.write("User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % SITE_URL)
+        f.write(
+            "User-agent: *\n"
+            "Allow: /\n\n"
+            "# 네이버\n"
+            "User-agent: Yeti\n"
+            "Allow: /\n\n"
+            "# 다음(카카오)\n"
+            "User-agent: Daum\n"
+            "Allow: /\n\n"
+            "User-agent: Daumoa\n"
+            "Allow: /\n\n"
+            "# 구글\n"
+            "User-agent: Googlebot\n"
+            "Allow: /\n\n"
+            "User-agent: Googlebot-Image\n"
+            "Allow: /\n\n"
+            "# 빙\n"
+            "User-agent: Bingbot\n"
+            "Allow: /\n\n"
+            "Sitemap: %s/sitemap.xml\n" % SITE_URL
+        )
 
     for path, html in PAGES.items():
         full = os.path.join(ROOT, path)
