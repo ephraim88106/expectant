@@ -219,7 +219,8 @@ DISCLAIMER = """
 # 각 검색엔진 웹마스터도구에서 발급받은 소유확인 코드를 넣으면 메타태그가 자동 삽입된다.
 # 값이 빈 문자열이면 해당 태그는 출력되지 않는다.
 VERIFY = {
-    "google":   "",   # Google Search Console  <meta name="google-site-verification">
+    # Google Search Console — "URL 접두어" 속성의 HTML 태그 방식 content 값
+    "google":   "prwsKG6JlRxVMzUakGjBY0Nqhqv1Lqbi3nJBZ9NPS8o",
     "naver":    "",   # 네이버 서치어드바이저   <meta name="naver-site-verification">
     "bing":     "",   # Bing Webmaster        <meta name="msvalidate.01">
 }
