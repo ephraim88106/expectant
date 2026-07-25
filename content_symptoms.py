@@ -387,6 +387,6 @@ hCG가 정점을 찍는 <b>8~11주</b>에 가장 심한 것이 이 때문이에�
       "임신 막달 증상,가진통,브랙스턴힉스,진진통,이슬,양막파수,출산 신호,출산가방",
       CAT + [("임신 막달 증상", None)], body,
       [("임신 중기 증상", "그 이전 시기", "symptoms/second-trimester.html"),
-       ("출산 준비", "출산 가방과 분만 준비", "guide/birth.html"),
+       ("출산 준비", "출산 가방과 분만 준비", "guide/birth/index.html"),
        ("출산 예정일 계산기", "D-day 확인하기", "tools/due-date.html")],
       prev=("임신 중기 증상 (14~27주)", "symptoms/second-trimester.html"), reading="10")

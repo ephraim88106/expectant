@@ -41,3 +41,15 @@ main 브랜치에 push하면 자동 배포됩니다.
 ## 면책
 
 이 사이트의 내용은 일반적인 건강 정보이며 의사의 진단이나 치료를 대신하지 않습니다.
+
+## 매일 자동 발행 (스케줄 태스크)
+
+매일 21:00 KST에 `_content-queue.json`의 pending 항목 중 order가 가장 작은 글 1편을 작성해 푸시한다.
+
+1. `_content-queue.json` 읽기 → 다음 발행할 항목 확인
+2. `guide_articles/<slug를 밑줄로>.py` 생성 (모듈 규약은 `content_guide.py` 상단 주석 참고)
+3. 해당 항목 `status`를 `published`, `published_at`을 오늘 날짜로 변경
+4. `python3 build.py` 실행
+5. 커밋 + 푸시 (Cloudflare Pages 자동 배포)
+
+pending이 모두 소진되면 기존 글과 겹치지 않는 새 주제를 큐에 추가한 뒤 계속 진행한다.

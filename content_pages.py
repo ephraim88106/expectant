@@ -33,10 +33,10 @@ def build(G):
           ("초음파 일정", "pregnancy-test/ultrasound.html")],
          "pregnancy-test/blood-test.html"),
         ("i-cream", I["leaf"], "임신 준비 · 건강", "엽산, 배란일, 임신 중 먹어도 되는 것들. 몸을 준비하는 시기부터 챙겨야 할 것들.",
-         [("임신 준비", "guide/preparation.html"), ("임신 중 건강", "guide/health.html")],
+         [("임신 준비", "guide/preparation/index.html"), ("임신 중 건강", "guide/health/index.html")],
          "guide/index.html"),
         ("i-rose", I["bag"], "출산 · 산후", "출산 신호를 알아채는 법부터 산후조리와 회복까지, 마지막 준비를 함께 합니다.",
-         [("출산 준비", "guide/birth.html"), ("산후 회복", "guide/postpartum.html")],
+         [("출산 준비", "guide/birth/index.html"), ("산후 회복", "guide/postpartum/index.html")],
          "guide/index.html"),
     ]
 
@@ -609,89 +609,6 @@ hCG는 초기에 약 <b>48~72시간마다 두 배</b>로 늘어나기 때문에,
                tools_body, "임신 계산기,출산예정일 계산기,임신주수 계산기,임테기 시기 계산기"),
         entry("tools/index.html", "임신 계산기", "예정일·주수·검사시기 계산", "계산기", "계산기 도구"))
 
-    # =================================================================== GUIDE (준비 중)
-    guide_topics = [
-        ("guide/preparation.html", "임신 준비", I["leaf"],
-         "임신을 계획하는 시기에 알아두면 좋은 것들",
-         ["배란일과 가임기 계산하기", "임신 전 엽산 복용 시기와 용량", "임신 전 검사 체크리스트",
-          "생활 습관 정비 (카페인·음주·체중)", "남편이 함께 준비할 것"]),
-        ("guide/health.html", "임신 중 건강", I["heart"],
-         "임신 기간 동안 몸을 돌보는 방법",
-         ["임신 중 먹어도 되는 음식과 피할 음식", "임신 중 복용 가능한 약", "적정 체중 증가 범위",
-          "임신성 당뇨와 빈혈 관리", "임신 중 운동과 여행"]),
-        ("guide/birth.html", "출산 준비", I["bag"],
-         "출산이 가까워지면 준비해야 할 것들",
-         ["출산 가방 체크리스트", "진통 신호 구분하기 (가진통 vs 진진통)", "자연분만과 제왕절개",
-          "무통 분만 이해하기", "병원 가야 하는 시점"]),
-        ("guide/postpartum.html", "산후 회복", I["moon"],
-         "출산 후의 몸과 마음을 돌보는 시간",
-         ["산후조리 기간과 주의사항", "오로와 자궁 회복 과정", "모유수유 시작하기",
-          "산후 우울감 알아차리기", "산후 검진 일정"]),
-    ]
-
-    for path, name, icon, sub, topics in guide_topics:
-        body = """
-<section class="hub-hero">
-  <div class="hero__bg" aria-hidden="true"><span class="blob blob--2"></span></div>
-  <div class="wrap">
-    {crumb}
-    <span class="eyebrow">{icon} 가이드</span>
-    <h1>{name}</h1>
-    <p>{sub}</p>
-  </div>
-</section>
-<section class="section">
-  <div class="wrap" style="max-width:820px">
-    {note}
-    <div class="section-head" style="margin-top:44px"><h2>준비 중인 콘텐츠</h2></div>
-    <div class="steps">{topics}</div>
-    <div class="cta-band" style="margin-top:48px">
-      <h2>먼저 확인할 수 있는 내용</h2>
-      <p>임신 확인 방법과 주차별 증상은 이미 자세히 정리되어 있어요.</p>
-      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px">
-        <a class="btn btn--primary" href="{pt}">임신 확인 방법</a>
-        <a class="btn btn--ghost" href="{sy}">주차별 증상</a>
-      </div>
-    </div>
-  </div>
-</section>
-""".format(crumb=breadcrumb(path, [("가이드", "guide/index.html"), (name, None)]),
-           icon=icon, name=name, sub=sub,
-           note=callout("info", "이 카테고리는 준비 중입니다",
-                        "아래 주제들이 순차적으로 공개될 예정이에요. 먼저 필요한 주제가 있다면 우선순위를 조정할 수 있습니다."),
-           topics="".join('<div class="step"><div><b>%s</b><p>공개 예정</p></div></div>' % t for t in topics),
-           pt=link("pregnancy-test/index.html", path), sy=link("symptoms/index.html", path))
-        add(path, layout(path, "%s | Expectant" % name, sub, body, name),
-            entry(path, name, sub, "가이드", name))
-
-    guide_body = """
-<section class="hub-hero">
-  <div class="hero__bg" aria-hidden="true"><span class="blob blob--1"></span></div>
-  <div class="wrap">
-    {crumb}
-    <span class="eyebrow">{book} 가이드</span>
-    <h1>임신 준비부터 산후까지</h1>
-    <p>임신 확인과 주차별 증상 다음으로 다룰 주제들입니다. 순차적으로 공개될 예정이에요.</p>
-  </div>
-</section>
-<section class="section">
-  <div class="wrap"><div class="cards">{cards}</div></div>
-</section>
-""".format(crumb=breadcrumb("guide/index.html", [("가이드", None)]), book=I["book"],
-           cards="".join(
-               '<a class="card reveal" href="%s"><span class="card__icon %s">%s</span>'
-               '<h3>%s</h3><p>%s</p><div class="card__links">%s</div>'
-               '<span class="card__more">보러가기 %s</span></a>'
-               % (link(p, "guide/index.html"), cls, ic, n, s,
-                  "".join('<span class="chip">%s</span>' % t for t in tp[:2]), I["arrow"])
-               for (p, n, ic, s, tp), cls in zip(guide_topics, ["i-sage", "i-rose", "i-cream", "i-lav"])))
-
-    add("guide/index.html",
-        layout("guide/index.html", "임신·출산 가이드 | Expectant",
-               "임신 준비, 임신 중 건강, 출산 준비, 산후 회복. 임신의 전 과정을 다루는 가이드입니다.",
-               guide_body, "임신 준비,임신 중 건강,출산 준비,산후조리"),
-        entry("guide/index.html", "임신·출산 가이드", "준비·건강·출산·산후", "가이드", "가이드"))
-
     # =================================================================== 404
     body404 = """
 <section class="section" style="padding-block:120px;text-align:center">
@@ -711,6 +628,7 @@ hCG는 초기에 약 <b>48~72시간마다 두 배</b>로 늘어나기 때문에,
     add("404.html", layout("404.html", "페이지를 찾을 수 없습니다 | Expectant",
                            "요청하신 페이지를 찾을 수 없습니다.", body404))
 
-    import content_test, content_symptoms
+    import content_test, content_symptoms, content_guide
     content_test.build(G)
     content_symptoms.build(G)
+    content_guide.build(G)

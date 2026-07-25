@@ -67,10 +67,10 @@ NAV = [
         ("임테기 검사시기 계산기", "tools/test-timing.html"),
     ]),
     ("더보기", "guide/index.html", [
-        ("임신 준비", "guide/preparation.html"),
-        ("임신 중 건강", "guide/health.html"),
-        ("출산 준비", "guide/birth.html"),
-        ("산후 회복", "guide/postpartum.html"),
+        ("임신 준비", "guide/preparation/index.html"),
+        ("임신 중 건강", "guide/health/index.html"),
+        ("출산 준비", "guide/birth/index.html"),
+        ("산후 회복", "guide/postpartum/index.html"),
     ]),
 ]
 
@@ -258,6 +258,14 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap">
 <link rel="stylesheet" href="{r}assets/css/style.css">
 <script type="application/ld+json">{schema}</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVCGWT08P0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-VVCGWT08P0');
+</script>
 </head>
 <body>
 <a class="sr-only" href="#main">본문 바로가기</a>
