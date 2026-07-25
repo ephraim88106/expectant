@@ -84,14 +84,25 @@ CATEGORY_LABEL = {
 
 # ---------------------------------------------------------------- helpers
 def rel(path):
-    """relative prefix from a page path back to site root"""
-    d = os.path.dirname(path)
-    return "" if not d else "../" * len(d.split("/"))
+    """asset prefix — root-absolute so Cloudflare Pages' clean URLs never break it"""
+    return "/"
 
-def link(path, page_path):
-    if path.startswith("http") or path.startswith("#"):
+def url_of(path):
+    """disk path -> clean public URL (Cloudflare Pages strips the .html extension)"""
+    if path == "index.html":
+        return "/"
+    if path.endswith("/index.html"):
+        return "/" + path[:-len("index.html")]
+    return "/" + path[:-len(".html")]
+
+def link(path, page_path=None):
+    if path.startswith(("http", "#", "mailto:", "data:")):
         return path
-    return rel(page_path) + path
+    frag = ""
+    if "#" in path:
+        path, frag = path.split("#", 1)
+        frag = "#" + frag
+    return url_of(path) + frag
 
 def nav_html(page_path):
     out = []
@@ -165,7 +176,7 @@ DISCLAIMER = """
 # ---------------------------------------------------------------- layout
 def layout(page_path, title, desc, body, keywords="", article=False, og_type="website"):
     r = rel(page_path)
-    canonical = SITE_URL + "/" + ("" if page_path == "index.html" else page_path)
+    canonical = SITE_URL + url_of(page_path)
     schema = {
         "@context": "https://schema.org",
         "@type": "Article" if article else "WebSite",
@@ -181,7 +192,7 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
         schema["publisher"] = {"@type": "Organization", "name": "Expectant"}
 
     return """<!DOCTYPE html>
-<html lang="ko" data-base="{r}">
+<html lang="ko" data-base="">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -261,7 +272,7 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
         canonical=canonical, og_type=og_type,
         schema=json.dumps(schema, ensure_ascii=False),
         progress='<div class="progress" aria-hidden="true"></div>' if article else "",
-        home=r + "index.html", mark=I["heart"], nav=nav_html(page_path),
+        home="/", mark=I["heart"], nav=nav_html(page_path),
         search=I["search"], menu=I["menu"], close=I["close"],
         drawer=drawer_html(page_path), body=body, footer=footer_html(page_path),
     )
@@ -373,7 +384,7 @@ def add(path, html, idx=None):
         INDEX_ENTRIES.append(idx)
 
 def entry(path, title, desc, cat, kw=""):
-    return {"u": path, "t": title, "d": desc, "c": cat, "k": kw}
+    return {"u": url_of(path), "t": title, "d": desc, "c": cat, "k": kw}
 
 if __name__ == "__main__":
     import content_pages
@@ -386,10 +397,10 @@ if __name__ == "__main__":
 
     # sitemap + robots
     urls = "".join(
-        "<url><loc>%s/%s</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq>"
+        "<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq>"
         "<priority>%s</priority></url>"
-        % (SITE_URL, "" if p == "index.html" else p, TODAY, "1.0" if p == "index.html" else "0.8")
-        for p in sorted(PAGES)
+        % (SITE_URL, url_of(p), TODAY, "1.0" if p == "index.html" else "0.8")
+        for p in sorted(PAGES) if p != "404.html"
     )
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n'

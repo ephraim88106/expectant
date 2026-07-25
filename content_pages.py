@@ -701,9 +701,9 @@ hCG는 초기에 약 <b>48~72시간마다 두 배</b>로 늘어나기 때문에,
     <p style="margin-top:16px;color:var(--text-muted)">주소가 바뀌었거나 삭제된 페이지일 수 있습니다.
        아래에서 원하는 곳으로 이동해 보세요.</p>
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:32px">
-      <a class="btn btn--primary" href="index.html">홈으로</a>
-      <a class="btn btn--ghost" href="pregnancy-test/index.html">임신 확인 방법</a>
-      <a class="btn btn--ghost" href="symptoms/index.html">주차별 증상</a>
+      <a class="btn btn--primary" href="/">홈으로</a>
+      <a class="btn btn--ghost" href="/pregnancy-test/">임신 확인 방법</a>
+      <a class="btn btn--ghost" href="/symptoms/">주차별 증상</a>
     </div>
   </div>
 </section>
