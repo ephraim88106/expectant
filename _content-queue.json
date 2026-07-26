@@ -1,9 +1,9 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "items": [
     { "order": 1,  "category": "preparation", "slug": "ovulation-day",         "title": "배란일 계산법과 가임기",           "keywords": "배란일 계산,가임기,배란테스트기,기초체온,임신 확률", "status": "published", "published_at": "2026-07-25" },
-    { "order": 2,  "category": "health",      "slug": "foods-to-avoid",        "title": "임신 중 먹으면 안 되는 음식",       "keywords": "임신 중 음식,임신부 금기음식,리스테리아,생선 수은,카페인", "status": "pending", "published_at": null },
+    { "order": 2,  "category": "health",      "slug": "foods-to-avoid",        "title": "임신 중 먹으면 안 되는 음식",       "keywords": "임신 중 음식,임신부 금기음식,리스테리아,생선 수은,카페인", "status": "published", "published_at": "2026-07-26" },
     { "order": 3,  "category": "birth",       "slug": "hospital-bag",          "title": "출산가방 체크리스트",              "keywords": "출산가방,출산준비물,산모용품,신생아용품", "status": "pending", "published_at": null },
     { "order": 4,  "category": "postpartum",  "slug": "recovery-period",       "title": "산후조리 기간과 주의사항",          "keywords": "산후조리,산욕기,산후조리원,산후 회복 기간", "status": "pending", "published_at": null },
     { "order": 5,  "category": "preparation", "slug": "folic-acid",            "title": "엽산 복용 시기와 용량",            "keywords": "엽산,엽산 복용시기,신경관결손,임신 전 엽산", "status": "pending", "published_at": null },
