@@ -292,6 +292,43 @@ COUPANG_MATCH = [
 ]
 
 
+
+# 페이지 주제별 후보군 — 접속할 때마다 이 안에서 무작위로 하나를 고른다
+COUPANG_POOL = [
+    ("pregnancy-test/two-lines",   ["letter", "folate", "calendar", "book"]),
+    ("pregnancy-test/reversal",    ["letter", "folate", "vitamin", "book"]),
+    ("pregnancy-test/ultrasound",  ["letter", "calendar", "book", "daily"]),
+    ("pregnancy-test/blood-test",  ["vitamin", "folate", "book", "calendar"]),
+    ("pregnancy-test/",            ["folate", "letter", "vitamin", "calendar", "book"]),
+    ("symptoms/very-early",        ["folate", "vitamin", "calendar", "book"]),
+    ("symptoms/first-trimester",   ["coffee", "folate", "fiber", "vitamin", "tooth"]),
+    ("symptoms/second-trimester",  ["pillow", "cream", "tooth", "warmer", "fiber"]),
+    ("symptoms/third-trimester",   ["tea", "warmer", "pillow", "daily", "calendar"]),
+    ("symptoms/",                  ["calendar", "book", "pillow", "cream", "daily"]),
+    ("tools/test-timing",          ["folate", "letter", "calendar", "book"]),
+    ("tools/",                     ["calendar", "daily", "book", "folate"]),
+    ("guide/preparation/",         ["folate", "vitamin", "calendar", "book"]),
+    ("guide/health/",              ["vitamin", "fiber", "tooth", "coffee", "lacto"]),
+    ("guide/birth/",               ["warmer", "daily", "pillow", "book"]),
+    ("guide/postpartum/",          ["lacto", "fiber", "daily", "book"]),
+]
+ALL_KEYS = ["book", "calendar", "folate", "letter", "vitamin", "daily", "pillow",
+            "cream", "tooth", "fiber", "coffee", "warmer", "tea", "lacto"]
+
+
+def coupang_pool_for(page_path):
+    for prefix, keys in COUPANG_POOL:
+        if page_path.startswith(prefix):
+            return keys
+    return ALL_KEYS
+
+
+def coupang_pool_json(page_path):
+    keys = coupang_pool_for(page_path)
+    data = [dict(COUPANG_PRODUCTS[k], key=k) for k in keys]
+    return ('<script>window.COUPANG_POOL=%s;</script>'
+            % json.dumps(data, ensure_ascii=False))
+
 def coupang_for(page_path):
     if page_path in COUPANG_EXACT:
         return COUPANG_PRODUCTS[COUPANG_EXACT[page_path]]
@@ -319,7 +356,7 @@ def coupang_rail_for(page_path):
 def coupang_rail(page_path):
     p = coupang_rail_for(page_path)
     return """
-  <div class="rail__coupang">
+  <div class="rail__coupang" data-coupang-slot="rail">
     <span class="rail__label">추천 상품</span>
     <iframe src="{iframe}" width="120" height="240" frameborder="0" scrolling="no"
             referrerpolicy="unsafe-url" browsingtopics title="{name}"></iframe>
@@ -332,16 +369,16 @@ def coupang_inline(page_path):
     """본문 안에 들어가는 추천 상품 박스 — 모바일 포함 모든 화면에서 보인다."""
     p = coupang_for(page_path)
     return """
-<aside class="reco" aria-label="추천 상품">
+<aside class="reco" aria-label="추천 상품" data-coupang-slot="inline">
   <div class="reco__frame">
     <iframe src="{iframe}" width="120" height="240" frameborder="0" scrolling="no"
             referrerpolicy="unsafe-url" browsingtopics title="{name}"></iframe>
   </div>
   <div class="reco__body">
     <span class="reco__label">추천 상품</span>
-    <b>{name}</b>
-    <p>{why}</p>
-    <a class="btn btn--ghost btn--sm" href="{link}" target="_blank" rel="nofollow sponsored noopener">
+    <b data-coupang-name>{name}</b>
+    <p data-coupang-why>{why}</p>
+    <a class="btn btn--ghost btn--sm" data-coupang-link href="{link}" target="_blank" rel="nofollow sponsored noopener">
       쿠팡에서 보기</a>
     <p class="reco__disc">{disc}</p>
   </div>
@@ -596,12 +633,13 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
 {footer}
 <script src="{r}assets/js/search-index.js" defer></script>
 <script src="{r}assets/js/site.js" defer></script>
+{coupang_pool}
 {ad_script}
 </body>
 </html>
 """.format(
         ad_top=AD_TOP, ad_side=AD_SIDE_TOP + coupang_rail(page_path) + AD_SIDE_BOTTOM,
-        ad_script=AD_SCRIPT,
+        ad_script=AD_SCRIPT, coupang_pool=coupang_pool_json(page_path),
         r=r, title=title, desc=desc, verify=verify_tags, og_extra=og_extra,
         kw=('<meta name="keywords" content="%s">' % keywords) if keywords else "",
         canonical=canonical, og_type=og_type,

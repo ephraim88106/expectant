@@ -372,6 +372,38 @@
     $$('input, select', form).forEach(function (i) { i.addEventListener('change', run); });
   });
 
+  /* ---------- 쿠팡 추천 상품 랜덤 노출 ----------
+     페이지 주제에 맞는 후보군(window.COUPANG_POOL) 안에서 접속할 때마다 하나를 고른다.
+     레일과 본문에는 서로 다른 상품이 뜨도록 한다.
+     JS가 없으면 서버가 렌더한 기본 상품이 그대로 보인다. */
+  (function () {
+    var pool = window.COUPANG_POOL;
+    if (!Array.isArray(pool) || pool.length < 2) return;
+
+    var picked = [];
+    function pick() {
+      var avail = pool.filter(function (p) { return picked.indexOf(p.key) < 0; });
+      if (!avail.length) avail = pool;
+      var p = avail[Math.floor(Math.random() * avail.length)];
+      picked.push(p.key);
+      return p;
+    }
+
+    $$('[data-coupang-slot]').forEach(function (slot) {
+      var p = pick();
+      var frame = slot.querySelector('iframe');
+      if (frame && frame.getAttribute('src') !== p.iframe) frame.setAttribute('src', p.iframe);
+      if (frame) frame.setAttribute('title', p.name);
+
+      var nameEl = slot.querySelector('[data-coupang-name]');
+      if (nameEl) nameEl.textContent = p.name;
+      var whyEl = slot.querySelector('[data-coupang-why]');
+      if (whyEl) whyEl.textContent = p.why;
+      var linkEl = slot.querySelector('[data-coupang-link]');
+      if (linkEl) linkEl.setAttribute('href', p.link);
+    });
+  })();
+
   /* ---------- Year in footer ---------- */
   $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 })();
