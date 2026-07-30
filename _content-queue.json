@@ -1,13 +1,13 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-07-29",
+  "updated": "2026-07-30",
   "items": [
     { "order": 1,  "category": "preparation", "slug": "ovulation-day",         "title": "배란일 계산법과 가임기",           "keywords": "배란일 계산,가임기,배란테스트기,기초체온,임신 확률", "status": "published", "published_at": "2026-07-25" },
     { "order": 2,  "category": "health",      "slug": "foods-to-avoid",        "title": "임신 중 먹으면 안 되는 음식",       "keywords": "임신 중 음식,임신부 금기음식,리스테리아,생선 수은,카페인", "status": "published", "published_at": "2026-07-26" },
     { "order": 3,  "category": "birth",       "slug": "hospital-bag",          "title": "출산가방 체크리스트",              "keywords": "출산가방,출산준비물,산모용품,신생아용품", "status": "published", "published_at": "2026-07-27" },
     { "order": 4,  "category": "postpartum",  "slug": "recovery-period",       "title": "산후조리 기간과 주의사항",          "keywords": "산후조리,산욕기,산후조리원,산후 회복 기간", "status": "published", "published_at": "2026-07-28" },
     { "order": 5,  "category": "preparation", "slug": "folic-acid",            "title": "엽산 복용 시기와 용량",            "keywords": "엽산,엽산 복용시기,신경관결손,임신 전 엽산", "status": "published", "published_at": "2026-07-29" },
-    { "order": 6,  "category": "health",      "slug": "safe-medications",      "title": "임신 중 먹어도 되는 약",           "keywords": "임신 중 약,타이레놀,감기약,항생제,임부 안전등급", "status": "pending", "published_at": null },
+    { "order": 6,  "category": "health",      "slug": "safe-medications",      "title": "임신 중 먹어도 되는 약",           "keywords": "임신 중 약,타이레놀,감기약,항생제,임부 안전등급", "status": "published", "published_at": "2026-07-30" },
     { "order": 7,  "category": "birth",       "slug": "vaginal-vs-cesarean",   "title": "자연분만과 제왕절개 비교",          "keywords": "자연분만,제왕절개,분만 방법,브이백,회복기간", "status": "pending", "published_at": null },
     { "order": 8,  "category": "health",      "slug": "weight-gain",           "title": "임신 중 적정 체중 증가",           "keywords": "임신 체중 증가,BMI,임신 몸무게,체중 관리", "status": "pending", "published_at": null },
     { "order": 9,  "category": "health",      "slug": "gestational-diabetes",  "title": "임신성 당뇨 검사와 관리",          "keywords": "임신성 당뇨,당부하검사,50g 경구당부하,혈당 관리", "status": "pending", "published_at": null },
