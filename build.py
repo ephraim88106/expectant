@@ -409,6 +409,24 @@ VERIFY = {
     "bing":     "",   # Bing Webmaster        <meta name="msvalidate.01">
 }
 
+# ---------------------------------------------------------------- 구글 애드센스
+# 게시자 ID. 값이 있으면 전 페이지 <head>에 소유확인 메타 + 광고 라이브러리가 삽입되고
+# 루트에 ads.txt 가 자동 생성된다. 값을 ""로 비우면 전부 출력되지 않는다.
+# 실제 광고 노출(자동광고)은 애드센스 대시보드에서 켠다. 이 코드만으로는 광고가 뜨지 않는다.
+ADSENSE_CLIENT = "ca-pub-9118774019383180"
+
+# ads.txt 항목 — "도메인, 게시자ID, 관계, 인증기관ID"
+# 서브도메인 사이트라도 구글은 루트 도메인(ephseed.com)의 ads.txt 도 함께 확인하므로
+# 루트를 쓰는 사이트가 있다면 그쪽에도 같은 줄을 넣어야 한다.
+ADS_TXT = [
+    "google.com, pub-9118774019383180, DIRECT, f08c47fec0942fa0",
+]
+
+ADSENSE_TAG = ("""
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=%s"
+     crossorigin="anonymous"></script>""" % ADSENSE_CLIENT) if ADSENSE_CLIENT else ""
+
 ORG = {
     "name": "에브라임 시드",
     "alt": "Ephraim Seed",
@@ -533,6 +551,7 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
             ("google-site-verification", VERIFY["google"]),
             ("naver-site-verification", VERIFY["naver"]),
             ("msvalidate.01", VERIFY["bing"]),
+            ("google-adsense-account", ADSENSE_CLIENT),
         ) if v
     )
     og_img = og_image_for(page_path)
@@ -581,7 +600,7 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
   function gtag(){{dataLayer.push(arguments);}}
   gtag('js', new Date());
   gtag('config', 'G-VVCGWT08P0');
-</script>
+</script>{adsense}
 </head>
 <body>
 <a class="sr-only" href="#main">본문 바로가기</a>
@@ -641,6 +660,7 @@ def layout(page_path, title, desc, body, keywords="", article=False, og_type="we
         ad_top=AD_TOP, ad_side=AD_SIDE_TOP + coupang_rail(page_path) + AD_SIDE_BOTTOM,
         ad_script=AD_SCRIPT, coupang_pool=coupang_pool_json(page_path),
         r=r, title=title, desc=desc, verify=verify_tags, og_extra=og_extra,
+        adsense=ADSENSE_TAG,
         kw=('<meta name="keywords" content="%s">' % keywords) if keywords else "",
         canonical=canonical, og_type=og_type,
         schema=json.dumps(schema, ensure_ascii=False),
@@ -803,6 +823,14 @@ if __name__ == "__main__":
             "Allow: /\n\n"
             "Sitemap: %s/sitemap.xml\n" % SITE_URL
         )
+
+    # ads.txt — 애드센스 인벤토리 정품 인증 (없으면 수익이 크게 깎인다)
+    ads_path = os.path.join(ROOT, "ads.txt")
+    if ADS_TXT:
+        with open(ads_path, "w", encoding="utf-8") as f:
+            f.write("\n".join(ADS_TXT) + "\n")
+    elif os.path.exists(ads_path):
+        os.remove(ads_path)
 
     for path, html in PAGES.items():
         full = os.path.join(ROOT, path)
