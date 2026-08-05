@@ -165,7 +165,7 @@ def footer_html(page_path):
         <div><dt>대표자</dt><dd>김남호</dd></div>
         <div><dt>사업자등록번호</dt><dd>359-05-03748</dd></div>
         <div><dt>주소</dt><dd>인천광역시 연수구 아카데미로 446</dd></div>
-        <div><dt>이메일</dt><dd><a href="mailto:namho8816@naver.com">namho8816@naver.com</a></dd></div>
+        <div><dt>이메일</dt><dd><a href="mailto:ephraimseed88@gmail.com">ephraimseed88@gmail.com</a></dd></div>
         <div><dt>전화</dt><dd><a href="tel:01059440714">010-5944-0714</a></dd></div>
       </dl>
     </section>
