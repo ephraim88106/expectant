@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-05",
+  "updated": "2026-08-07",
   "items": [
     {
       "order": 1,
@@ -116,8 +116,8 @@
       "slug": "preconception-checkup",
       "title": "임신 전 검사 체크리스트",
       "keywords": "임신 전 검사,풍진 항체,AMH,난소나이,예방접종",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-06"
     },
     {
       "order": 14,
@@ -125,8 +125,8 @@
       "slug": "depression",
       "title": "산후우울 알아차리기",
       "keywords": "산후우울,산후우울증,베이비블루스,산후 감정변화",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-07"
     },
     {
       "order": 15,
