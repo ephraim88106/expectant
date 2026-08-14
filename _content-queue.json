@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "items": [
     {
       "order": 1,
@@ -168,10 +168,10 @@
       "order": 19,
       "category": "birth",
       "slug": "induction",
-      "title": "유도분만은 언제 하나요",
+      "title": "유도분만 시기와 과정",
       "keywords": "유도분만,촉진제,예정일 초과,자궁경부 숙화",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-14"
     },
     {
       "order": 20,
