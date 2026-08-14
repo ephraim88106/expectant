@@ -181,6 +181,51 @@
       "keywords": "산후 검진,산후 6주,피임,다음 임신 간격",
       "status": "pending",
       "published_at": null
+    },
+    {
+      "order": 21,
+      "category": "health",
+      "slug": "cold-flu",
+      "title": "임신 중 감기 대처와 약",
+      "keywords": "임신 중 감기,감기약,해열제,코막힘,병원",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 22,
+      "category": "health",
+      "slug": "constipation",
+      "title": "임신 중 변비 해결법",
+      "keywords": "임신 변비,변비약,식이섬유,치질,수분",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 23,
+      "category": "health",
+      "slug": "swelling",
+      "title": "임신 부종 원인과 관리",
+      "keywords": "임신 부종,다리 붓기,전자간증,압박스타킹,시기",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 24,
+      "category": "birth",
+      "slug": "preterm-labor",
+      "title": "조기진통 증상과 대처",
+      "keywords": "조기진통,증상,자궁수축,입원,37주",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 25,
+      "category": "postpartum",
+      "slug": "hair-loss",
+      "title": "산후 탈모 시기와 회복",
+      "keywords": "산후 탈모,원인,회복 시기,영양제,관리",
+      "status": "pending",
+      "published_at": null
     }
   ]
 }
