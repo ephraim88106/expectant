@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "items": [
     {
       "order": 1,
@@ -179,8 +179,8 @@
       "slug": "checkup",
       "title": "산후 검진과 다음 임신 계획",
       "keywords": "산후 검진,산후 6주,피임,다음 임신 간격",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-15"
     },
     {
       "order": 21,
