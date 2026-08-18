@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "items": [
     {
       "order": 1,
@@ -206,8 +206,8 @@
       "slug": "swelling",
       "title": "임신 부종 원인과 관리",
       "keywords": "임신 부종,다리 붓기,전자간증,압박스타킹,시기",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-18"
     },
     {
       "order": 24,
