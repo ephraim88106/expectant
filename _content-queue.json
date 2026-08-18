@@ -226,6 +226,51 @@
       "keywords": "산후 탈모,원인,회복 시기,영양제,관리",
       "status": "pending",
       "published_at": null
+    },
+    {
+      "order": 26,
+      "category": "postpartum",
+      "slug": "cesarean-recovery",
+      "title": "제왕절개 회복 기간과 관리",
+      "keywords": "제왕절개 회복,회복 기간,수술 부위,통증,활동",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 27,
+      "category": "birth",
+      "slug": "vbac",
+      "title": "브이백(제왕절개 후 자연분만) 조건",
+      "keywords": "브이백,VBAC,제왕절개 후 자연분만,조건,성공률",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 28,
+      "category": "postpartum",
+      "slug": "perineal-care",
+      "title": "회음부 절개 회복과 관리",
+      "keywords": "회음부 절개,회복 기간,통증,좌욕,실밥",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 29,
+      "category": "postpartum",
+      "slug": "pumping",
+      "title": "유축기 사용법과 모유 보관",
+      "keywords": "유축기,사용법,유축 시간,모유 보관,세척",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 30,
+      "category": "health",
+      "slug": "heartburn",
+      "title": "임신 속쓰림 원인과 완화",
+      "keywords": "임신 속쓰림,역류,제산제,식습관,시기",
+      "status": "pending",
+      "published_at": null
     }
   ]
 }
