@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "items": [
     {
       "order": 1,
@@ -215,8 +215,8 @@
       "slug": "preterm-labor",
       "title": "조기진통 증상과 대처",
       "keywords": "조기진통,증상,자궁수축,입원,37주",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-19"
     },
     {
       "order": 25,
