@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "items": [
     {
       "order": 1,
@@ -224,8 +224,8 @@
       "slug": "hair-loss",
       "title": "산후 탈모 시기와 회복",
       "keywords": "산후 탈모,원인,회복 시기,영양제,관리",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-20"
     },
     {
       "order": 26,
