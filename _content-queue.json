@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-20",
+  "updated": "2026-08-21",
   "items": [
     {
       "order": 1,
@@ -231,10 +231,10 @@
       "order": 26,
       "category": "postpartum",
       "slug": "cesarean-recovery",
-      "title": "제왕절개 회복 기간과 관리",
-      "keywords": "제왕절개 회복,회복 기간,수술 부위,통증,활동",
-      "status": "pending",
-      "published_at": null
+      "title": "제왕절개 회복기간 — 입원부터 6주까지 통증·흉터·활동 기준",
+      "keywords": "제왕절개 회복기간,제왕절개 회복,제왕절개 후 관리,제왕절개 흉터,제왕절개 입원기간,제왕절개 실밥,제왕절개 후 운전",
+      "status": "published",
+      "published_at": "2026-08-21"
     },
     {
       "order": 27,
