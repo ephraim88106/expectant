@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "items": [
     {
       "order": 1,
@@ -242,8 +242,8 @@
       "slug": "vbac",
       "title": "브이백(제왕절개 후 자연분만) 조건",
       "keywords": "브이백,VBAC,제왕절개 후 자연분만,조건,성공률",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-22"
     },
     {
       "order": 28,
