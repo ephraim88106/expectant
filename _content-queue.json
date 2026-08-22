@@ -271,6 +271,51 @@
       "keywords": "임신 속쓰림,역류,제산제,식습관,시기",
       "status": "pending",
       "published_at": null
+    },
+    {
+      "order": 31,
+      "category": "preparation",
+      "slug": "infertility-test",
+      "title": "난임 검사 항목과 비용 지원",
+      "keywords": "난임 검사,검사 항목,비용,지원,정액검사",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 32,
+      "category": "preparation",
+      "slug": "rubella-immunity",
+      "title": "풍진 항체 검사와 임신 전 예방접종",
+      "keywords": "풍진 항체,예방접종,임신 전,보건소,대기 기간",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 33,
+      "category": "birth",
+      "slug": "breathing",
+      "title": "라마즈 호흡법과 분만 중 힘주기",
+      "keywords": "라마즈 호흡법,분만 호흡,힘주기,이완법",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 34,
+      "category": "health",
+      "slug": "prenatal-screening",
+      "title": "기형아 검사와 니프티 검사 시기·비용",
+      "keywords": "기형아 검사,니프티,시기,비용,정확도",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 35,
+      "category": "health",
+      "slug": "ultrasound",
+      "title": "임신 초음파 시기와 급여 횟수",
+      "keywords": "임신 초음파,시기,비용,급여 횟수,정밀초음파",
+      "status": "pending",
+      "published_at": null
     }
   ]
 }
