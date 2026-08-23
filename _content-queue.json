@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "items": [
     {
       "order": 1,
@@ -251,8 +251,8 @@
       "slug": "perineal-care",
       "title": "회음부 절개 회복과 관리",
       "keywords": "회음부 절개,회복 기간,통증,좌욕,실밥",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-23"
     },
     {
       "order": 29,
