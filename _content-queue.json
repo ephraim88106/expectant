@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "items": [
     {
       "order": 1,
@@ -287,8 +287,8 @@
       "slug": "rubella-immunity",
       "title": "풍진 항체 검사와 임신 전 예방접종",
       "keywords": "풍진 항체,예방접종,임신 전,보건소,대기 기간",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-27"
     },
     {
       "order": 33,
@@ -314,6 +314,46 @@
       "slug": "ultrasound",
       "title": "임신 초음파 시기와 급여 횟수",
       "keywords": "임신 초음파,시기,비용,급여 횟수,정밀초음파",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 36,
+      "category": "birth",
+      "slug": "fetal-monitoring",
+      "title": "태동검사(비수축검사) 시기와 결과 보는 법",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 37,
+      "category": "birth",
+      "slug": "cord-blood",
+      "title": "제대혈 보관 비용과 가족제대혈·기증 차이",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 38,
+      "category": "birth",
+      "slug": "birth-plan",
+      "title": "분만 방법 고르는 순서 — 병원·조산원과 분만 계획서",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 39,
+      "category": "preparation",
+      "slug": "supplements",
+      "title": "임신 준비 영양제 종류 — 엽산 외에 챙길 것",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 40,
+      "category": "preparation",
+      "slug": "after-miscarriage",
+      "title": "유산 후 다음 임신까지 기다리는 기간",
       "status": "pending",
       "published_at": null
     }
