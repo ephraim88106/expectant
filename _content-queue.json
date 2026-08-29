@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "items": [
     {
       "order": 1,
@@ -303,10 +303,10 @@
       "order": 34,
       "category": "health",
       "slug": "prenatal-screening",
-      "title": "기형아 검사와 니프티 검사 시기·비용",
+      "title": "니프티 검사 정확도와 비용 — 기형아 검사 종류와 받는 순서",
       "keywords": "기형아 검사,니프티,시기,비용,정확도",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-08-29"
     },
     {
       "order": 35,
