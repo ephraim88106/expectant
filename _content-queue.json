@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "items": [
     {
       "order": 1,
@@ -312,10 +312,10 @@
       "order": 35,
       "category": "health",
       "slug": "ultrasound",
-      "title": "임신 초음파 시기와 급여 횟수",
-      "keywords": "임신 초음파,시기,비용,급여 횟수,정밀초음파",
-      "status": "pending",
-      "published_at": null
+      "title": "정밀초음파와 입체초음파 차이 — 주수별 초음파 종류와 보는 순서",
+      "keywords": "정밀초음파,입체초음파,질초음파,복부초음파,주수별 초음파,BPD,AC,태아 추정체중",
+      "status": "published",
+      "published_at": "2026-08-30"
     },
     {
       "order": 36,
@@ -354,6 +354,51 @@
       "category": "preparation",
       "slug": "after-miscarriage",
       "title": "유산 후 다음 임신까지 기다리는 기간",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 41,
+      "category": "postpartum",
+      "slug": "postpartum-pain",
+      "title": "산후풍 증상과 언제까지 가나 — 관절통 원인과 관리",
+      "keywords": "산후풍,산후 관절통,산후풍 증상,산후풍 언제까지,산후풍 예방",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 42,
+      "category": "postpartum",
+      "slug": "postpartum-diet",
+      "title": "산후 다이어트 언제부터 — 수유 중 감량 속도와 운동 시작 시점",
+      "keywords": "산후 다이어트,산후 운동,수유 중 다이어트,산후 체중 감량",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 43,
+      "category": "preparation",
+      "slug": "pcos-pregnancy",
+      "title": "다낭성난소증후군 임신 준비 — 배란 유도와 생활 관리",
+      "keywords": "다낭성난소증후군,PCOS,배란장애,임신 확률,인슐린 저항성",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 44,
+      "category": "preparation",
+      "slug": "advanced-maternal-age",
+      "title": "노산 기준 나이와 준비할 것 — 35세 이후 임신 주의사항",
+      "keywords": "노산,35세 이상 임신,고령 임신,노산 기준",
+      "status": "pending",
+      "published_at": null
+    },
+    {
+      "order": 45,
+      "category": "health",
+      "slug": "fetal-movement",
+      "title": "태동 느끼는 시기와 종류 — 태동이 줄었을 때 확인하는 순서",
+      "keywords": "태동,태동 시기,태동 종류,태동 감소,딸꾹질 태동",
       "status": "pending",
       "published_at": null
     }
