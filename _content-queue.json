@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "items": [
     {
       "order": 1,
@@ -337,9 +337,9 @@
       "order": 38,
       "category": "birth",
       "slug": "birth-plan",
-      "title": "분만 방법 고르는 순서 — 병원·조산원과 분만 계획서",
-      "status": "pending",
-      "published_at": null
+      "title": "분만 병원 고르는 순서 — 조산원·산부인과 차이와 전원 시기",
+      "status": "published",
+      "published_at": "2026-09-02"
     },
     {
       "order": 39,
