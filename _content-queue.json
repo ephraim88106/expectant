@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "items": [
     {
       "order": 1,
@@ -345,9 +345,9 @@
       "order": 39,
       "category": "preparation",
       "slug": "supplements",
-      "title": "임신 준비 영양제 종류 — 엽산 외에 챙길 것",
-      "status": "pending",
-      "published_at": null
+      "title": "임신준비 영양제 종류 — 비타민D·오메가3 복용 조건과 주의사항",
+      "status": "published",
+      "published_at": "2026-09-03"
     },
     {
       "order": 40,
