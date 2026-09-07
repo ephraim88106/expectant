@@ -791,11 +791,84 @@ if __name__ == "__main__":
     with open(os.path.join(ROOT, "assets/js/search-index.js"), "w", encoding="utf-8") as f:
         f.write(js)
 
+    # ---------------------------------------------------------------- 날짜 확정
+    # 문제: TODAY 를 그대로 쓰면 sitemap lastmod / datePublished / dateModified 가
+    #       매 빌드마다 "오늘"로 바뀌어, 내용이 그대로인 67개 페이지가 매일
+    #       "오늘 발행·수정됨"으로 신고된다. 구글에는 대량 재생성 신호로 읽힌다.
+    # 해결: 페이지 내용 해시를 _pagedates.json 에 기록해 두고,
+    #       내용이 바뀐 페이지만 modified 를 갱신한다. published 는 최초 1회 고정.
+    import hashlib, subprocess
+
+    DATES_PATH = os.path.join(ROOT, "_pagedates.json")
+    try:
+        with open(DATES_PATH, encoding="utf-8") as f:
+            PAGE_DATES = json.load(f)
+    except Exception:
+        PAGE_DATES = {}
+
+    QUEUE_DATE = {}
+    try:
+        with open(os.path.join(ROOT, "_content-queue.json"), encoding="utf-8") as f:
+            for it in json.load(f).get("items", []):
+                if it.get("published_at") and it.get("category") and it.get("slug"):
+                    QUEUE_DATE["guide/%s/%s.html" % (it["category"], it["slug"])] = it["published_at"]
+    except Exception:
+        pass
+
+    def _git_date(path, first):
+        # 최초 등록(--diff-filter=A) 또는 최종 수정 커밋 날짜. 실패하면 None.
+        args = ["git", "log", "-1", "--format=%as"]
+        if first:
+            args = ["git", "log", "--diff-filter=A", "--format=%as"]
+        try:
+            out = subprocess.run(args + ["--", path], cwd=ROOT,
+                                 capture_output=True, text=True, timeout=20).stdout.strip()
+        except Exception:
+            return None
+        out = out.splitlines()
+        return out[-1].strip() if first and out else (out[0].strip() if out else None)
+
+    for p, html in PAGES.items():
+        sig = hashlib.sha256(html.replace(TODAY, "@@D@@").encode("utf-8")).hexdigest()
+        rec = PAGE_DATES.get(p)
+        if rec is None:
+            # 최초 시딩: modified 를 git 최종커밋일로 잡으면 안 된다.
+            # 빌드가 매번 전 페이지를 다시 써서 커밋일이 전부 오늘이 되기 때문이다.
+            # 확인 가능한 사실은 "언제 처음 올라갔는가" 뿐이므로 published 를 그대로 쓴다.
+            # 이후 실제 내용이 바뀐 페이지만 hash 비교로 modified 가 갱신된다.
+            pub = QUEUE_DATE.get(p) or _git_date(p, True) or TODAY
+            PAGE_DATES[p] = {"published": pub, "modified": pub, "hash": sig}
+        elif rec.get("hash") != sig:
+            rec["hash"] = sig
+            rec["modified"] = TODAY
+            rec.setdefault("published", TODAY)
+
+    for p in [k for k in PAGE_DATES if k not in PAGES]:
+        del PAGE_DATES[p]
+
+    with open(DATES_PATH, "w", encoding="utf-8") as f:
+        json.dump(PAGE_DATES, f, ensure_ascii=False, indent=1, sort_keys=True)
+
+    # 렌더된 HTML 안의 TODAY 자리를 실제 날짜로 교체
+    for p in list(PAGES):
+        d = PAGE_DATES[p]
+        h = PAGES[p]
+        h = h.replace('"datePublished": "%s"' % TODAY, '"datePublished": "%s"' % d["published"])
+        h = h.replace('"dateModified": "%s"' % TODAY, '"dateModified": "%s"' % d["modified"])
+        h = h.replace('article:published_time" content="%sT00:00:00+09:00"' % TODAY,
+                      'article:published_time" content="%sT00:00:00+09:00"' % d["published"])
+        h = h.replace('article:modified_time" content="%sT00:00:00+09:00"' % TODAY,
+                      'article:modified_time" content="%sT00:00:00+09:00"' % d["modified"])
+        h = h.replace("\ucd5c\uc885 \uc5c5\ub370\uc774\ud2b8 %s" % TODAY,
+                      "\ucd5c\uc885 \uc5c5\ub370\uc774\ud2b8 %s" % d["modified"])
+        PAGES[p] = h
+
     # sitemap + robots
     urls = "".join(
         "<url><loc>%s%s</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq>"
         "<priority>%s</priority></url>"
-        % (SITE_URL, url_of(p), TODAY, "1.0" if p == "index.html" else "0.8")
+        % (SITE_URL, url_of(p), PAGE_DATES[p]["modified"],
+           "1.0" if p == "index.html" else "0.8")
         for p in sorted(PAGES) if p != "404.html"
     )
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:
