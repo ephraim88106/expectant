@@ -170,13 +170,22 @@ def footer_html(page_path):
       </dl>
     </section>
 
+    <nav class="footer__legal" aria-label="정책 및 안내">
+      <a href="%(about)s">소개</a>
+      <a href="%(contact)s">문의</a>
+      <a href="%(privacy)s">개인정보처리방침</a>
+      <a href="%(terms)s">이용약관</a>
+    </nav>
+
     <div class="footer__bottom">
       <span>&copy; <span data-year>2026</span> Ephseed AI. All rights reserved. 의료 조언을 대체하지 않습니다.</span>
       <span>최종 업데이트 %(today)s</span>
     </div>
   </div>
 </footer>
-""" % dict(home=link("index.html", page_path), mark=I["heart"], cols="".join(cols), today=TODAY)
+""" % dict(home=link("index.html", page_path), mark=I["heart"], cols="".join(cols), today=TODAY,
+           about=link("about.html", page_path), contact=link("contact.html", page_path),
+           privacy=link("privacy.html", page_path), terms=link("terms.html", page_path))
 
 # ---------------------------------------------------------------- ads (Kakao AdFit)
 AD_TOP = """
@@ -828,8 +837,16 @@ if __name__ == "__main__":
         out = out.splitlines()
         return out[-1].strip() if first and out else (out[0].strip() if out else None)
 
+    def _content_sig(html):
+        # 본문(<main>)만 해시한다. 헤더·푸터·광고처럼 전 페이지 공통 부분이 바뀌었을 때
+        # 67개 페이지가 한꺼번에 "오늘 수정됨"으로 신고되는 것을 막기 위함.
+        core = html
+        if "<main" in html and "</main>" in html:
+            core = html.split("<main", 1)[1].split("</main>", 1)[0]
+        return hashlib.sha256(core.replace(TODAY, "@@D@@").encode("utf-8")).hexdigest()
+
     for p, html in PAGES.items():
-        sig = hashlib.sha256(html.replace(TODAY, "@@D@@").encode("utf-8")).hexdigest()
+        sig = _content_sig(html)
         rec = PAGE_DATES.get(p)
         if rec is None:
             # 최초 시딩: modified 를 git 최종커밋일로 잡으면 안 된다.
@@ -837,7 +854,11 @@ if __name__ == "__main__":
             # 확인 가능한 사실은 "언제 처음 올라갔는가" 뿐이므로 published 를 그대로 쓴다.
             # 이후 실제 내용이 바뀐 페이지만 hash 비교로 modified 가 갱신된다.
             pub = QUEUE_DATE.get(p) or _git_date(p, True) or TODAY
-            PAGE_DATES[p] = {"published": pub, "modified": pub, "hash": sig}
+            PAGE_DATES[p] = {"published": pub, "modified": pub, "hash": sig, "v": 2}
+        elif rec.get("v") != 2:
+            # 해시 방식 전환(전체 HTML → <main> 본문) 1회 마이그레이션: 날짜는 건드리지 않는다
+            rec["hash"] = sig
+            rec["v"] = 2
         elif rec.get("hash") != sig:
             rec["hash"] = sig
             rec["modified"] = TODAY

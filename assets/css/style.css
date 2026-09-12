@@ -917,6 +917,15 @@ a.chip:hover { background: var(--rose-100); color: var(--rose-600); border-color
 .biz dd a { border-bottom: 1px solid transparent; transition: color .16s, border-color .16s; }
 .biz dd a:hover { color: var(--rose-600); border-bottom-color: var(--rose-300); }
 
+.footer__legal {
+  margin-top: 28px; display: flex; flex-wrap: wrap; gap: 6px 22px;
+  font-size: .86rem;
+}
+.footer__legal a { color: var(--ink-700); text-decoration: none; }
+.footer__legal a:hover { color: var(--rose-700); text-decoration: underline; }
+.legal .article__head { margin-bottom: 28px; }
+.legal .prose h2 { font-size: 1.2rem; }
+
 .footer__bottom {
   margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border);
   display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between;

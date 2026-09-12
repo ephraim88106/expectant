@@ -1,342 +1,434 @@
 {
  "404.html": {
-  "hash": "656bc25841fb7d170f9e6eb2e7c46a02b4b66729f01effa798a6a5d08dced050",
+  "hash": "2a30ff626ea9506b93becc3a09a1762ea4c5912fdff6e1d2c95431a7225db2f8",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
+ },
+ "about.html": {
+  "hash": "b9f5778af18ab292a9b6734fa809ac1cdc99912f5637757732566c3768518362",
+  "modified": "2026-09-12",
+  "published": "2026-09-12",
+  "v": 2
+ },
+ "contact.html": {
+  "hash": "bff5b6700a95894d1ede4e8eb2c2c9aa77d0046d5d38a080aca4c6346c9af6d2",
+  "modified": "2026-09-12",
+  "published": "2026-09-12",
+  "v": 2
  },
  "guide/birth/birth-plan.html": {
-  "hash": "7bb352831f14c094386d381bdf6264485aeec57076ba9b4fb3754735126e8a05",
+  "hash": "ae98fd18bb50a59d7c0987b5c28b0d31ce63bfe9297412f919fd7f5882292547",
   "modified": "2026-09-02",
-  "published": "2026-09-02"
+  "published": "2026-09-02",
+  "v": 2
  },
  "guide/birth/breathing.html": {
-  "hash": "aa7b06a4ba3cd78a8f945d3d15addf16dcb92712aea8aec58c4ee32355f45763",
+  "hash": "cdf0b406c047ec59c7f18d991c39cca45c51096712789e1000878f57569e47d3",
   "modified": "2026-08-28",
-  "published": "2026-08-28"
+  "published": "2026-08-28",
+  "v": 2
  },
  "guide/birth/cord-blood.html": {
-  "hash": "df70812ea90c7b10c1b79649fdb1ed435a50a832ceb5b4c2d96dc475b02c2888",
+  "hash": "48802aa12a60c7b2ca9ae4ea7e3f660cda61ed15e5b92c7fced4f146305d299c",
   "modified": "2026-09-01",
-  "published": "2026-09-01"
+  "published": "2026-09-01",
+  "v": 2
  },
  "guide/birth/epidural.html": {
-  "hash": "ce7a018539823022a2fb5d134a68c53a9246ff0773fe3cd999369cdac80e5729",
+  "hash": "0ed6c9c08b1a29cb373eeec1506dadc52ce89cec1774c790aa754ebc15dbdef4",
   "modified": "2026-08-04",
-  "published": "2026-08-04"
+  "published": "2026-08-04",
+  "v": 2
  },
  "guide/birth/fetal-monitoring.html": {
-  "hash": "696fba0d5cce8173e5f3cda5946df36c341423ef990c9c73c38e443a82b9069b",
+  "hash": "b49c1099eb25e01be9b7e4b6c3d769533c7914c5e84c59190c912666b37d1742",
   "modified": "2026-08-31",
-  "published": "2026-08-31"
+  "published": "2026-08-31",
+  "v": 2
  },
  "guide/birth/hospital-bag.html": {
-  "hash": "3ac60e8cbf5e3dd0e02ebe5bcf8069b16bd54bbe286c78426b9d7a64220fa813",
+  "hash": "7854d5c57282d49ac201dec54883fed0e052b7213fda424f136d4023159c1c69",
   "modified": "2026-07-27",
-  "published": "2026-07-27"
+  "published": "2026-07-27",
+  "v": 2
  },
  "guide/birth/index.html": {
-  "hash": "c255751d698d8ee4e5b887b8e04744175655252d2b7d75725b23c53d55c9cfc0",
+  "hash": "259501cf822ec8238e096aa1211aac1b27b1d42fd412fdb86655614d6e7282d0",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "guide/birth/induction.html": {
-  "hash": "a1e017e8ea6f304a5382f96ce2590f3a62af2c1b13d8b2672c3401596a9d96e0",
+  "hash": "2f47e24c3608876f510061a72a2e30fea9685afb3ca38f5cb026f83d6f0cb6b0",
   "modified": "2026-08-14",
-  "published": "2026-08-14"
+  "published": "2026-08-14",
+  "v": 2
  },
  "guide/birth/labor-stages.html": {
-  "hash": "4950c02b0fbdfd851f9628ab1e272466bc7e7b4e243607fb86f0a40cfa5ca69d",
+  "hash": "95a3745732a4b30e4cb731f73306f6bab840ca77a09c1fa0dc86a8f262fcd2a4",
   "modified": "2026-08-11",
-  "published": "2026-08-11"
+  "published": "2026-08-11",
+  "v": 2
  },
  "guide/birth/preterm-labor.html": {
-  "hash": "837f312a239496d413cca14a38a3d3f130846c40b4ede93643ec01e0176cef10",
+  "hash": "e6f39d25e4ed665499415ffdbb47103063364911246a4171cde6b212b2afd071",
   "modified": "2026-08-19",
-  "published": "2026-08-19"
+  "published": "2026-08-19",
+  "v": 2
  },
  "guide/birth/vaginal-vs-cesarean.html": {
-  "hash": "8a11f44c2a76ea585a599ed991913ccf228c2488050ed6e21b77b9d374d5fd1d",
+  "hash": "fefd446f7163da8970fcf6d9536745b127673e107e8873ff464771a7f2616993",
   "modified": "2026-07-31",
-  "published": "2026-07-31"
+  "published": "2026-07-31",
+  "v": 2
  },
  "guide/birth/vbac.html": {
-  "hash": "fd5e0672becaa297e6ac5cccec31dbf9995c9450692d97640ffdf3a9eaaa1f16",
+  "hash": "d9aa9ce484c73db8a9b1376f0532225a5181f50f011819f4fd1e8aaee06f2e90",
   "modified": "2026-08-22",
-  "published": "2026-08-22"
+  "published": "2026-08-22",
+  "v": 2
  },
  "guide/health/anemia.html": {
-  "hash": "3eae03f9a71eff5c8c43d966d30e212fa3152ed1a19891b66911c28e4b2aa713",
+  "hash": "cf307d7dd4d20996dced402ae02fb9b41a678156d902108d53b9f08f1ecb1418",
   "modified": "2026-08-13",
-  "published": "2026-08-13"
+  "published": "2026-08-13",
+  "v": 2
  },
  "guide/health/cold-flu.html": {
-  "hash": "5844276975369c45838328b68f6325308e0a5fe25cc8a7eacb92368114b634cd",
+  "hash": "88574da52018491e3eea238bc1bc97ea08d18abfdeedf21ec839bb382d3d59ff",
   "modified": "2026-08-16",
-  "published": "2026-08-16"
+  "published": "2026-08-16",
+  "v": 2
  },
  "guide/health/constipation.html": {
-  "hash": "a39828dd29a2f3b6cbc29db0c401201fdc8cf70af7a774147caac40a89166e5c",
+  "hash": "7c0bd3238a298b6c910cd477106037fed9913854c5801d21a72bf23c51176de0",
   "modified": "2026-08-17",
-  "published": "2026-08-17"
+  "published": "2026-08-17",
+  "v": 2
  },
  "guide/health/exercise-travel.html": {
-  "hash": "d64691ae9157e3d587bede704fe7c47c0cb774430e3df8f2bdb08d54e357f14c",
+  "hash": "b80314e4d687a57e0edaa04984e4d66177f01eff0365cfc7521d8a2489c5c8e1",
   "modified": "2026-08-10",
-  "published": "2026-08-10"
+  "published": "2026-08-10",
+  "v": 2
  },
  "guide/health/foods-to-avoid.html": {
-  "hash": "5cddf3ec09d952d31d1152f80d9a4005cd8649d713621bf494d0856eec81c95a",
+  "hash": "3d3d8b6f1ad4ca79eb3ad9bb42a90737b3402ed5b68c340fb991bfc3ed811a61",
   "modified": "2026-07-26",
-  "published": "2026-07-26"
+  "published": "2026-07-26",
+  "v": 2
  },
  "guide/health/gestational-diabetes.html": {
-  "hash": "be787465295d36a9487f8d9d0f01d4324a73b367f30392a43149a7a30fe6e600",
+  "hash": "b642c4f1562c24c1f49882150e668b48a219b7879924cbade1517f73dc0273f3",
   "modified": "2026-08-02",
-  "published": "2026-08-02"
+  "published": "2026-08-02",
+  "v": 2
  },
  "guide/health/heartburn.html": {
-  "hash": "10701a7d3674089d48376631b5ffe0a653bfd865402914d228f1d5cbe8077621",
+  "hash": "d31b39a33c07596cf4173ab588244667b02a1b6602d4e1533f60bd858bf7d9d9",
   "modified": "2026-08-25",
-  "published": "2026-08-25"
+  "published": "2026-08-25",
+  "v": 2
  },
  "guide/health/index.html": {
-  "hash": "598cf31bbeea7bf28874a6e89f09ab4db4b1f54275bc518aec95b70c3a5020af",
+  "hash": "a5662f6a047aa5b2f5bd11bd372c86cb53dfb80813168afd533dcd5dea2f60fd",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "guide/health/prenatal-screening.html": {
-  "hash": "74d3f46107a04db58bcfebced8d4127cd54bafb9cf30e296d3c0a8b5a79c49c7",
+  "hash": "138fc0c197d3bab71765672986ad82626b22eda1e7c585977b099042fbf5f11e",
   "modified": "2026-08-29",
-  "published": "2026-08-29"
+  "published": "2026-08-29",
+  "v": 2
  },
  "guide/health/safe-medications.html": {
-  "hash": "7bad49900636107ae69e0a74585a5b38d0de38c26e976a399a8f3e3f574a6659",
+  "hash": "590dace993ce35a763c86d7bdd7b08e7c541d4753acab91264e11c39636d6209",
   "modified": "2026-07-30",
-  "published": "2026-07-30"
+  "published": "2026-07-30",
+  "v": 2
  },
  "guide/health/swelling.html": {
-  "hash": "fe93f0670c86b273ceafd0d109293daa026ff851d11199e772e144f0b4834cf8",
+  "hash": "298f511dd405fcb3181f9629360db25136812ddb336181e38187ae3091fa21a6",
   "modified": "2026-08-18",
-  "published": "2026-08-18"
+  "published": "2026-08-18",
+  "v": 2
  },
  "guide/health/ultrasound.html": {
-  "hash": "ed8f4a63de4a505cf5c383b9b7ccac07c33ee2fdd35775a443baaa91320ee4f7",
+  "hash": "b88401b965712da15dc426fc1cbda0337b1aa0bd1e3bb629b600e0ecf05d0ce5",
   "modified": "2026-08-30",
-  "published": "2026-08-30"
+  "published": "2026-08-30",
+  "v": 2
  },
  "guide/health/weight-gain.html": {
-  "hash": "6217308469dca817ef0043adef1d564c6b379292bad6047ce2e5651c0b576436",
+  "hash": "4079f7186d53e4a365de9b2605576ddd972baf1468dfb34fe343a98b18a59a6b",
   "modified": "2026-08-01",
-  "published": "2026-08-01"
+  "published": "2026-08-01",
+  "v": 2
  },
  "guide/index.html": {
-  "hash": "7ad678e92c8cb2197f8459f489bfe440e879eaf4508b373bfde66a8f709f97cc",
+  "hash": "d540c2a9c6953a366cfe10dd8d6fb97f2b31f747ff1c5ba8f63e248ce285a0e4",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "guide/postpartum/breastfeeding.html": {
-  "hash": "f7ccaeaa5af807a12ad4c8f0b47f80584fd6880723f5cd7f2e5c4aa4e68700a5",
+  "hash": "6d4242028620dbc33a7d0dd90ee4d3a242e0978dfa70b51d598a7ed29da2b90f",
   "modified": "2026-08-03",
-  "published": "2026-08-03"
+  "published": "2026-08-03",
+  "v": 2
  },
  "guide/postpartum/cesarean-recovery.html": {
-  "hash": "aa98d75fde09456a9b909722a7f40460f0c202c80c6b6c5b42339ee9d87a62ed",
+  "hash": "b60f1e0c747f22ed4dc136f117d1f5a75bc2bf1aea5125f14c8755de9fa021ae",
   "modified": "2026-08-21",
-  "published": "2026-08-21"
+  "published": "2026-08-21",
+  "v": 2
  },
  "guide/postpartum/checkup.html": {
-  "hash": "bd02c45acbeebf45c76520253e94903ffd8b61df698d7c4a7d136368d234f607",
+  "hash": "a98ff2c719065d56b21263dcddc4ae1efa3e538bd2031e4d1333b1080d353d40",
   "modified": "2026-08-15",
-  "published": "2026-08-15"
+  "published": "2026-08-15",
+  "v": 2
  },
  "guide/postpartum/depression.html": {
-  "hash": "bd18de95a50ff1b0398909d425663a10dffb7889b79e71036ab1c747994e2bb1",
+  "hash": "af00885060aa847b1d2ff13e22447b19fcc46ee940a062fb649a01560e3eb411",
   "modified": "2026-08-07",
-  "published": "2026-08-07"
+  "published": "2026-08-07",
+  "v": 2
  },
  "guide/postpartum/hair-loss.html": {
-  "hash": "76f603fcbe6734e5d3e9f9640ea595475c549264e6b8f571dc4af2cbd370fe2d",
+  "hash": "390fbf1eb66869a52a79586794aee08c68753821e8823389b24572619faa422f",
   "modified": "2026-08-20",
-  "published": "2026-08-20"
+  "published": "2026-08-20",
+  "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "3a9240d555439a3d4ee697157cbf8210e01d4cf5e5a483fc64fcca6aef8484f7",
+  "hash": "e0d510f8f2b87882d0172d5e2b25d507bfc51bc3f4861ce205bb1c91bf1a2a08",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "guide/postpartum/lochia.html": {
-  "hash": "b87b56001575bfdfde557746e9e6adfce329fc3e2d520388a5932533dcca17a6",
+  "hash": "ba388d68427419be6f761f881605ad7dba59d65b29e6ff9ca62e084e3c3248a1",
   "modified": "2026-08-05",
-  "published": "2026-08-05"
+  "published": "2026-08-05",
+  "v": 2
  },
  "guide/postpartum/perineal-care.html": {
-  "hash": "e1d2458e59e6af1f4ebec80b0718029626a63a02adc3ac8bb4440bf46216b218",
+  "hash": "ec28806b553d4e808c35c367d59e20a56da0773702faf56b2f3bceae76cb15b4",
   "modified": "2026-08-23",
-  "published": "2026-08-23"
+  "published": "2026-08-23",
+  "v": 2
  },
  "guide/postpartum/postpartum-diet.html": {
-  "hash": "1fef4915e96d6d587c85f2bae689e1f33ddb8d93b0c92553c4f2c3eeebe24d0e",
+  "hash": "a7a99908b3452fc4df8255f9ae52b8c31df7ed796a69ced879f7475ae003b937",
   "modified": "2026-09-06",
-  "published": "2026-09-06"
+  "published": "2026-09-06",
+  "v": 2
  },
  "guide/postpartum/postpartum-pain.html": {
-  "hash": "3a224854e1511b930ef21488421fd7848017650ae94067798d803ef4f3e1414d",
+  "hash": "2ef94e3e01ce1204dd74229e797c2b69bf5a82f8fb31742eae7f508b7a5bf59f",
   "modified": "2026-09-05",
-  "published": "2026-09-05"
+  "published": "2026-09-05",
+  "v": 2
  },
  "guide/postpartum/pumping.html": {
-  "hash": "e29adad0c1b0a1b864b26c6fda5593f26bdd4e1c82bc57325b3b42b0a4d3e05c",
+  "hash": "8cfdaf4afa47bf6735628d0ed6fa40fe39936400b1ae770e94763437d59b276c",
   "modified": "2026-08-24",
-  "published": "2026-08-24"
+  "published": "2026-08-24",
+  "v": 2
  },
  "guide/postpartum/recovery-period.html": {
-  "hash": "5235cc373545e9306f63e84ec6670c4bd8f441953408306d5de8f2462c2c775b",
+  "hash": "50365dad11084d4be074da1914a3ba11eef7b58acf423f78aa156cdb2eba531b",
   "modified": "2026-07-28",
-  "published": "2026-07-28"
+  "published": "2026-07-28",
+  "v": 2
  },
  "guide/preparation/after-miscarriage.html": {
-  "hash": "17ba4970a258e999e0d0689f55e548e56627a2b7afa8ea8905e8e7c2774aae75",
+  "hash": "3d6d9c2d37e65cbdbe7c9e34193402b6d6caff237fe1a47aff0809273dea8f19",
   "modified": "2026-09-04",
-  "published": "2026-09-04"
+  "published": "2026-09-04",
+  "v": 2
  },
  "guide/preparation/folic-acid.html": {
-  "hash": "717e1ee0b3a10940730a2b4389d5463c02d5767f9def63cb8b6926411255fe8a",
+  "hash": "a1dadeb79a6cb2f668ef7e0c347dd458956093897259e70915483d5e9542aa53",
   "modified": "2026-07-29",
-  "published": "2026-07-29"
+  "published": "2026-07-29",
+  "v": 2
  },
  "guide/preparation/index.html": {
-  "hash": "55b8b877390043349d6178b72f345cf819854564edf9c8a3ead30122a626ba26",
+  "hash": "38cf40c74ae8a0ee73a10a8a2d3a1fd8d61b875804f1df7d5f5d7e54fbaef711",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "guide/preparation/infertility-test.html": {
-  "hash": "4b37901a59daf2792c76f1bfc5092872aebfc4ad8bb2958af1064f4d7bbc278c",
+  "hash": "78623051b6fdec5200dbfe61d6aaa35b2009428be9acec8036819c2174c97f46",
   "modified": "2026-08-26",
-  "published": "2026-08-26"
+  "published": "2026-08-26",
+  "v": 2
  },
  "guide/preparation/lifestyle.html": {
-  "hash": "4cc3fa5a5628a4cdb2b3affad29ae789e4e2db9f34163d0d4aaa784d5619ee31",
+  "hash": "5dd03bd8c85bf7e8d2e1bd93e314790fc110616f8defb115cf824c63c2c75ec3",
   "modified": "2026-08-12",
-  "published": "2026-08-12"
+  "published": "2026-08-12",
+  "v": 2
  },
  "guide/preparation/ovulation-day.html": {
-  "hash": "9da84ffa147807743766c53248598b2085c82d5724f0da7785ce619013e4423c",
+  "hash": "41c4784a87a779743e8925be3025949b1aa311d2108007de0676300bed76d61b",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "guide/preparation/pcos-pregnancy.html": {
-  "hash": "44d7524e46bf5b90a7f1a6ec666cb0794f8e843e149288082def21536049a85e",
+  "hash": "6e16a598482e6baeb450bd650f31d8ed96ac9a2e8973e73849f5a3f071c9b7ff",
   "modified": "2026-09-07",
-  "published": "2026-09-07"
+  "published": "2026-09-07",
+  "v": 2
  },
  "guide/preparation/preconception-checkup.html": {
-  "hash": "b922e288d4285d77e6da0c27fdb726f8c7d9086deb31776ee8f6c29580c43ceb",
+  "hash": "47888680a18fe3e16ef822a6d1a63b68fbb13d8d92a7ae5abb8749b13ac86e99",
   "modified": "2026-08-06",
-  "published": "2026-08-06"
+  "published": "2026-08-06",
+  "v": 2
  },
  "guide/preparation/rubella-immunity.html": {
-  "hash": "9df745826ac245994fdd96c220a08b7be5e31463e2167d7b65cf84f6253e4172",
+  "hash": "d8b6dd80c0284ac229378c6fbdb19f0353d7bc73c332499b0b4dbffc198f4d74",
   "modified": "2026-08-27",
-  "published": "2026-08-27"
+  "published": "2026-08-27",
+  "v": 2
  },
  "guide/preparation/supplements.html": {
-  "hash": "d009849fbaaaa88c14d3a386f404bc49dc1929e6046c93d659a1b71cec0c79de",
+  "hash": "fc20df20d1b004a372ec68b081f7417f5b530786fcd6533ace2b5a096a25dec1",
   "modified": "2026-09-03",
-  "published": "2026-09-03"
+  "published": "2026-09-03",
+  "v": 2
  },
  "index.html": {
-  "hash": "bbbd3cd592fbf679283d7b05a2d7f4bcf32323a572a10abaa35cec5a83219663",
+  "hash": "e4600aba27452e976676814f37ae6bccfb2b33895261902ef51c03a4574e7085",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/blood-test.html": {
-  "hash": "458713d113b138e7f2c32d19d81db69eb1d8433332c623ab85fe07102bb2d1ca",
+  "hash": "76e29da222e664a31ae18c1d4fa7a8a0e19017e4af12d217024e23899f58e766",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/early-test.html": {
-  "hash": "755e3cabbf7d8a1746dd4a0d671ced5952c7fafc03d7b6c2ee330cd2046cba88",
+  "hash": "5dacb8d02976d1662fd69b0f29b688395a81869cd09ef07376943c592cd94b84",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/errors.html": {
-  "hash": "a1e8d5063a6c061127b35085f04924101101126e7329be3ac86c13d2fc000fbf",
+  "hash": "b33c9b46734df7378adb49c276c7378c294f48415c6f6f669b3bc0cbabb75682",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/how-to-use.html": {
-  "hash": "8d689f6f540adc071332c84a5cef8440ec46121d2dfb42f4dd0fbf3defca8ef7",
+  "hash": "23d67a6d0a3f947a2d04d48b78d2b651f69afc6c70d5cb65197f00d439ad36ff",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/index.html": {
-  "hash": "2b3a8645c6198b44df7b4f41c04e6d136e4164966124523b3d1a0abe5af593b4",
+  "hash": "b832fae425c8f80cbdc34d5ce38e0ae88ef9b0a4c17e9fa382253b01e2bda3b9",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/reversal.html": {
-  "hash": "a27e976d8e638a8afa95fd4e37ba8b749268d4dd6fcf4d06f64ea459da14530f",
+  "hash": "66ddbbc5650ff86b5b7007d28ef906f58925adff1d5b693b38f26b15d1a0320a",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/two-lines.html": {
-  "hash": "5ee718fa56c126c4dbc3321072432671dbb227278f6189e06c43ff9f13ffd89d",
+  "hash": "5df318a9a1826c3f2e2affb292009016de6d5d21d39ff58d0c89107e003de5ba",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/ultrasound.html": {
-  "hash": "24e890bee3923d05a130125e076a65a16d6c371acf0e632734353eec46000c8c",
+  "hash": "3ac3fcd9899d4bdb14fcae9dd4d596d7f929963c2ca293c1bab1e41e6652db58",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "pregnancy-test/when-to-test.html": {
-  "hash": "b88aa472ea704742d9a30f6c0fe036726c595ef65ef3c3a9891cc79e87c18be7",
+  "hash": "a685452954cbb69260073b33eda0018192552959af8be8dac2b6f7eafcb28770",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
+ },
+ "privacy.html": {
+  "hash": "e2a06ed0f62f60f8b8f2e7bba1fb087bbd5f7c9e8e36d74c37cb8b86b008cbc8",
+  "modified": "2026-09-12",
+  "published": "2026-09-12",
+  "v": 2
  },
  "symptoms/first-trimester.html": {
-  "hash": "d0022da9e2e481d2d47a7ba9fdfb42dfdc4a7f15900c793c28aa554bd4d51e4c",
+  "hash": "cc1dc5bf9f1b70bc32446b202e84e2eaa54582603f21f8217e50bb5025afc0aa",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "symptoms/index.html": {
-  "hash": "374dbc965c3d0b7b6a2f41bec868b5fddf4bc8c4d4dccdedf120fad62b145c6b",
+  "hash": "6f2d7b61fad05d01cb657106646e2475b0f4e09241ae792445128ad46dec33db",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "symptoms/second-trimester.html": {
-  "hash": "cb9953ff4a840dbd5b8a015d32aea62a540cbab448125da556f5a270de27b17e",
+  "hash": "a1078da5dc954d9692d01f1d484bd270c84aca81303c90108051b97c7a6f7f21",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "symptoms/third-trimester.html": {
-  "hash": "872e629a5805c8e15ea10a613f284b60060f7dc98b8d07105bce9a9325d8a219",
+  "hash": "26f8372607c2da1ede909d60b18e594dd7a6768fc59dc9ac5313bdcfe50a58a9",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "symptoms/very-early.html": {
-  "hash": "687c2e4481017c5677f31b3d96d7f1c2dd9d9c5ed177222b2aecd14306c97695",
+  "hash": "40e4e6e62cf1e4342cb80288ca0062f3d6c53540b4744a1ca2b6aeec09b34eef",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
+ },
+ "terms.html": {
+  "hash": "c78432510cbf41568123168f1f53870c9e1c504cc6bc5aabe49b355d17c221f6",
+  "modified": "2026-09-12",
+  "published": "2026-09-12",
+  "v": 2
  },
  "tools/due-date.html": {
-  "hash": "f2775946a00a7d474743b30c268f6e9f826efdebae581645a7bb3ccd17ba1889",
+  "hash": "bee1b67274bb4d50672ead9bcba12240c368bd2bc8be2d463fa9b77945a9eb3a",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "tools/index.html": {
-  "hash": "07a052d754987247e236c454eb49eb9857cb012b503625ea847f7beb4b8eb258",
+  "hash": "fbe2dde1b39c7e5b6f25346f03eb17d38ef6b64e68e3de7eaf0b91fcec68e2d0",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "tools/pregnancy-week.html": {
-  "hash": "2b0157b04970ce632f6d4d9d221b307ed97724e94b7ffd901c9596a79a1be09d",
+  "hash": "95f4d82f9e18e7d137f73d699aa9e79655c1fffd0992cd47893bc7df35657d9a",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  },
  "tools/test-timing.html": {
-  "hash": "5fc758187997e045b0dee0d9a62d58ce48a76ede47b673bd980715d5d7075734",
+  "hash": "c592d16214eda0d3009d6bce8ba59fd46a178b405b67e3cef47ed593df9d2f94",
   "modified": "2026-07-25",
-  "published": "2026-07-25"
+  "published": "2026-07-25",
+  "v": 2
  }
 }

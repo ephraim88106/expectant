@@ -628,7 +628,8 @@ hCG는 초기에 약 <b>48~72시간마다 두 배</b>로 늘어나기 때문에,
     add("404.html", layout("404.html", "페이지를 찾을 수 없습니다 | Expectant",
                            "요청하신 페이지를 찾을 수 없습니다.", body404))
 
-    import content_test, content_symptoms, content_guide
+    import content_test, content_symptoms, content_guide, content_legal
     content_test.build(G)
     content_symptoms.build(G)
     content_guide.build(G)
+    content_legal.build(G)   # 개인정보처리방침·이용약관·소개·문의 (애드센스·YMYL 요건)
