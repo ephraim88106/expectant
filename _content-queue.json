@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-09-07",
+  "updated": "2026-09-22",
   "items": [
     {
       "order": 1,
@@ -388,10 +388,10 @@
       "order": 44,
       "category": "preparation",
       "slug": "advanced-maternal-age",
-      "title": "노산 기준 나이와 준비할 것 — 35세 이후 임신 주의사항",
+      "title": "노산 기준 나이와 준비할 것 — 35세 이상 산모 주의사항",
       "keywords": "노산,35세 이상 임신,고령 임신,노산 기준",
-      "status": "pending",
-      "published_at": null
+      "status": "published",
+      "published_at": "2026-09-22"
     },
     {
       "order": 45,

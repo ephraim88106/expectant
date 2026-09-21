@@ -168,8 +168,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "d540c2a9c6953a366cfe10dd8d6fb97f2b31f747ff1c5ba8f63e248ce285a0e4",
-  "modified": "2026-07-25",
+  "hash": "21ff3257e549c56dbc6e50a547b122dbf90edd2488f262222d4e8be87cb845af",
+  "modified": "2026-09-21",
   "published": "2026-07-25",
   "v": 2
  },
@@ -245,6 +245,12 @@
   "published": "2026-07-28",
   "v": 2
  },
+ "guide/preparation/advanced-maternal-age.html": {
+  "hash": "30574f465895555ee7a1278bd2fa7ab525ff34f35bee68abc78a63b216917f97",
+  "modified": "2026-09-21",
+  "published": "2026-09-21",
+  "v": 2
+ },
  "guide/preparation/after-miscarriage.html": {
   "hash": "3d6d9c2d37e65cbdbe7c9e34193402b6d6caff237fe1a47aff0809273dea8f19",
   "modified": "2026-09-04",
@@ -258,8 +264,8 @@
   "v": 2
  },
  "guide/preparation/index.html": {
-  "hash": "38cf40c74ae8a0ee73a10a8a2d3a1fd8d61b875804f1df7d5f5d7e54fbaef711",
-  "modified": "2026-07-25",
+  "hash": "a651ca89a73639bd16a9ddf1ae2fb0fd196ceb8889db603ed854a0f4e8d71921",
+  "modified": "2026-09-21",
   "published": "2026-07-25",
   "v": 2
  },
@@ -282,8 +288,8 @@
   "v": 2
  },
  "guide/preparation/pcos-pregnancy.html": {
-  "hash": "6e16a598482e6baeb450bd650f31d8ed96ac9a2e8973e73849f5a3f071c9b7ff",
-  "modified": "2026-09-07",
+  "hash": "8316c120cd4da8fe17c8df5d190a167ed364d6d9251ebe9db9b5939b02877a88",
+  "modified": "2026-09-21",
   "published": "2026-09-07",
   "v": 2
  },
@@ -366,8 +372,8 @@
   "v": 2
  },
  "privacy.html": {
-  "hash": "e2a06ed0f62f60f8b8f2e7bba1fb087bbd5f7c9e8e36d74c37cb8b86b008cbc8",
-  "modified": "2026-09-12",
+  "hash": "77a0f218bd9ccc15ee684d9f751c17d749cb347656c489112593bf63277e16f8",
+  "modified": "2026-09-21",
   "published": "2026-09-12",
   "v": 2
  },
@@ -402,8 +408,8 @@
   "v": 2
  },
  "terms.html": {
-  "hash": "c78432510cbf41568123168f1f53870c9e1c504cc6bc5aabe49b355d17c221f6",
-  "modified": "2026-09-12",
+  "hash": "6131906d455843b2f8c0595586ffa3b8aff4668da1d250c7a69ec884a81b624a",
+  "modified": "2026-09-21",
   "published": "2026-09-12",
   "v": 2
  },
