@@ -113,6 +113,12 @@
   "published": "2026-08-10",
   "v": 2
  },
+ "guide/health/fetal-movement.html": {
+  "hash": "0c9654442632a279da27a7813e4e0347e898a2f77d24b3c7041ed0a4a475efcd",
+  "modified": "2026-09-23",
+  "published": "2026-09-23",
+  "v": 2
+ },
  "guide/health/foods-to-avoid.html": {
   "hash": "3d3d8b6f1ad4ca79eb3ad9bb42a90737b3402ed5b68c340fb991bfc3ed811a61",
   "modified": "2026-07-26",
@@ -132,8 +138,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "a5662f6a047aa5b2f5bd11bd372c86cb53dfb80813168afd533dcd5dea2f60fd",
-  "modified": "2026-07-25",
+  "hash": "cce8cfe283fd48a894fbdd26006a5b4258b25e3f7ea271447afd6fbecf845d7e",
+  "modified": "2026-09-23",
   "published": "2026-07-25",
   "v": 2
  },
@@ -156,8 +162,8 @@
   "v": 2
  },
  "guide/health/ultrasound.html": {
-  "hash": "b88401b965712da15dc426fc1cbda0337b1aa0bd1e3bb629b600e0ecf05d0ce5",
-  "modified": "2026-08-30",
+  "hash": "0f40caa7371fde7fd3c2c87c1b2ea2c689d10af18ea0f3edb0218f15b9c4992b",
+  "modified": "2026-09-23",
   "published": "2026-08-30",
   "v": 2
  },
@@ -168,8 +174,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "21ff3257e549c56dbc6e50a547b122dbf90edd2488f262222d4e8be87cb845af",
-  "modified": "2026-09-21",
+  "hash": "3c98e3754f34c4492a73af467c239202e8c258fdaa306d2d6bdfeec0b2e2ed40",
+  "modified": "2026-09-23",
   "published": "2026-07-25",
   "v": 2
  },
