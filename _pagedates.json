@@ -18,8 +18,8 @@
   "v": 2
  },
  "guide/birth/birth-plan.html": {
-  "hash": "ae98fd18bb50a59d7c0987b5c28b0d31ce63bfe9297412f919fd7f5882292547",
-  "modified": "2026-09-02",
+  "hash": "acdeadff967b105bc9366a345eefba04a74b1fe66be544592396f43d00de73b0",
+  "modified": "2026-09-24",
   "published": "2026-09-02",
   "v": 2
  },
@@ -27,6 +27,12 @@
   "hash": "cdf0b406c047ec59c7f18d991c39cca45c51096712789e1000878f57569e47d3",
   "modified": "2026-08-28",
   "published": "2026-08-28",
+  "v": 2
+ },
+ "guide/birth/breech.html": {
+  "hash": "a590ed714a05b47a0a593e09fa46c740fdcc7eae4b550ccbac6f1b03bb2c77d6",
+  "modified": "2026-09-24",
+  "published": "2026-09-24",
   "v": 2
  },
  "guide/birth/cord-blood.html": {
@@ -54,8 +60,8 @@
   "v": 2
  },
  "guide/birth/index.html": {
-  "hash": "259501cf822ec8238e096aa1211aac1b27b1d42fd412fdb86655614d6e7282d0",
-  "modified": "2026-07-25",
+  "hash": "dc1d7ce94eb08c2c8ce773926e5ad1f6676f2095206bbf8aa401101e04df119c",
+  "modified": "2026-09-24",
   "published": "2026-07-25",
   "v": 2
  },
@@ -174,8 +180,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "3c98e3754f34c4492a73af467c239202e8c258fdaa306d2d6bdfeec0b2e2ed40",
-  "modified": "2026-09-23",
+  "hash": "273fd6068ad1de92da80bde76f6a8c58878c44a0e4eec46ab0c6697accf66093",
+  "modified": "2026-09-24",
   "published": "2026-07-25",
   "v": 2
  },
