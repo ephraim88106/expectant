@@ -60,8 +60,8 @@
   "v": 2
  },
  "guide/birth/index.html": {
-  "hash": "624b11e5246fd745eac81b33285757bb5b2d9adc77dc23b2a82d6067a9185560",
-  "modified": "2026-09-25",
+  "hash": "2cc97f876c9f1cc3c04dc0b05bafea1a4e1f402bad31cddb0f5ba5617c8ba04a",
+  "modified": "2026-09-26",
   "published": "2026-07-25",
   "v": 2
  },
@@ -78,8 +78,8 @@
   "v": 2
  },
  "guide/birth/placenta-previa.html": {
-  "hash": "7cfefb73822e0702a7cba49a425d4608e511ef9a61a1ba8193ec9f4a885062bf",
-  "modified": "2026-09-25",
+  "hash": "e3717b33094752e71abdb56d220661ecddd52d9dd960081b84d81c04fd60ef03",
+  "modified": "2026-09-26",
   "published": "2026-09-25",
   "v": 2
  },
@@ -87,6 +87,12 @@
   "hash": "e6f39d25e4ed665499415ffdbb47103063364911246a4171cde6b212b2afd071",
   "modified": "2026-08-19",
   "published": "2026-08-19",
+  "v": 2
+ },
+ "guide/birth/term-tests.html": {
+  "hash": "f7e50d034b6af1b40dd40b70c478ac8119e0e98d1835a93bfa6aa322a4f4e5c7",
+  "modified": "2026-09-26",
+  "published": "2026-09-26",
   "v": 2
  },
  "guide/birth/vaginal-vs-cesarean.html": {
@@ -186,8 +192,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "eaf2939cbd8ef8c2ba0bcdea60649fa92c96106d0e3785d2fc88669d39029f77",
-  "modified": "2026-09-25",
+  "hash": "8374244e08e2d25eef9271d922d2b38855c1c1d52dbf6fea049efb59d02ff694",
+  "modified": "2026-09-26",
   "published": "2026-07-25",
   "v": 2
  },
