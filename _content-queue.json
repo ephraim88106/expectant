@@ -1,6 +1,6 @@
 {
     "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "items": [
         {
             "order": 1,
@@ -431,14 +431,16 @@
             "category": "health",
             "slug": "abdominal-tightening",
             "title": "임산부 배뭉침 원인 — 진통과 구분하는 방법",
-            "status": "pending"
+            "status": "skipped",
+            "skip_reason": "preterm-labor.html(조기진통 증상과 원인)에 '가진통과 어떻게 구분할까' 비교표와 동일 취지 FAQ('배가 자주 뭉치는데 조기진통일까요?')가 이미 있어 같은 구체적 질문 중복으로 판단, 다음 발행 시 다른 각도로 재검토"
         },
         {
             "order": 50,
             "category": "birth",
             "slug": "twin-pregnancy",
-            "title": "쌍둥이 임신 관리 — 검진 주기와 분만 방법 차이",
-            "status": "pending"
+            "title": "다태임신 관리 — 쌍둥이 검진 주기와 분만 방법 차이",
+            "status": "published",
+            "published_at": "2026-09-28"
         }
     ]
 }
