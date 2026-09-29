@@ -1,446 +1,454 @@
 {
-    "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-    "updated": "2026-09-28",
-    "items": [
-        {
-            "order": 1,
-            "category": "preparation",
-            "slug": "ovulation-day",
-            "title": "배란일 계산법과 가임기",
-            "keywords": "배란일 계산,가임기,배란테스트기,기초체온,임신 확률",
-            "status": "published",
-            "published_at": "2026-07-25"
-        },
-        {
-            "order": 2,
-            "category": "health",
-            "slug": "foods-to-avoid",
-            "title": "임신 중 먹으면 안 되는 음식",
-            "keywords": "임신 중 음식,임신부 금기음식,리스테리아,생선 수은,카페인",
-            "status": "published",
-            "published_at": "2026-07-26"
-        },
-        {
-            "order": 3,
-            "category": "birth",
-            "slug": "hospital-bag",
-            "title": "출산가방 체크리스트",
-            "keywords": "출산가방,출산준비물,산모용품,신생아용품",
-            "status": "published",
-            "published_at": "2026-07-27"
-        },
-        {
-            "order": 4,
-            "category": "postpartum",
-            "slug": "recovery-period",
-            "title": "산후조리 기간과 주의사항",
-            "keywords": "산후조리,산욕기,산후조리원,산후 회복 기간",
-            "status": "published",
-            "published_at": "2026-07-28"
-        },
-        {
-            "order": 5,
-            "category": "preparation",
-            "slug": "folic-acid",
-            "title": "엽산 복용 시기와 용량",
-            "keywords": "엽산,엽산 복용시기,신경관결손,임신 전 엽산",
-            "status": "published",
-            "published_at": "2026-07-29"
-        },
-        {
-            "order": 6,
-            "category": "health",
-            "slug": "safe-medications",
-            "title": "임신 중 먹어도 되는 약",
-            "keywords": "임신 중 약,타이레놀,감기약,항생제,임부 안전등급",
-            "status": "published",
-            "published_at": "2026-07-30"
-        },
-        {
-            "order": 7,
-            "category": "birth",
-            "slug": "vaginal-vs-cesarean",
-            "title": "자연분만과 제왕절개 비교",
-            "keywords": "자연분만,제왕절개,분만 방법,브이백,회복기간",
-            "status": "published",
-            "published_at": "2026-07-31"
-        },
-        {
-            "order": 8,
-            "category": "health",
-            "slug": "weight-gain",
-            "title": "임신 중 적정 체중 증가",
-            "keywords": "임신 체중 증가,BMI,임신 몸무게,체중 관리",
-            "status": "published",
-            "published_at": "2026-08-01"
-        },
-        {
-            "order": 9,
-            "category": "health",
-            "slug": "gestational-diabetes",
-            "title": "임신성 당뇨 검사와 관리",
-            "keywords": "임신성 당뇨,당부하검사,50g 경구당부하,혈당 관리",
-            "status": "published",
-            "published_at": "2026-08-02"
-        },
-        {
-            "order": 10,
-            "category": "postpartum",
-            "slug": "breastfeeding",
-            "title": "모유수유 시작하기",
-            "keywords": "모유수유,초유,젖몸살,수유 자세,유선염",
-            "status": "published",
-            "published_at": "2026-08-03"
-        },
-        {
-            "order": 11,
-            "category": "birth",
-            "slug": "epidural",
-            "title": "무통분만(경막외마취) 이해하기",
-            "keywords": "무통분만,경막외마취,무통주사,분만 진통",
-            "status": "published",
-            "published_at": "2026-08-04"
-        },
-        {
-            "order": 12,
-            "category": "postpartum",
-            "slug": "lochia",
-            "title": "오로와 자궁 회복 과정",
-            "keywords": "오로,자궁수축,산후 출혈,자궁 회복",
-            "status": "published",
-            "published_at": "2026-08-05"
-        },
-        {
-            "order": 13,
-            "category": "preparation",
-            "slug": "preconception-checkup",
-            "title": "임신 전 검사 체크리스트",
-            "keywords": "임신 전 검사,풍진 항체,AMH,난소나이,예방접종",
-            "status": "published",
-            "published_at": "2026-08-06"
-        },
-        {
-            "order": 14,
-            "category": "postpartum",
-            "slug": "depression",
-            "title": "산후우울 알아차리기",
-            "keywords": "산후우울,산후우울증,베이비블루스,산후 감정변화",
-            "status": "published",
-            "published_at": "2026-08-07"
-        },
-        {
-            "order": 15,
-            "category": "health",
-            "slug": "exercise-travel",
-            "title": "임신 중 운동과 여행",
-            "keywords": "임신 중 운동,임산부 요가,임신 중 여행,비행기 탑승",
-            "status": "published",
-            "published_at": "2026-08-10"
-        },
-        {
-            "order": 16,
-            "category": "birth",
-            "slug": "labor-stages",
-            "title": "분만 진행 3단계",
-            "keywords": "분만 단계,자궁경부 개대,분만 1기,힘주기",
-            "status": "published",
-            "published_at": "2026-08-11"
-        },
-        {
-            "order": 17,
-            "category": "preparation",
-            "slug": "lifestyle",
-            "title": "임신 준비 생활습관 정비",
-            "keywords": "임신 준비,카페인,금주,금연,적정 체중",
-            "status": "published",
-            "published_at": "2026-08-12"
-        },
-        {
-            "order": 18,
-            "category": "health",
-            "slug": "anemia",
-            "title": "임신성 빈혈과 철분제",
-            "keywords": "임신성 빈혈,철분제,헤모글로빈,어지럼증",
-            "status": "published",
-            "published_at": "2026-08-13"
-        },
-        {
-            "order": 19,
-            "category": "birth",
-            "slug": "induction",
-            "title": "유도분만 시기와 과정",
-            "keywords": "유도분만,촉진제,예정일 초과,자궁경부 숙화",
-            "status": "published",
-            "published_at": "2026-08-14"
-        },
-        {
-            "order": 20,
-            "category": "postpartum",
-            "slug": "checkup",
-            "title": "산후 검진과 다음 임신 계획",
-            "keywords": "산후 검진,산후 6주,피임,다음 임신 간격",
-            "status": "published",
-            "published_at": "2026-08-15"
-        },
-        {
-            "order": 21,
-            "category": "health",
-            "slug": "cold-flu",
-            "title": "임신 중 감기 대처와 약",
-            "keywords": "임신 중 감기,감기약,해열제,코막힘,병원",
-            "status": "published",
-            "published_at": "2026-08-16"
-        },
-        {
-            "order": 22,
-            "category": "health",
-            "slug": "constipation",
-            "title": "임신 중 변비 해결법",
-            "keywords": "임신 변비,변비약,식이섬유,치질,수분",
-            "status": "published",
-            "published_at": "2026-08-17"
-        },
-        {
-            "order": 23,
-            "category": "health",
-            "slug": "swelling",
-            "title": "임신 부종 원인과 관리",
-            "keywords": "임신 부종,다리 붓기,전자간증,압박스타킹,시기",
-            "status": "published",
-            "published_at": "2026-08-18"
-        },
-        {
-            "order": 24,
-            "category": "birth",
-            "slug": "preterm-labor",
-            "title": "조기진통 증상과 대처",
-            "keywords": "조기진통,증상,자궁수축,입원,37주",
-            "status": "published",
-            "published_at": "2026-08-19"
-        },
-        {
-            "order": 25,
-            "category": "postpartum",
-            "slug": "hair-loss",
-            "title": "산후 탈모 시기와 회복",
-            "keywords": "산후 탈모,원인,회복 시기,영양제,관리",
-            "status": "published",
-            "published_at": "2026-08-20"
-        },
-        {
-            "order": 26,
-            "category": "postpartum",
-            "slug": "cesarean-recovery",
-            "title": "제왕절개 회복기간 — 입원부터 6주까지 통증·흉터·활동 기준",
-            "keywords": "제왕절개 회복기간,제왕절개 회복,제왕절개 후 관리,제왕절개 흉터,제왕절개 입원기간,제왕절개 실밥,제왕절개 후 운전",
-            "status": "published",
-            "published_at": "2026-08-21"
-        },
-        {
-            "order": 27,
-            "category": "birth",
-            "slug": "vbac",
-            "title": "브이백(제왕절개 후 자연분만) 조건",
-            "keywords": "브이백,VBAC,제왕절개 후 자연분만,조건,성공률",
-            "status": "published",
-            "published_at": "2026-08-22"
-        },
-        {
-            "order": 28,
-            "category": "postpartum",
-            "slug": "perineal-care",
-            "title": "회음부 절개 회복과 관리",
-            "keywords": "회음부 절개,회복 기간,통증,좌욕,실밥",
-            "status": "published",
-            "published_at": "2026-08-23"
-        },
-        {
-            "order": 29,
-            "category": "postpartum",
-            "slug": "pumping",
-            "title": "유축기 사용법과 모유 보관",
-            "keywords": "유축기,사용법,유축 시간,모유 보관,세척",
-            "status": "published",
-            "published_at": "2026-08-24"
-        },
-        {
-            "order": 30,
-            "category": "health",
-            "slug": "heartburn",
-            "title": "임산부 속쓰림 완화 방법",
-            "keywords": "임산부 속쓰림,위산 역류,제산제,식습관,자세",
-            "status": "published",
-            "published_at": "2026-08-25"
-        },
-        {
-            "order": 31,
-            "category": "preparation",
-            "slug": "infertility-test",
-            "title": "난임 검사 항목과 비용 지원",
-            "keywords": "난임 검사,검사 항목,비용,지원,정액검사",
-            "status": "published",
-            "published_at": "2026-08-26"
-        },
-        {
-            "order": 32,
-            "category": "preparation",
-            "slug": "rubella-immunity",
-            "title": "풍진 항체 검사와 임신 전 예방접종",
-            "keywords": "풍진 항체,예방접종,임신 전,보건소,대기 기간",
-            "status": "published",
-            "published_at": "2026-08-27"
-        },
-        {
-            "order": 33,
-            "category": "birth",
-            "slug": "breathing",
-            "title": "라마즈 호흡법과 분만 중 힘주기",
-            "keywords": "라마즈 호흡법,분만 호흡,힘주기,이완법",
-            "status": "published",
-            "published_at": "2026-08-28"
-        },
-        {
-            "order": 34,
-            "category": "health",
-            "slug": "prenatal-screening",
-            "title": "니프티 검사 정확도와 비용 — 기형아 검사 종류와 받는 순서",
-            "keywords": "기형아 검사,니프티,시기,비용,정확도",
-            "status": "published",
-            "published_at": "2026-08-29"
-        },
-        {
-            "order": 35,
-            "category": "health",
-            "slug": "ultrasound",
-            "title": "정밀초음파와 입체초음파 차이 — 주수별 초음파 종류와 보는 순서",
-            "keywords": "정밀초음파,입체초음파,질초음파,복부초음파,주수별 초음파,BPD,AC,태아 추정체중",
-            "status": "published",
-            "published_at": "2026-08-30"
-        },
-        {
-            "order": 36,
-            "category": "birth",
-            "slug": "fetal-monitoring",
-            "title": "태동검사(비수축검사) 시기와 결과 보는 법",
-            "status": "published",
-            "published_at": "2026-08-31"
-        },
-        {
-            "order": 37,
-            "category": "birth",
-            "slug": "cord-blood",
-            "title": "제대혈 보관 비용과 가족제대혈·기증 차이",
-            "status": "published",
-            "published_at": "2026-09-01"
-        },
-        {
-            "order": 38,
-            "category": "birth",
-            "slug": "birth-plan",
-            "title": "분만 병원 고르는 순서 — 조산원·산부인과 차이와 전원 시기",
-            "status": "published",
-            "published_at": "2026-09-02"
-        },
-        {
-            "order": 39,
-            "category": "preparation",
-            "slug": "supplements",
-            "title": "임신준비 영양제 종류 — 비타민D·오메가3 복용 조건과 주의사항",
-            "status": "published",
-            "published_at": "2026-09-03"
-        },
-        {
-            "order": 40,
-            "category": "preparation",
-            "slug": "after-miscarriage",
-            "title": "유산 후 재임신 언제부터 — 계류유산 원인과 다음 시도 조건",
-            "status": "published",
-            "published_at": "2026-09-04"
-        },
-        {
-            "order": 41,
-            "category": "postpartum",
-            "slug": "postpartum-pain",
-            "title": "산후풍 증상과 언제까지 가나 — 관절통 원인과 관리",
-            "keywords": "산후풍,산후 관절통,산후풍 증상,산후풍 언제까지,산후풍 예방",
-            "status": "published",
-            "published_at": "2026-09-05"
-        },
-        {
-            "order": 42,
-            "category": "postpartum",
-            "slug": "postpartum-diet",
-            "title": "산후 다이어트 언제부터 — 수유 중 감량 속도와 산후 운동 시작 조건",
-            "keywords": "산후 다이어트,산후 운동,수유 중 다이어트,산후 체중 감량",
-            "status": "published",
-            "published_at": "2026-09-06"
-        },
-        {
-            "order": 43,
-            "category": "preparation",
-            "slug": "pcos-pregnancy",
-            "title": "다낭성난소증후군 임신 준비 — 배란 유도와 생활 관리",
-            "keywords": "다낭성난소증후군,PCOS,배란장애,임신 확률,인슐린 저항성",
-            "status": "published",
-            "published_at": "2026-09-07"
-        },
-        {
-            "order": 44,
-            "category": "preparation",
-            "slug": "advanced-maternal-age",
-            "title": "노산 기준 나이와 준비할 것 — 35세 이상 산모 주의사항",
-            "keywords": "노산,35세 이상 임신,고령 임신,노산 기준",
-            "status": "published",
-            "published_at": "2026-09-22"
-        },
-        {
-            "order": 45,
-            "category": "health",
-            "slug": "fetal-movement",
-            "title": "태동 느끼는 시기와 종류 — 태동이 줄었을 때 확인하는 순서",
-            "keywords": "태동,태동 시기,태동 종류,태동 감소,딸꾹질 태동",
-            "status": "published",
-            "published_at": "2026-09-23"
-        },
-        {
-            "order": 46,
-            "category": "birth",
-            "slug": "breech",
-            "title": "둔위(역아) 교정과 분만 — 회전술 조건과 제왕절개 판단",
-            "status": "published",
-            "published_at": "2026-09-24"
-        },
-        {
-            "order": 47,
-            "category": "birth",
-            "slug": "placenta-previa",
-            "title": "전치태반 뜻과 종류 — 출혈 대처와 분만 방법 결정",
-            "status": "published",
-            "published_at": "2026-09-25"
-        },
-        {
-            "order": 48,
-            "category": "birth",
-            "slug": "term-tests",
-            "title": "막달검사 항목과 시기 — 금식 여부와 내진 과정",
-            "status": "published",
-            "published_at": "2026-09-27"
-        },
-        {
-            "order": 49,
-            "category": "health",
-            "slug": "abdominal-tightening",
-            "title": "임산부 배뭉침 원인 — 진통과 구분하는 방법",
-            "status": "skipped",
-            "skip_reason": "preterm-labor.html(조기진통 증상과 원인)에 '가진통과 어떻게 구분할까' 비교표와 동일 취지 FAQ('배가 자주 뭉치는데 조기진통일까요?')가 이미 있어 같은 구체적 질문 중복으로 판단, 다음 발행 시 다른 각도로 재검토"
-        },
-        {
-            "order": 50,
-            "category": "birth",
-            "slug": "twin-pregnancy",
-            "title": "다태임신 관리 — 쌍둥이 검진 주기와 분만 방법 차이",
-            "status": "published",
-            "published_at": "2026-09-28"
-        }
-    ]
+  "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
+  "updated": "2026-09-29",
+  "items": [
+    {
+      "order": 1,
+      "category": "preparation",
+      "slug": "ovulation-day",
+      "title": "배란일 계산법과 가임기",
+      "keywords": "배란일 계산,가임기,배란테스트기,기초체온,임신 확률",
+      "status": "published",
+      "published_at": "2026-07-25"
+    },
+    {
+      "order": 2,
+      "category": "health",
+      "slug": "foods-to-avoid",
+      "title": "임신 중 먹으면 안 되는 음식",
+      "keywords": "임신 중 음식,임신부 금기음식,리스테리아,생선 수은,카페인",
+      "status": "published",
+      "published_at": "2026-07-26"
+    },
+    {
+      "order": 3,
+      "category": "birth",
+      "slug": "hospital-bag",
+      "title": "출산가방 체크리스트",
+      "keywords": "출산가방,출산준비물,산모용품,신생아용품",
+      "status": "published",
+      "published_at": "2026-07-27"
+    },
+    {
+      "order": 4,
+      "category": "postpartum",
+      "slug": "recovery-period",
+      "title": "산후조리 기간과 주의사항",
+      "keywords": "산후조리,산욕기,산후조리원,산후 회복 기간",
+      "status": "published",
+      "published_at": "2026-07-28"
+    },
+    {
+      "order": 5,
+      "category": "preparation",
+      "slug": "folic-acid",
+      "title": "엽산 복용 시기와 용량",
+      "keywords": "엽산,엽산 복용시기,신경관결손,임신 전 엽산",
+      "status": "published",
+      "published_at": "2026-07-29"
+    },
+    {
+      "order": 6,
+      "category": "health",
+      "slug": "safe-medications",
+      "title": "임신 중 먹어도 되는 약",
+      "keywords": "임신 중 약,타이레놀,감기약,항생제,임부 안전등급",
+      "status": "published",
+      "published_at": "2026-07-30"
+    },
+    {
+      "order": 7,
+      "category": "birth",
+      "slug": "vaginal-vs-cesarean",
+      "title": "자연분만과 제왕절개 비교",
+      "keywords": "자연분만,제왕절개,분만 방법,브이백,회복기간",
+      "status": "published",
+      "published_at": "2026-07-31"
+    },
+    {
+      "order": 8,
+      "category": "health",
+      "slug": "weight-gain",
+      "title": "임신 중 적정 체중 증가",
+      "keywords": "임신 체중 증가,BMI,임신 몸무게,체중 관리",
+      "status": "published",
+      "published_at": "2026-08-01"
+    },
+    {
+      "order": 9,
+      "category": "health",
+      "slug": "gestational-diabetes",
+      "title": "임신성 당뇨 검사와 관리",
+      "keywords": "임신성 당뇨,당부하검사,50g 경구당부하,혈당 관리",
+      "status": "published",
+      "published_at": "2026-08-02"
+    },
+    {
+      "order": 10,
+      "category": "postpartum",
+      "slug": "breastfeeding",
+      "title": "모유수유 시작하기",
+      "keywords": "모유수유,초유,젖몸살,수유 자세,유선염",
+      "status": "published",
+      "published_at": "2026-08-03"
+    },
+    {
+      "order": 11,
+      "category": "birth",
+      "slug": "epidural",
+      "title": "무통분만(경막외마취) 이해하기",
+      "keywords": "무통분만,경막외마취,무통주사,분만 진통",
+      "status": "published",
+      "published_at": "2026-08-04"
+    },
+    {
+      "order": 12,
+      "category": "postpartum",
+      "slug": "lochia",
+      "title": "오로와 자궁 회복 과정",
+      "keywords": "오로,자궁수축,산후 출혈,자궁 회복",
+      "status": "published",
+      "published_at": "2026-08-05"
+    },
+    {
+      "order": 13,
+      "category": "preparation",
+      "slug": "preconception-checkup",
+      "title": "임신 전 검사 체크리스트",
+      "keywords": "임신 전 검사,풍진 항체,AMH,난소나이,예방접종",
+      "status": "published",
+      "published_at": "2026-08-06"
+    },
+    {
+      "order": 14,
+      "category": "postpartum",
+      "slug": "depression",
+      "title": "산후우울 알아차리기",
+      "keywords": "산후우울,산후우울증,베이비블루스,산후 감정변화",
+      "status": "published",
+      "published_at": "2026-08-07"
+    },
+    {
+      "order": 15,
+      "category": "health",
+      "slug": "exercise-travel",
+      "title": "임신 중 운동과 여행",
+      "keywords": "임신 중 운동,임산부 요가,임신 중 여행,비행기 탑승",
+      "status": "published",
+      "published_at": "2026-08-10"
+    },
+    {
+      "order": 16,
+      "category": "birth",
+      "slug": "labor-stages",
+      "title": "분만 진행 3단계",
+      "keywords": "분만 단계,자궁경부 개대,분만 1기,힘주기",
+      "status": "published",
+      "published_at": "2026-08-11"
+    },
+    {
+      "order": 17,
+      "category": "preparation",
+      "slug": "lifestyle",
+      "title": "임신 준비 생활습관 정비",
+      "keywords": "임신 준비,카페인,금주,금연,적정 체중",
+      "status": "published",
+      "published_at": "2026-08-12"
+    },
+    {
+      "order": 18,
+      "category": "health",
+      "slug": "anemia",
+      "title": "임신성 빈혈과 철분제",
+      "keywords": "임신성 빈혈,철분제,헤모글로빈,어지럼증",
+      "status": "published",
+      "published_at": "2026-08-13"
+    },
+    {
+      "order": 19,
+      "category": "birth",
+      "slug": "induction",
+      "title": "유도분만 시기와 과정",
+      "keywords": "유도분만,촉진제,예정일 초과,자궁경부 숙화",
+      "status": "published",
+      "published_at": "2026-08-14"
+    },
+    {
+      "order": 20,
+      "category": "postpartum",
+      "slug": "checkup",
+      "title": "산후 검진과 다음 임신 계획",
+      "keywords": "산후 검진,산후 6주,피임,다음 임신 간격",
+      "status": "published",
+      "published_at": "2026-08-15"
+    },
+    {
+      "order": 21,
+      "category": "health",
+      "slug": "cold-flu",
+      "title": "임신 중 감기 대처와 약",
+      "keywords": "임신 중 감기,감기약,해열제,코막힘,병원",
+      "status": "published",
+      "published_at": "2026-08-16"
+    },
+    {
+      "order": 22,
+      "category": "health",
+      "slug": "constipation",
+      "title": "임신 중 변비 해결법",
+      "keywords": "임신 변비,변비약,식이섬유,치질,수분",
+      "status": "published",
+      "published_at": "2026-08-17"
+    },
+    {
+      "order": 23,
+      "category": "health",
+      "slug": "swelling",
+      "title": "임신 부종 원인과 관리",
+      "keywords": "임신 부종,다리 붓기,전자간증,압박스타킹,시기",
+      "status": "published",
+      "published_at": "2026-08-18"
+    },
+    {
+      "order": 24,
+      "category": "birth",
+      "slug": "preterm-labor",
+      "title": "조기진통 증상과 대처",
+      "keywords": "조기진통,증상,자궁수축,입원,37주",
+      "status": "published",
+      "published_at": "2026-08-19"
+    },
+    {
+      "order": 25,
+      "category": "postpartum",
+      "slug": "hair-loss",
+      "title": "산후 탈모 시기와 회복",
+      "keywords": "산후 탈모,원인,회복 시기,영양제,관리",
+      "status": "published",
+      "published_at": "2026-08-20"
+    },
+    {
+      "order": 26,
+      "category": "postpartum",
+      "slug": "cesarean-recovery",
+      "title": "제왕절개 회복기간 — 입원부터 6주까지 통증·흉터·활동 기준",
+      "keywords": "제왕절개 회복기간,제왕절개 회복,제왕절개 후 관리,제왕절개 흉터,제왕절개 입원기간,제왕절개 실밥,제왕절개 후 운전",
+      "status": "published",
+      "published_at": "2026-08-21"
+    },
+    {
+      "order": 27,
+      "category": "birth",
+      "slug": "vbac",
+      "title": "브이백(제왕절개 후 자연분만) 조건",
+      "keywords": "브이백,VBAC,제왕절개 후 자연분만,조건,성공률",
+      "status": "published",
+      "published_at": "2026-08-22"
+    },
+    {
+      "order": 28,
+      "category": "postpartum",
+      "slug": "perineal-care",
+      "title": "회음부 절개 회복과 관리",
+      "keywords": "회음부 절개,회복 기간,통증,좌욕,실밥",
+      "status": "published",
+      "published_at": "2026-08-23"
+    },
+    {
+      "order": 29,
+      "category": "postpartum",
+      "slug": "pumping",
+      "title": "유축기 사용법과 모유 보관",
+      "keywords": "유축기,사용법,유축 시간,모유 보관,세척",
+      "status": "published",
+      "published_at": "2026-08-24"
+    },
+    {
+      "order": 30,
+      "category": "health",
+      "slug": "heartburn",
+      "title": "임산부 속쓰림 완화 방법",
+      "keywords": "임산부 속쓰림,위산 역류,제산제,식습관,자세",
+      "status": "published",
+      "published_at": "2026-08-25"
+    },
+    {
+      "order": 31,
+      "category": "preparation",
+      "slug": "infertility-test",
+      "title": "난임 검사 항목과 비용 지원",
+      "keywords": "난임 검사,검사 항목,비용,지원,정액검사",
+      "status": "published",
+      "published_at": "2026-08-26"
+    },
+    {
+      "order": 32,
+      "category": "preparation",
+      "slug": "rubella-immunity",
+      "title": "풍진 항체 검사와 임신 전 예방접종",
+      "keywords": "풍진 항체,예방접종,임신 전,보건소,대기 기간",
+      "status": "published",
+      "published_at": "2026-08-27"
+    },
+    {
+      "order": 33,
+      "category": "birth",
+      "slug": "breathing",
+      "title": "라마즈 호흡법과 분만 중 힘주기",
+      "keywords": "라마즈 호흡법,분만 호흡,힘주기,이완법",
+      "status": "published",
+      "published_at": "2026-08-28"
+    },
+    {
+      "order": 34,
+      "category": "health",
+      "slug": "prenatal-screening",
+      "title": "니프티 검사 정확도와 비용 — 기형아 검사 종류와 받는 순서",
+      "keywords": "기형아 검사,니프티,시기,비용,정확도",
+      "status": "published",
+      "published_at": "2026-08-29"
+    },
+    {
+      "order": 35,
+      "category": "health",
+      "slug": "ultrasound",
+      "title": "정밀초음파와 입체초음파 차이 — 주수별 초음파 종류와 보는 순서",
+      "keywords": "정밀초음파,입체초음파,질초음파,복부초음파,주수별 초음파,BPD,AC,태아 추정체중",
+      "status": "published",
+      "published_at": "2026-08-30"
+    },
+    {
+      "order": 36,
+      "category": "birth",
+      "slug": "fetal-monitoring",
+      "title": "태동검사(비수축검사) 시기와 결과 보는 법",
+      "status": "published",
+      "published_at": "2026-08-31"
+    },
+    {
+      "order": 37,
+      "category": "birth",
+      "slug": "cord-blood",
+      "title": "제대혈 보관 비용과 가족제대혈·기증 차이",
+      "status": "published",
+      "published_at": "2026-09-01"
+    },
+    {
+      "order": 38,
+      "category": "birth",
+      "slug": "birth-plan",
+      "title": "분만 병원 고르는 순서 — 조산원·산부인과 차이와 전원 시기",
+      "status": "published",
+      "published_at": "2026-09-02"
+    },
+    {
+      "order": 39,
+      "category": "preparation",
+      "slug": "supplements",
+      "title": "임신준비 영양제 종류 — 비타민D·오메가3 복용 조건과 주의사항",
+      "status": "published",
+      "published_at": "2026-09-03"
+    },
+    {
+      "order": 40,
+      "category": "preparation",
+      "slug": "after-miscarriage",
+      "title": "유산 후 재임신 언제부터 — 계류유산 원인과 다음 시도 조건",
+      "status": "published",
+      "published_at": "2026-09-04"
+    },
+    {
+      "order": 41,
+      "category": "postpartum",
+      "slug": "postpartum-pain",
+      "title": "산후풍 증상과 언제까지 가나 — 관절통 원인과 관리",
+      "keywords": "산후풍,산후 관절통,산후풍 증상,산후풍 언제까지,산후풍 예방",
+      "status": "published",
+      "published_at": "2026-09-05"
+    },
+    {
+      "order": 42,
+      "category": "postpartum",
+      "slug": "postpartum-diet",
+      "title": "산후 다이어트 언제부터 — 수유 중 감량 속도와 산후 운동 시작 조건",
+      "keywords": "산후 다이어트,산후 운동,수유 중 다이어트,산후 체중 감량",
+      "status": "published",
+      "published_at": "2026-09-06"
+    },
+    {
+      "order": 43,
+      "category": "preparation",
+      "slug": "pcos-pregnancy",
+      "title": "다낭성난소증후군 임신 준비 — 배란 유도와 생활 관리",
+      "keywords": "다낭성난소증후군,PCOS,배란장애,임신 확률,인슐린 저항성",
+      "status": "published",
+      "published_at": "2026-09-07"
+    },
+    {
+      "order": 44,
+      "category": "preparation",
+      "slug": "advanced-maternal-age",
+      "title": "노산 기준 나이와 준비할 것 — 35세 이상 산모 주의사항",
+      "keywords": "노산,35세 이상 임신,고령 임신,노산 기준",
+      "status": "published",
+      "published_at": "2026-09-22"
+    },
+    {
+      "order": 45,
+      "category": "health",
+      "slug": "fetal-movement",
+      "title": "태동 느끼는 시기와 종류 — 태동이 줄었을 때 확인하는 순서",
+      "keywords": "태동,태동 시기,태동 종류,태동 감소,딸꾹질 태동",
+      "status": "published",
+      "published_at": "2026-09-23"
+    },
+    {
+      "order": 46,
+      "category": "birth",
+      "slug": "breech",
+      "title": "둔위(역아) 교정과 분만 — 회전술 조건과 제왕절개 판단",
+      "status": "published",
+      "published_at": "2026-09-24"
+    },
+    {
+      "order": 47,
+      "category": "birth",
+      "slug": "placenta-previa",
+      "title": "전치태반 뜻과 종류 — 출혈 대처와 분만 방법 결정",
+      "status": "published",
+      "published_at": "2026-09-25"
+    },
+    {
+      "order": 48,
+      "category": "birth",
+      "slug": "term-tests",
+      "title": "막달검사 항목과 시기 — 금식 여부와 내진 과정",
+      "status": "published",
+      "published_at": "2026-09-27"
+    },
+    {
+      "order": 49,
+      "category": "health",
+      "slug": "abdominal-tightening",
+      "title": "임산부 배뭉침 원인 — 진통과 구분하는 방법",
+      "status": "skipped",
+      "skip_reason": "preterm-labor.html(조기진통 증상과 원인)에 '가진통과 어떻게 구분할까' 비교표와 동일 취지 FAQ('배가 자주 뭉치는데 조기진통일까요?')가 이미 있어 같은 구체적 질문 중복으로 판단, 다음 발행 시 다른 각도로 재검토"
+    },
+    {
+      "order": 50,
+      "category": "birth",
+      "slug": "twin-pregnancy",
+      "title": "다태임신 관리 — 쌍둥이 검진 주기와 분만 방법 차이",
+      "status": "published",
+      "published_at": "2026-09-28"
+    },
+    {
+      "order": 51,
+      "category": "health",
+      "slug": "vaccines",
+      "title": "예방접종 종류와 시기 — 독감·백일해·RSV 언제 맞는지 정리",
+      "status": "published",
+      "published_at": "2026-09-29"
+    }
+  ]
 }

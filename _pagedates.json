@@ -138,8 +138,8 @@
   "v": 2
  },
  "guide/health/fetal-movement.html": {
-  "hash": "0c9654442632a279da27a7813e4e0347e898a2f77d24b3c7041ed0a4a475efcd",
-  "modified": "2026-09-23",
+  "hash": "f011fc7fefde5bde97baa1375083cd9ee1bd062457604e378e7ca71202e4761a",
+  "modified": "2026-09-29",
   "published": "2026-09-23",
   "v": 2
  },
@@ -162,8 +162,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "cce8cfe283fd48a894fbdd26006a5b4258b25e3f7ea271447afd6fbecf845d7e",
-  "modified": "2026-09-23",
+  "hash": "6744cdf97ef4ff33ee9dfdcad124bf9b740cb4a000a27f46c927a91f96c4688c",
+  "modified": "2026-09-29",
   "published": "2026-07-25",
   "v": 2
  },
@@ -191,6 +191,12 @@
   "published": "2026-08-30",
   "v": 2
  },
+ "guide/health/vaccines.html": {
+  "hash": "a456a8839ffdb8514b118b003169459a759c4d8b6f08fea31feead69673017d2",
+  "modified": "2026-09-29",
+  "published": "2026-09-29",
+  "v": 2
+ },
  "guide/health/weight-gain.html": {
   "hash": "4079f7186d53e4a365de9b2605576ddd972baf1468dfb34fe343a98b18a59a6b",
   "modified": "2026-08-01",
@@ -198,8 +204,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "7936e2540dd357d5417d4672344fee3fd308c8293e394355a2094b22e7c0a07f",
-  "modified": "2026-09-28",
+  "hash": "1a62992b105d3e31f434e318ae598c36f73ca7b3c92f881ef870bb2e7d177e22",
+  "modified": "2026-09-29",
   "published": "2026-07-25",
   "v": 2
  },
