@@ -113,6 +113,12 @@
   "published": "2026-08-22",
   "v": 2
  },
+ "guide/health/amniocentesis.html": {
+  "hash": "b2b0f26e51a841208a48ff5b47c92ca6ed0c34b646d27570e366a23950bce5a8",
+  "modified": "2026-09-30",
+  "published": "2026-09-30",
+  "v": 2
+ },
  "guide/health/anemia.html": {
   "hash": "cf307d7dd4d20996dced402ae02fb9b41a678156d902108d53b9f08f1ecb1418",
   "modified": "2026-08-13",
@@ -162,8 +168,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "6744cdf97ef4ff33ee9dfdcad124bf9b740cb4a000a27f46c927a91f96c4688c",
-  "modified": "2026-09-29",
+  "hash": "29bbeb74c3306e2519fa1483fb64b9b475e9d2dd9bd70a1d8de77b6020dcd086",
+  "modified": "2026-09-30",
   "published": "2026-07-25",
   "v": 2
  },
@@ -192,8 +198,8 @@
   "v": 2
  },
  "guide/health/vaccines.html": {
-  "hash": "a456a8839ffdb8514b118b003169459a759c4d8b6f08fea31feead69673017d2",
-  "modified": "2026-09-29",
+  "hash": "b3b7dc487a9ae7ae74180ac438e4a80b463d5ea25aaadcd3129ce1564ac5ff49",
+  "modified": "2026-09-30",
   "published": "2026-09-29",
   "v": 2
  },
@@ -204,8 +210,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "1a62992b105d3e31f434e318ae598c36f73ca7b3c92f881ef870bb2e7d177e22",
-  "modified": "2026-09-29",
+  "hash": "678879528c383a31ce7f8780212170e5ce0d5ab5bd68d9a9ef6094458726d2a5",
+  "modified": "2026-09-30",
   "published": "2026-07-25",
   "v": 2
  },

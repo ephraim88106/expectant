@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "items": [
     {
       "order": 1,
@@ -449,6 +449,14 @@
       "title": "예방접종 종류와 시기 — 독감·백일해·RSV 언제 맞는지 정리",
       "status": "published",
       "published_at": "2026-09-29"
+    },
+    {
+      "order": 52,
+      "category": "health",
+      "slug": "amniocentesis",
+      "title": "양수검사 위험과 부작용 — 15~20주 검사 과정과 결과 나오는 기간",
+      "status": "published",
+      "published_at": "2026-09-30"
     }
   ]
 }
