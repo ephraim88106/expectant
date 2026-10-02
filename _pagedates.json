@@ -137,6 +137,12 @@
   "published": "2026-08-17",
   "v": 2
  },
+ "guide/health/dental-care.html": {
+  "hash": "677fc0ac543fbcaaa17d5357f7a0ed2adb316e39bd30ebde2112e175949aa9ce",
+  "modified": "2026-10-02",
+  "published": "2026-10-02",
+  "v": 2
+ },
  "guide/health/exercise-travel.html": {
   "hash": "b80314e4d687a57e0edaa04984e4d66177f01eff0365cfc7521d8a2489c5c8e1",
   "modified": "2026-08-10",
@@ -168,14 +174,14 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "01d10eca89d7c7e93219fe2849afd7850a3cc3bf20695d40947b232c02a79ef2",
-  "modified": "2026-10-01",
+  "hash": "13d7cf3888892ba00b0cfbabf8bb1ad05dd2e890850347c1512b20cfd7157445",
+  "modified": "2026-10-02",
   "published": "2026-07-25",
   "v": 2
  },
  "guide/health/preeclampsia.html": {
-  "hash": "c96dfdecea3df3df5c968a3ab142aa690576c1d4e735e75b300071e2298bdce9",
-  "modified": "2026-10-01",
+  "hash": "3a2b99fc046bf7190e5671c067f3ac88eb0c6093a842719045357314d2e2fca8",
+  "modified": "2026-10-02",
   "published": "2026-10-01",
   "v": 2
  },
@@ -216,8 +222,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "2722a218ea425bc69d0602285f899816ba70dffc9b59a099b5ab014da64eb697",
-  "modified": "2026-10-01",
+  "hash": "7bcd3f52265722ef0e13fb896206e575128e1ecf7f8a862aef637f46e85cfebb",
+  "modified": "2026-10-02",
   "published": "2026-07-25",
   "v": 2
  },
