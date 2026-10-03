@@ -138,8 +138,8 @@
   "v": 2
  },
  "guide/health/dental-care.html": {
-  "hash": "677fc0ac543fbcaaa17d5357f7a0ed2adb316e39bd30ebde2112e175949aa9ce",
-  "modified": "2026-10-02",
+  "hash": "194ab252dac18c4c54c71602879afec9d327d69104d9b0ea1a287ac140cacc20",
+  "modified": "2026-10-03",
   "published": "2026-10-02",
   "v": 2
  },
@@ -174,8 +174,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "13d7cf3888892ba00b0cfbabf8bb1ad05dd2e890850347c1512b20cfd7157445",
-  "modified": "2026-10-02",
+  "hash": "dc099fad5809ade51afef7eff259ec26b37516d04d838ee178c2b42c49b0722c",
+  "modified": "2026-10-03",
   "published": "2026-07-25",
   "v": 2
  },
@@ -195,6 +195,12 @@
   "hash": "590dace993ce35a763c86d7bdd7b08e7c541d4753acab91264e11c39636d6209",
   "modified": "2026-07-30",
   "published": "2026-07-30",
+  "v": 2
+ },
+ "guide/health/sleep-position.html": {
+  "hash": "d419829f250162ad054fa5492da4d22e5a4efbe70dee8fecce8fb87df0efe2c8",
+  "modified": "2026-10-03",
+  "published": "2026-10-03",
   "v": 2
  },
  "guide/health/swelling.html": {
@@ -222,8 +228,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "7bcd3f52265722ef0e13fb896206e575128e1ecf7f8a862aef637f46e85cfebb",
-  "modified": "2026-10-02",
+  "hash": "70aaaf825b9b36cb90d90f64a399bc70124d4744eeeaa909978405ad4fa39f42",
+  "modified": "2026-10-03",
   "published": "2026-07-25",
   "v": 2
  },
