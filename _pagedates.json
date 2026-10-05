@@ -125,6 +125,12 @@
   "published": "2026-08-13",
   "v": 2
  },
+ "guide/health/back-pain.html": {
+  "hash": "ab9b1d4cdf559b442ed639a6bce6c922a6893fa44d03c35e0114c9cbc91c4269",
+  "modified": "2026-10-05",
+  "published": "2026-10-05",
+  "v": 2
+ },
  "guide/health/cold-flu.html": {
   "hash": "88574da52018491e3eea238bc1bc97ea08d18abfdeedf21ec839bb382d3d59ff",
   "modified": "2026-08-16",
@@ -174,8 +180,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "dc099fad5809ade51afef7eff259ec26b37516d04d838ee178c2b42c49b0722c",
-  "modified": "2026-10-03",
+  "hash": "afdfc63986b9f851b122fb115b6bb56e93ed079b54364de66abcfb1b403f50b1",
+  "modified": "2026-10-05",
   "published": "2026-07-25",
   "v": 2
  },
@@ -198,8 +204,8 @@
   "v": 2
  },
  "guide/health/sleep-position.html": {
-  "hash": "d419829f250162ad054fa5492da4d22e5a4efbe70dee8fecce8fb87df0efe2c8",
-  "modified": "2026-10-03",
+  "hash": "3487cb0af994e74876cabb1554bb05e70cc12deb9182784898b79bc952cb197a",
+  "modified": "2026-10-05",
   "published": "2026-10-03",
   "v": 2
  },
@@ -228,8 +234,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "70aaaf825b9b36cb90d90f64a399bc70124d4744eeeaa909978405ad4fa39f42",
-  "modified": "2026-10-03",
+  "hash": "2d7a925b8e05fa7d8d24e6106299623a722f2ab4b53cbc4902441adb71c3483d",
+  "modified": "2026-10-05",
   "published": "2026-07-25",
   "v": 2
  },
