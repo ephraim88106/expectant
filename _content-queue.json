@@ -1,6 +1,6 @@
 {
  "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "items": [
   {
    "order": 1,
@@ -494,8 +494,9 @@
    "order": 57,
    "category": "postpartum",
    "slug": "postpartum-care-center",
-   "title": "산후조리원 비용과 고르는 기준 — 이용 기간별 가격과 체크리스트",
-   "status": "pending"
+   "title": "산후조리원 비용과 고르는 법 — 이용 기간별 가격과 체크리스트",
+   "status": "published",
+   "published_at": "2026-10-06"
   }
  ]
 }
