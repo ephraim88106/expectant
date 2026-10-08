@@ -1,6 +1,6 @@
 {
  "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "items": [
   {
    "order": 1,
@@ -506,6 +506,15 @@
    "keywords": "국민행복카드,진료비 지원,임신확인서,바우처,다태아 140만원",
    "status": "published",
    "published_at": "2026-10-07"
+  },
+  {
+   "order": 59,
+   "category": "birth",
+   "slug": "maternity-leave-pay",
+   "title": "출산휴가 급여 신청 자격과 서류 — 90일 기간·상한액·회사 부담 구분",
+   "keywords": "출산휴가 급여 신청,출산전후휴가 급여,출산휴가 90일,배우자 출산휴가 20일",
+   "status": "published",
+   "published_at": "2026-10-08"
   }
  ]
 }
