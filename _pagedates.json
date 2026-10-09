@@ -186,9 +186,15 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "6641f90d327f48061859357773ec9d437522e94af31cc7c7b1457137f6c73e3b",
-  "modified": "2026-10-07",
+  "hash": "29b1d7ca24b91f3ba40a44eb8d33258df05efd562524129f86b5387a7dd64c42",
+  "modified": "2026-10-09",
   "published": "2026-07-25",
+  "v": 2
+ },
+ "guide/health/morning-sickness.html": {
+  "hash": "9db340290ccf80b076539883d539164bc95c49211781f327e92290ee9d96b892",
+  "modified": "2026-10-09",
+  "published": "2026-10-09",
   "v": 2
  },
  "guide/health/preeclampsia.html": {
@@ -198,8 +204,8 @@
   "v": 2
  },
  "guide/health/pregnancy-voucher.html": {
-  "hash": "cf04635789352c0ef4d81df8fd396832b8d1631f4128644a4c099f3e6e23e31d",
-  "modified": "2026-10-07",
+  "hash": "d978be1dcae018bbc175f68cf121408a2fae301cc56c2bf90838d9703e65c275",
+  "modified": "2026-10-09",
   "published": "2026-10-07",
   "v": 2
  },
@@ -246,8 +252,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "b14343f50f61e486bdcd611f983e67d7fbf4511f9812e35f7688693d104db331",
-  "modified": "2026-10-08",
+  "hash": "2ae7282118919a0601f9a06af46e3f2376d0e035127215b4aacb64a7aac5b64c",
+  "modified": "2026-10-09",
   "published": "2026-07-25",
   "v": 2
  },

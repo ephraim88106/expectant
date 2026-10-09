@@ -1,6 +1,6 @@
 {
  "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "items": [
   {
    "order": 1,
@@ -515,6 +515,15 @@
    "keywords": "출산휴가 급여 신청,출산전후휴가 급여,출산휴가 90일,배우자 출산휴가 20일",
    "status": "published",
    "published_at": "2026-10-08"
+  },
+  {
+   "order": 60,
+   "category": "health",
+   "slug": "morning-sickness",
+   "title": "입덧 언제까지 — 시작·절정·끝나는 주수와 심할 때 대처",
+   "keywords": "입덧 시기,입덧 언제까지,입덧 대처,비타민 B6,독실아민,임신오조증",
+   "status": "published",
+   "published_at": "2026-10-09"
   }
  ]
 }
