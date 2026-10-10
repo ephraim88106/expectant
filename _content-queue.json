@@ -524,6 +524,15 @@
    "keywords": "입덧 시기,입덧 언제까지,입덧 대처,비타민 B6,독실아민,임신오조증",
    "status": "published",
    "published_at": "2026-10-09"
+  },
+  {
+   "order": 61,
+   "category": "health",
+   "slug": "early-bleeding",
+   "title": "(제목 재작성 필요)",
+   "keywords": "임신초기 출혈,착상출혈,절박유산,자궁외임신,융모막하 혈종",
+   "status": "pending",
+   "note": "2026-10-10 게이트 FAIL x3: 임신(29편)/기준(8편)/방법(8편) 소주제 포화. 포화 안 된 의도어로 제목 재작성 후 drafts/early_bleeding.py 를 guide_articles/ 로 옮겨 빌드·게이트. 본문 작성 완료"
   }
  ]
 }
