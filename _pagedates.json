@@ -155,6 +155,12 @@
   "published": "2026-10-02",
   "v": 2
  },
+ "guide/health/early-bleeding.html": {
+  "hash": "79178ae38945f64b1c969583eee4e8e6cc7deefa19a59c3718c6c6578a2bf890",
+  "modified": "2026-10-11",
+  "published": "2026-10-11",
+  "v": 2
+ },
  "guide/health/exercise-travel.html": {
   "hash": "b80314e4d687a57e0edaa04984e4d66177f01eff0365cfc7521d8a2489c5c8e1",
   "modified": "2026-08-10",
@@ -186,14 +192,14 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "29b1d7ca24b91f3ba40a44eb8d33258df05efd562524129f86b5387a7dd64c42",
-  "modified": "2026-10-09",
+  "hash": "d3a6f913869568990722d3dd38f7960b41bb129d2081de844b439d89aec8da52",
+  "modified": "2026-10-11",
   "published": "2026-07-25",
   "v": 2
  },
  "guide/health/morning-sickness.html": {
-  "hash": "9db340290ccf80b076539883d539164bc95c49211781f327e92290ee9d96b892",
-  "modified": "2026-10-09",
+  "hash": "ec02a85035e3ae91ed37a562fe49d02bff16103f50559148f28e52140a118055",
+  "modified": "2026-10-11",
   "published": "2026-10-09",
   "v": 2
  },
@@ -252,8 +258,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "2ae7282118919a0601f9a06af46e3f2376d0e035127215b4aacb64a7aac5b64c",
-  "modified": "2026-10-09",
+  "hash": "3cff1cd12011b48e7cd07d6b9e6bceca5327731cb0e6dd37dc65c7c005213189",
+  "modified": "2026-10-11",
   "published": "2026-07-25",
   "v": 2
  },
