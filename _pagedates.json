@@ -258,8 +258,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "3cff1cd12011b48e7cd07d6b9e6bceca5327731cb0e6dd37dc65c7c005213189",
-  "modified": "2026-10-11",
+  "hash": "b3f94650fdc46f59bad0e13d44d5d5a69692c6084d2788c06333796142bd2f97",
+  "modified": "2026-10-13",
   "published": "2026-07-25",
   "v": 2
  },
@@ -342,8 +342,8 @@
   "v": 2
  },
  "guide/preparation/advanced-maternal-age.html": {
-  "hash": "30574f465895555ee7a1278bd2fa7ab525ff34f35bee68abc78a63b216917f97",
-  "modified": "2026-09-21",
+  "hash": "ebc449f1969392f93a3f97e46183ffcd32a0951535c29f98c1404f54ab33549a",
+  "modified": "2026-10-13",
   "published": "2026-09-21",
   "v": 2
  },
@@ -359,9 +359,15 @@
   "published": "2026-07-29",
   "v": 2
  },
+ "guide/preparation/gestational-age.html": {
+  "hash": "207c071ea7c83db92c8725a27c8179dcf00e78656ddd74d75e0d0948d3c455d9",
+  "modified": "2026-10-13",
+  "published": "2026-10-13",
+  "v": 2
+ },
  "guide/preparation/index.html": {
-  "hash": "a651ca89a73639bd16a9ddf1ae2fb0fd196ceb8889db603ed854a0f4e8d71921",
-  "modified": "2026-09-21",
+  "hash": "c700696abd674fa10645010d9c9fcb6550dd62382709feb9d4876af11ea861d6",
+  "modified": "2026-10-13",
   "published": "2026-07-25",
   "v": 2
  },

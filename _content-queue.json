@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "items": [
     {
       "order": 1,
@@ -538,10 +538,10 @@
       "order": 62,
       "category": "preparation",
       "slug": "gestational-age",
-      "title": "(제목 재작성 대기) 주수 계산 — 초안: drafts/gestational_age.py",
+      "title": "주수 계산과 출산 예정일 — 마지막 생리일 공식과 주기별 보정",
       "keywords": "주수 계산,마지막 생리일,출산 예정일,초음파 보정",
-      "status": "pending",
-      "note": "2026-10-12 게이트 FAIL 3회: 임신·방법·순서·기준·정리 포화. 임신/방법/순서/기준/정리 없는 제목 필요"
+      "status": "published",
+      "published_at": "2026-10-13"
     }
   ]
 }
