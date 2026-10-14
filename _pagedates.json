@@ -156,8 +156,8 @@
   "v": 2
  },
  "guide/health/early-bleeding.html": {
-  "hash": "79178ae38945f64b1c969583eee4e8e6cc7deefa19a59c3718c6c6578a2bf890",
-  "modified": "2026-10-11",
+  "hash": "30c8b502d335e16e737b76afe30f2e3279ebb2706afa5731dc2cd328ad2168f3",
+  "modified": "2026-10-14",
   "published": "2026-10-11",
   "v": 2
  },
@@ -192,8 +192,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "d3a6f913869568990722d3dd38f7960b41bb129d2081de844b439d89aec8da52",
-  "modified": "2026-10-11",
+  "hash": "8ec2d43437bc24028fcc616ae552593433dcefc8de3def1b950edc7664e5f7ab",
+  "modified": "2026-10-14",
   "published": "2026-07-25",
   "v": 2
  },
@@ -227,6 +227,12 @@
   "published": "2026-07-30",
   "v": 2
  },
+ "guide/health/sex-during-pregnancy.html": {
+  "hash": "d5ac9f5b7e9c48717e4960c7c5be32de4f534a04bf224413bf02c4738c8ca0fd",
+  "modified": "2026-10-14",
+  "published": "2026-10-14",
+  "v": 2
+ },
  "guide/health/sleep-position.html": {
   "hash": "3487cb0af994e74876cabb1554bb05e70cc12deb9182784898b79bc952cb197a",
   "modified": "2026-10-05",
@@ -258,8 +264,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "b3f94650fdc46f59bad0e13d44d5d5a69692c6084d2788c06333796142bd2f97",
-  "modified": "2026-10-13",
+  "hash": "97bab28b373904d8c5a400836fb2a58531bf6f0daea093a1aaa760e18ef5e138",
+  "modified": "2026-10-14",
   "published": "2026-07-25",
   "v": 2
  },
@@ -366,8 +372,8 @@
   "v": 2
  },
  "guide/preparation/index.html": {
-  "hash": "c700696abd674fa10645010d9c9fcb6550dd62382709feb9d4876af11ea861d6",
-  "modified": "2026-10-13",
+  "hash": "45d4898739f088f57b9c8909300881ff009e5708c2a04cdf640538870e6820fb",
+  "modified": "2026-10-14",
   "published": "2026-07-25",
   "v": 2
  },

@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "items": [
     {
       "order": 1,
@@ -542,6 +542,55 @@
       "keywords": "주수 계산,마지막 생리일,출산 예정일,초음파 보정",
       "status": "published",
       "published_at": "2026-10-13"
+    },
+    {
+      "order": 63,
+      "category": "health",
+      "slug": "sex-during-pregnancy",
+      "title": "임산부 성관계 주의사항 — 피해야 하는 경우와 편한 자세",
+      "keywords": "임신 중 성관계,임신 중 부부관계,임신 초기 성관계,임신 후기 성관계",
+      "status": "published",
+      "published_at": "2026-10-14"
+    },
+    {
+      "order": 64,
+      "category": "health",
+      "slug": "pregnancy-discharge",
+      "title": "임신 중 질 분비물 증가 원인 — 정상 냉과 질염 구분 기준",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 65,
+      "category": "health",
+      "slug": "pregnancy-headache",
+      "title": "임신 중 두통 원인과 약 복용 기준 — 병원 가야 하는 두통 신호",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 66,
+      "category": "health",
+      "slug": "hair-dye",
+      "title": "임신 중 염색·파마 가능 시기 — 안전 기준과 주의사항",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 67,
+      "category": "preparation",
+      "slug": "rh-negative",
+      "title": "Rh 음성 임산부 주의사항 — 면역글로불린 주사 시기와 비용",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 68,
+      "category": "health",
+      "slug": "braxton-hicks",
+      "title": "임신 중 배 뭉침 원인 — 브랙스턴 힉스와 조기진통 구분 방법",
+      "keywords": "",
+      "status": "pending"
     }
   ]
 }
