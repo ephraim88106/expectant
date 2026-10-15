@@ -192,8 +192,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "8ec2d43437bc24028fcc616ae552593433dcefc8de3def1b950edc7664e5f7ab",
-  "modified": "2026-10-14",
+  "hash": "4904dad980ffab040ceccd52d0f2eef5201287b0d8cc67a1379e508f13b22847",
+  "modified": "2026-10-15",
   "published": "2026-07-25",
   "v": 2
  },
@@ -207,6 +207,12 @@
   "hash": "3a2b99fc046bf7190e5671c067f3ac88eb0c6093a842719045357314d2e2fca8",
   "modified": "2026-10-02",
   "published": "2026-10-01",
+  "v": 2
+ },
+ "guide/health/pregnancy-discharge.html": {
+  "hash": "3872a6181145dcb941f82e60dbd2a56431ee0523d8cfe6350e4f17ea2c967af1",
+  "modified": "2026-10-15",
+  "published": "2026-10-15",
   "v": 2
  },
  "guide/health/pregnancy-voucher.html": {
@@ -228,8 +234,8 @@
   "v": 2
  },
  "guide/health/sex-during-pregnancy.html": {
-  "hash": "d5ac9f5b7e9c48717e4960c7c5be32de4f534a04bf224413bf02c4738c8ca0fd",
-  "modified": "2026-10-14",
+  "hash": "90e0984a70ce04286f61401c0a6c711f016c41a50a075288880a8327801a3e70",
+  "modified": "2026-10-15",
   "published": "2026-10-14",
   "v": 2
  },
@@ -264,8 +270,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "97bab28b373904d8c5a400836fb2a58531bf6f0daea093a1aaa760e18ef5e138",
-  "modified": "2026-10-14",
+  "hash": "c1abf7cb46978388ae4cde4980518f8a989a2438a25d555375b486dca65187af",
+  "modified": "2026-10-15",
   "published": "2026-07-25",
   "v": 2
  },
