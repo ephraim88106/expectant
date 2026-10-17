@@ -192,8 +192,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "4904dad980ffab040ceccd52d0f2eef5201287b0d8cc67a1379e508f13b22847",
-  "modified": "2026-10-15",
+  "hash": "0bb52e7715943fd13e4de8687dce4f3b8922557f3e2a6d8daf6aacff10b1104c",
+  "modified": "2026-10-17",
   "published": "2026-07-25",
   "v": 2
  },
@@ -210,9 +210,15 @@
   "v": 2
  },
  "guide/health/pregnancy-discharge.html": {
-  "hash": "3872a6181145dcb941f82e60dbd2a56431ee0523d8cfe6350e4f17ea2c967af1",
-  "modified": "2026-10-15",
+  "hash": "b0b2a18fd94df8dc3bff0a7c1e1bf47f3621fa42ceaaff5f6d34f8f91d702d33",
+  "modified": "2026-10-17",
   "published": "2026-10-15",
+  "v": 2
+ },
+ "guide/health/pregnancy-headache.html": {
+  "hash": "589b65faf88c79625f18e57f3e6c9af9498ac4aed120c85092dae897ca2739a6",
+  "modified": "2026-10-17",
+  "published": "2026-10-17",
   "v": 2
  },
  "guide/health/pregnancy-voucher.html": {
@@ -270,8 +276,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "c1abf7cb46978388ae4cde4980518f8a989a2438a25d555375b486dca65187af",
-  "modified": "2026-10-15",
+  "hash": "72f020d01be863264ec8140a3e2f2e8ce90cdc9a9bced41f2aa4baad5ffbc0d1",
+  "modified": "2026-10-17",
   "published": "2026-07-25",
   "v": 2
  },
