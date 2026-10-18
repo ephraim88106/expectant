@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "items": [
     {
       "order": 1,
@@ -574,9 +574,10 @@
       "order": 66,
       "category": "health",
       "slug": "hair-dye",
-      "title": "임신 중 염색·파마 가능 시기 — 안전 기준과 주의사항",
+      "title": "임산부 염색 파마 해도 되는지 — 12주 이후 기준과 두피 자극 줄이는 법",
       "keywords": "",
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-10-18"
     },
     {
       "order": 67,
@@ -592,7 +593,8 @@
       "slug": "braxton-hicks",
       "title": "임신 중 배 뭉침 원인 — 브랙스턴 힉스와 조기진통 구분 방법",
       "keywords": "",
-      "status": "pending"
+      "status": "skipped",
+      "note": "abdominal-tightening(skipped)·preterm-labor와 같은 질문 중복 (2026-10-18)"
     }
   ]
 }

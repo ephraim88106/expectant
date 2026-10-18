@@ -185,6 +185,12 @@
   "published": "2026-08-02",
   "v": 2
  },
+ "guide/health/hair-dye.html": {
+  "hash": "1cd1d7bcdaca7a55d917bf0e3e414199a1e978a9e333993274175b77431c939f",
+  "modified": "2026-10-18",
+  "published": "2026-10-18",
+  "v": 2
+ },
  "guide/health/heartburn.html": {
   "hash": "d31b39a33c07596cf4173ab588244667b02a1b6602d4e1533f60bd858bf7d9d9",
   "modified": "2026-08-25",
@@ -192,8 +198,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "0bb52e7715943fd13e4de8687dce4f3b8922557f3e2a6d8daf6aacff10b1104c",
-  "modified": "2026-10-17",
+  "hash": "b789e45796f46078bfbc1f555c1891f60d8a9595748146270d7c65cf431b56d3",
+  "modified": "2026-10-18",
   "published": "2026-07-25",
   "v": 2
  },
@@ -216,8 +222,8 @@
   "v": 2
  },
  "guide/health/pregnancy-headache.html": {
-  "hash": "589b65faf88c79625f18e57f3e6c9af9498ac4aed120c85092dae897ca2739a6",
-  "modified": "2026-10-17",
+  "hash": "29ed53a370a65c53fa57baba00cbd0de7d22a10243f86b96b30c4dc81a729877",
+  "modified": "2026-10-18",
   "published": "2026-10-17",
   "v": 2
  },
@@ -276,8 +282,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "72f020d01be863264ec8140a3e2f2e8ce90cdc9a9bced41f2aa4baad5ffbc0d1",
-  "modified": "2026-10-17",
+  "hash": "307a400b7b84de8c6a9bd7c52f7fcf14e71a522edf5a3fd95f4e59853c73e6a3",
+  "modified": "2026-10-18",
   "published": "2026-07-25",
   "v": 2
  },
