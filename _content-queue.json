@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "items": [
     {
       "order": 1,
@@ -583,9 +583,10 @@
       "order": 67,
       "category": "preparation",
       "slug": "rh-negative",
-      "title": "Rh 음성 임산부 주의사항 — 면역글로불린 주사 시기와 비용",
+      "title": "Rh 음성 혈액형 항D 면역글로불린 — 주사 맞는 방법과 맞아야 하는 경우",
       "keywords": "",
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-10-19"
     },
     {
       "order": 68,

@@ -282,8 +282,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "307a400b7b84de8c6a9bd7c52f7fcf14e71a522edf5a3fd95f4e59853c73e6a3",
-  "modified": "2026-10-18",
+  "hash": "03f1a31206ac2f4821ba7c3174878d1aece4f81fb3ca35e53e744e366ad66566",
+  "modified": "2026-10-19",
   "published": "2026-07-25",
   "v": 2
  },
@@ -384,14 +384,14 @@
   "v": 2
  },
  "guide/preparation/gestational-age.html": {
-  "hash": "207c071ea7c83db92c8725a27c8179dcf00e78656ddd74d75e0d0948d3c455d9",
-  "modified": "2026-10-13",
+  "hash": "08dc9a74554f0b6a72195774e8ee93966bfb80945b2086ac710f176bedd6b08a",
+  "modified": "2026-10-19",
   "published": "2026-10-13",
   "v": 2
  },
  "guide/preparation/index.html": {
-  "hash": "45d4898739f088f57b9c8909300881ff009e5708c2a04cdf640538870e6820fb",
-  "modified": "2026-10-14",
+  "hash": "225219ea23e565cbff3696675715d39756c75877db2af739baee75a2aed60ef4",
+  "modified": "2026-10-19",
   "published": "2026-07-25",
   "v": 2
  },
@@ -423,6 +423,12 @@
   "hash": "47888680a18fe3e16ef822a6d1a63b68fbb13d8d92a7ae5abb8749b13ac86e99",
   "modified": "2026-08-06",
   "published": "2026-08-06",
+  "v": 2
+ },
+ "guide/preparation/rh-negative.html": {
+  "hash": "6f164f321d43ac9e7775963854925d92f93fe4b9ea81dec07ffe67ab1a6aedaf",
+  "modified": "2026-10-19",
+  "published": "2026-10-19",
   "v": 2
  },
  "guide/preparation/rubella-immunity.html": {
