@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "items": [
     {
       "order": 1,
@@ -596,6 +596,55 @@
       "keywords": "",
       "status": "skipped",
       "note": "abdominal-tightening(skipped)·preterm-labor와 같은 질문 중복 (2026-10-18)"
+    },
+    {
+      "order": 69,
+      "category": "health",
+      "slug": "uti",
+      "title": "방광염 증상과 치료 — 산모 무증상 세균뇨 검사와 신우신염 차이",
+      "keywords": "",
+      "status": "published",
+      "published_at": "2026-10-20"
+    },
+    {
+      "order": 70,
+      "category": "health",
+      "slug": "leg-cramps",
+      "title": "임신 중 다리 쥐 원인과 완화 방법 — 마그네슘 복용 기준과 병원 가야 하는 경우",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 71,
+      "category": "health",
+      "slug": "hemorrhoids",
+      "title": "임신 중 치질 원인과 관리 방법 — 좌욕·연고 사용 기준과 출산 후 경과",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 72,
+      "category": "health",
+      "slug": "pregnancy-itching",
+      "title": "임신 중 가려움 원인 — 튼살 가려움과 임신성 담즙정체증 구분 기준",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 73,
+      "category": "health",
+      "slug": "dizziness",
+      "title": "임신 중 어지럼증 원인과 대처 방법 — 빈혈·저혈압 구분과 병원 가야 하는 신호",
+      "keywords": "",
+      "status": "pending"
+    },
+    {
+      "order": 74,
+      "category": "postpartum",
+      "slug": "postpartum-constipation",
+      "title": "산후 변비 해결 방법 — 출산 후 첫 배변 시기와 변비약 사용 기준",
+      "keywords": "",
+      "status": "pending"
     }
   ]
 }

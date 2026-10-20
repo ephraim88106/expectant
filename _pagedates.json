@@ -186,8 +186,8 @@
   "v": 2
  },
  "guide/health/hair-dye.html": {
-  "hash": "1cd1d7bcdaca7a55d917bf0e3e414199a1e978a9e333993274175b77431c939f",
-  "modified": "2026-10-18",
+  "hash": "3190f01c8402e4ed70df7a86c2c85df28aed5a2417b6c6b6119f0e78c75694c9",
+  "modified": "2026-10-20",
   "published": "2026-10-18",
   "v": 2
  },
@@ -198,8 +198,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "b789e45796f46078bfbc1f555c1891f60d8a9595748146270d7c65cf431b56d3",
-  "modified": "2026-10-18",
+  "hash": "587d8187dbefe12944fe91ca260b0ab2c77618a8dc3031df5112dc4ed5224ba4",
+  "modified": "2026-10-20",
   "published": "2026-07-25",
   "v": 2
  },
@@ -269,6 +269,12 @@
   "published": "2026-08-30",
   "v": 2
  },
+ "guide/health/uti.html": {
+  "hash": "3d9ab0476aa4f9db75d0dc64aa90e041869f1b8a9366968bae3849c580fff276",
+  "modified": "2026-10-20",
+  "published": "2026-10-20",
+  "v": 2
+ },
  "guide/health/vaccines.html": {
   "hash": "b3b7dc487a9ae7ae74180ac438e4a80b463d5ea25aaadcd3129ce1564ac5ff49",
   "modified": "2026-09-30",
@@ -282,8 +288,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "03f1a31206ac2f4821ba7c3174878d1aece4f81fb3ca35e53e744e366ad66566",
-  "modified": "2026-10-19",
+  "hash": "9d0a2aeef6269f5c3e3ba6629c50c5307895fd4d62a069629f63539cba20694d",
+  "modified": "2026-10-20",
   "published": "2026-07-25",
   "v": 2
  },
@@ -318,8 +324,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "498359d3033c831fabdaebd3ac87a21fb4bee2acb5db38d9277f7da4755f94af",
-  "modified": "2026-10-06",
+  "hash": "5054e5d12c2ab6b1b9c32856bbb69068d0449ce1e76b3611d6a9e83551ee2fbd",
+  "modified": "2026-10-20",
   "published": "2026-07-25",
   "v": 2
  },
