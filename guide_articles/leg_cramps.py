@@ -7,9 +7,9 @@ DESC     = "임신 중 다리 쥐는 중기 이후 밤에 종아리에서 흔히
 KEYWORDS = "임신 다리 쥐,임산부 종아리 경련,임신 중 마그네슘,다리 쥐 완화,심부정맥혈전증,임신 중기"
 READING  = "7"
 RELATED  = [
-    ("임신 부종 원인과 관리 방법", "붓기와 임신중독증 구분", "guide/health/swelling"),
-    ("임산부 수면 자세", "주수별 편한 자세와 베개", "guide/health/sleep-position"),
-    ("임신 철분제 복용 시기와 용량", "영양제 복용 전 확인", "guide/health/anemia"),
+    ("임신 부종 원인과 관리 방법", "붓기와 임신중독증 구분", "guide/health/swelling.html"),
+    ("임산부 수면 자세", "주수별 편한 자세와 베개", "guide/health/sleep-position.html"),
+    ("임신 철분제 복용 시기와 용량", "영양제 복용 전 확인", "guide/health/anemia.html"),
 ]
 
 
