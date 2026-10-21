@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "items": [
     {
       "order": 1,
@@ -610,9 +610,10 @@
       "order": 70,
       "category": "health",
       "slug": "leg-cramps",
-      "title": "임신 중 다리 쥐 원인과 완화 방법 — 마그네슘 복용 기준과 병원 가야 하는 경우",
+      "title": "산모 다리 쥐 원인과 완화 — 마그네슘 효과와 병원 가야 하는 신호",
       "keywords": "",
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-10-21"
     },
     {
       "order": 71,
