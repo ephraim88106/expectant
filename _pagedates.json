@@ -197,15 +197,21 @@
   "published": "2026-08-25",
   "v": 2
  },
+ "guide/health/hemorrhoids.html": {
+  "hash": "4a463d9aa6c233855122589e10f5e0bea3ec56bc19b8e7ad63771ed4d71803c5",
+  "modified": "2026-10-22",
+  "published": "2026-10-22",
+  "v": 2
+ },
  "guide/health/index.html": {
-  "hash": "4038006b23cf8d9a5f34cb37a4763b9924a19d40ce3acb5b3774ac5978b8b59b",
-  "modified": "2026-10-21",
+  "hash": "bc40dafe4e858668daf9d897bd9aedfe91485da03e67f9e302c939cb49f1270b",
+  "modified": "2026-10-22",
   "published": "2026-07-25",
   "v": 2
  },
  "guide/health/leg-cramps.html": {
-  "hash": "ae5813384514fb961c627a899fe7bdf0f7becf2443ff20c9ca453c3b30b8605e",
-  "modified": "2026-10-21",
+  "hash": "094c1901790beeef1f09305d5a5b1d6c9481f74b2b1e7c70186400c878a3ad5f",
+  "modified": "2026-10-22",
   "published": "2026-10-21",
   "v": 2
  },
@@ -294,8 +300,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "3680ff4e22a0b159eebe96b3c8a18f98916bdde355619685185e6701118560f5",
-  "modified": "2026-10-21",
+  "hash": "025d3db5a6aa74f9402c848ee6452ca9f1cda9085c271765d6c499e13464fe85",
+  "modified": "2026-10-22",
   "published": "2026-07-25",
   "v": 2
  },
