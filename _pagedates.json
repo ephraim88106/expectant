@@ -312,8 +312,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "14eb111d45f2ca7628ab9f4ac4ad906c1b1452dcf683c9e81cd3353bb88c58fb",
-  "modified": "2026-10-27",
+  "hash": "5f2878fcb27b855278c559a8836e21c7f6944e517365cd4a3b486abb2a41fab2",
+  "modified": "2026-10-28",
   "published": "2026-07-25",
   "v": 2
  },
@@ -348,8 +348,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "5054e5d12c2ab6b1b9c32856bbb69068d0449ce1e76b3611d6a9e83551ee2fbd",
-  "modified": "2026-10-20",
+  "hash": "6fb147eccd0aa5b471706e60d81f41ee0868b6c51a74ad3006678b2cbc2d0f10",
+  "modified": "2026-10-28",
   "published": "2026-07-25",
   "v": 2
  },
@@ -366,9 +366,15 @@
   "v": 2
  },
  "guide/postpartum/postpartum-care-center.html": {
-  "hash": "3635b768c59a9ac502295b4b7e5268d8e786936887b3c4a14a325fc4856489f9",
-  "modified": "2026-10-06",
+  "hash": "2a6b2c3ffc930e42f9ad441665d24b52d619bef7b1e68723a20d8aa0ba6df79c",
+  "modified": "2026-10-28",
   "published": "2026-10-06",
+  "v": 2
+ },
+ "guide/postpartum/postpartum-constipation.html": {
+  "hash": "102e172ee6bb7ad3d99fc8daa99ec4dd3a8191137657cdf281210e311603df0a",
+  "modified": "2026-10-28",
+  "published": "2026-10-28",
   "v": 2
  },
  "guide/postpartum/postpartum-diet.html": {

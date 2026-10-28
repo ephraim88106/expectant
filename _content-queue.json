@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "items": [
     {
       "order": 1,
@@ -646,9 +646,10 @@
       "order": 74,
       "category": "postpartum",
       "slug": "postpartum-constipation",
-      "title": "산후 변비 해결 방법 — 출산 후 첫 배변 시기와 변비약 사용 기준",
+      "title": "산후 변비 해결 — 수유 중 변비약 사용 기준과 첫 배변 늦을 때 확인할 것",
       "keywords": "",
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-10-28"
     }
   ]
 }
