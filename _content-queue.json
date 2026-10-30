@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-28",
+  "updated": "2026-10-30",
   "items": [
     {
       "order": 1,
@@ -650,6 +650,15 @@
       "keywords": "",
       "status": "published",
       "published_at": "2026-10-28"
+    },
+    {
+      "order": 75,
+      "category": "health",
+      "slug": "stretch-marks",
+      "title": "튼살 크림 효과와 생기는 주수 — 배·가슴·허벅지 보습 관리 체크리스트",
+      "keywords": "",
+      "status": "published",
+      "published_at": "2026-10-30"
     }
   ]
 }
