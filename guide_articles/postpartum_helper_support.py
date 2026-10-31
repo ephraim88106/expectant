@@ -9,7 +9,7 @@ READING  = "7"
 RELATED  = [
     ("산후조리원 비용과 고르는 법", "조리원과 도우미 중 무엇을 쓸지", "guide/postpartum/postpartum-care-center"),
     ("산후조리 기간과 주의사항", "산욕기 6주 회복 타임라인", "guide/postpartum/recovery-period"),
-    ("국민행복카드 신청 순서와 사용처", "임신·출산 진료비 지원", "guide/preparation/pregnancy-voucher"),
+    ("국민행복카드 신청 순서와 사용처", "임신·출산 진료비 지원", "guide/health/pregnancy-voucher"),
 ]
 
 
