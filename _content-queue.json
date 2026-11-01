@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "items": [
     {
       "order": 1,
@@ -668,6 +668,15 @@
       "keywords": "",
       "status": "published",
       "published_at": "2026-10-31"
+    },
+    {
+      "order": 77,
+      "category": "postpartum",
+      "slug": "postpartum-incontinence",
+      "title": "산후 요실금 케겔운동 하는법 — 회복 기간과 병원 가야 하는 경우",
+      "keywords": "",
+      "status": "published",
+      "published_at": "2026-11-01"
     }
   ]
 }

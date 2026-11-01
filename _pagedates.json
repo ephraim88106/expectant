@@ -318,8 +318,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "050625f097222ce414fce3bbded1cce33700cb1b27507d35b726d8e9cb64fb09",
-  "modified": "2026-10-31",
+  "hash": "0fd47c5223c1eb6e6db6f6f29d481363b2b153535d5e60206bcdd6e51dcf1138",
+  "modified": "2026-11-01",
   "published": "2026-07-25",
   "v": 2
  },
@@ -354,8 +354,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "b5fc653bbfc45ee405b925c532ea50cc4f07e40cb45a15722d4480688dffd78c",
-  "modified": "2026-10-31",
+  "hash": "6d1953e9f91e1567b81094596b0cfb5cda8e7c46501b33898a530f908eee3533",
+  "modified": "2026-11-01",
   "published": "2026-07-25",
   "v": 2
  },
@@ -390,9 +390,15 @@
   "v": 2
  },
  "guide/postpartum/postpartum-helper-support.html": {
-  "hash": "7c4dedf212d81a9be158f856717eb15b16a1e305099063961b8f26b9702d5aff",
-  "modified": "2026-10-31",
+  "hash": "d2804e4bf9e0e329a8a9401a6fe9a34e80adba8d25c1a3444aa4c468a093a880",
+  "modified": "2026-11-01",
   "published": "2026-10-31",
+  "v": 2
+ },
+ "guide/postpartum/postpartum-incontinence.html": {
+  "hash": "32f071ea2f8355721e358014123425a88140c8f9f1c7d26fe056b9922f8b4c79",
+  "modified": "2026-11-01",
+  "published": "2026-11-01",
   "v": 2
  },
  "guide/postpartum/postpartum-pain.html": {
