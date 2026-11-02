@@ -318,8 +318,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "0fd47c5223c1eb6e6db6f6f29d481363b2b153535d5e60206bcdd6e51dcf1138",
-  "modified": "2026-11-01",
+  "hash": "e9f838be5f5b8d886b28e07c63407590bd5f678e83fe490ae35f82fd94838891",
+  "modified": "2026-11-02",
   "published": "2026-07-25",
   "v": 2
  },
@@ -354,8 +354,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "6d1953e9f91e1567b81094596b0cfb5cda8e7c46501b33898a530f908eee3533",
-  "modified": "2026-11-01",
+  "hash": "52e88cfa9fd3b85163ad74a251e39c72dc515c4d08f2e18cdecc87904cf09d6d",
+  "modified": "2026-11-02",
   "published": "2026-07-25",
   "v": 2
  },
@@ -396,8 +396,8 @@
   "v": 2
  },
  "guide/postpartum/postpartum-incontinence.html": {
-  "hash": "32f071ea2f8355721e358014123425a88140c8f9f1c7d26fe056b9922f8b4c79",
-  "modified": "2026-11-01",
+  "hash": "008427c47b570fb1b118685228c82212b0ed898e7f5ca55936184d68d9459c2d",
+  "modified": "2026-11-02",
   "published": "2026-11-01",
   "v": 2
  },
@@ -405,6 +405,12 @@
   "hash": "2ef94e3e01ce1204dd74229e797c2b69bf5a82f8fb31742eae7f508b7a5bf59f",
   "modified": "2026-09-05",
   "published": "2026-09-05",
+  "v": 2
+ },
+ "guide/postpartum/postpartum-period.html": {
+  "hash": "aad7c33df86b1a17320ba3a36063d9f56e1aa7aaef0644fbba752c57de375611",
+  "modified": "2026-11-02",
+  "published": "2026-11-02",
   "v": 2
  },
  "guide/postpartum/pumping.html": {
