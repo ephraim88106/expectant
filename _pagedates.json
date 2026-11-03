@@ -210,8 +210,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "df317eea05aded85b8258a9c00a8a549f4d7847ca5e055786695ec11e2046bd3",
-  "modified": "2026-10-30",
+  "hash": "60250360b4532e33f85f2bc8474a534e025ba62c17fe7c3b76b7d2a3fdfd88ef",
+  "modified": "2026-11-03",
   "published": "2026-07-25",
   "v": 2
  },
@@ -282,8 +282,8 @@
   "v": 2
  },
  "guide/health/stretch-marks.html": {
-  "hash": "e2512582b56078bb0311027e3ddc60315337efbb23fb3cb359794dba73ebde29",
-  "modified": "2026-10-30",
+  "hash": "49122dd8e71bb604ad2a8379089730f41b37a95ac138751d598152868b7cda60",
+  "modified": "2026-11-03",
   "published": "2026-10-30",
   "v": 2
  },
@@ -291,6 +291,12 @@
   "hash": "298f511dd405fcb3181f9629360db25136812ddb336181e38187ae3091fa21a6",
   "modified": "2026-08-18",
   "published": "2026-08-18",
+  "v": 2
+ },
+ "guide/health/thyroid-pregnancy.html": {
+  "hash": "e26ce45ae21f4e875b28848d4e3b458edca48f4b7b7c0f2de830e82ba2644745",
+  "modified": "2026-11-03",
+  "published": "2026-11-03",
   "v": 2
  },
  "guide/health/ultrasound.html": {
@@ -318,8 +324,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "e9f838be5f5b8d886b28e07c63407590bd5f678e83fe490ae35f82fd94838891",
-  "modified": "2026-11-02",
+  "hash": "78fc5d4e91d44ef35d8d857cd6d5579456c646713cca3543b54d55c85a2f9eb8",
+  "modified": "2026-11-03",
   "published": "2026-07-25",
   "v": 2
  },

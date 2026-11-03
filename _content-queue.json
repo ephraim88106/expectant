@@ -1,6 +1,6 @@
 {
  "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "items": [
   {
    "order": 1,
@@ -686,6 +686,15 @@
    "keywords": "",
    "status": "published",
    "published_at": "2026-11-02"
+  },
+  {
+   "order": 79,
+   "category": "health",
+   "slug": "thyroid-pregnancy",
+   "title": "TSH 수치 뜻 — 갑상선기능저하증 레보티록신 증량 시점과 철분제 간격",
+   "keywords": "",
+   "status": "published",
+   "published_at": "2026-11-03"
   }
  ]
 }
