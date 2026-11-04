@@ -324,8 +324,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "78fc5d4e91d44ef35d8d857cd6d5579456c646713cca3543b54d55c85a2f9eb8",
-  "modified": "2026-11-03",
+  "hash": "a7077c3fb09d423dc8591f509be50523fb32d28d53f90ee9bf3710ce40eba8f0",
+  "modified": "2026-11-04",
   "published": "2026-07-25",
   "v": 2
  },
@@ -360,8 +360,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "52e88cfa9fd3b85163ad74a251e39c72dc515c4d08f2e18cdecc87904cf09d6d",
-  "modified": "2026-11-02",
+  "hash": "dcf48358db21b49bc88ebbe7a848429b52d35c7147e99e926a1ef06be3d9fa6c",
+  "modified": "2026-11-04",
   "published": "2026-07-25",
   "v": 2
  },
@@ -369,6 +369,12 @@
   "hash": "ba388d68427419be6f761f881605ad7dba59d65b29e6ff9ca62e084e3c3248a1",
   "modified": "2026-08-05",
   "published": "2026-08-05",
+  "v": 2
+ },
+ "guide/postpartum/newborn-jaundice.html": {
+  "hash": "8b69d3374df183a7edac7ed4aabba7351a5103067e0bcacfac29c4db4bda0e4c",
+  "modified": "2026-11-04",
+  "published": "2026-11-04",
   "v": 2
  },
  "guide/postpartum/perineal-care.html": {
@@ -414,8 +420,8 @@
   "v": 2
  },
  "guide/postpartum/postpartum-period.html": {
-  "hash": "aad7c33df86b1a17320ba3a36063d9f56e1aa7aaef0644fbba752c57de375611",
-  "modified": "2026-11-02",
+  "hash": "9d8ff598608beefd8ab70af09623ae8139bece5b2bedea713a8074225e7d939e",
+  "modified": "2026-11-04",
   "published": "2026-11-02",
   "v": 2
  },
