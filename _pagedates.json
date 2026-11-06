@@ -216,8 +216,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "ee67daca88ddd4c6b5eb0958f3d1455d884934961c8463a99b4c4b2c4b3c20ad",
-  "modified": "2026-11-05",
+  "hash": "af215bc5e3380b54d92d933a8da828b429806a7fda3c8cb12d77324a4a3cf51f",
+  "modified": "2026-11-06",
   "published": "2026-07-25",
   "v": 2
  },
@@ -330,8 +330,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "4a4e3ca626100ccd74fc1c80ee429109c9d8a763e187434ba9b04d3b76dcc7c5",
-  "modified": "2026-11-05",
+  "hash": "a8c4d5d2a795c770b5b7c8d86eeb7a8dbf4afb86b630e8cdaa0eddb93e7b2dd5",
+  "modified": "2026-11-06",
   "published": "2026-07-25",
   "v": 2
  },
@@ -366,8 +366,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "cbdc733956eb9e9575284a30d95a767a7e0d27c03b8bda5a1bc5d29725a655aa",
-  "modified": "2026-11-05",
+  "hash": "cb40873ee647903b44beb871415af7a696f196fdfab170d7ebaa9ddf6c418e6d",
+  "modified": "2026-11-06",
   "published": "2026-07-25",
   "v": 2
  },
@@ -378,9 +378,15 @@
   "v": 2
  },
  "guide/postpartum/newborn-jaundice.html": {
-  "hash": "8b69d3374df183a7edac7ed4aabba7351a5103067e0bcacfac29c4db4bda0e4c",
-  "modified": "2026-11-04",
+  "hash": "dd86d3727e6afef49985e989080e88843970adb5d71089b373b39936100b217c",
+  "modified": "2026-11-06",
   "published": "2026-11-04",
+  "v": 2
+ },
+ "guide/postpartum/nipple-pain-mastitis.html": {
+  "hash": "116cfb6ccf2503866876b8919629c5890fcb08ee86cd925cf4eb4172706efc4d",
+  "modified": "2026-11-06",
+  "published": "2026-11-06",
   "v": 2
  },
  "guide/postpartum/perineal-care.html": {

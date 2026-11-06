@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "items": [
     {
       "order": 1,
@@ -716,11 +716,12 @@
     },
     {
       "order": 82,
-      "category": "health",
+      "category": "postpartum",
       "slug": "nipple-pain-mastitis",
       "title": "유선염 증상과 대처 — 젖몸살 차이와 항생제 필요한 경우",
-      "keywords": "",
-      "status": "pending"
+      "keywords": "유선염 증상,유선염,젖몸살 차이,유선염 항생제",
+      "status": "published",
+      "published_at": "2026-11-06"
     },
     {
       "order": 83,
