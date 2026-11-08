@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-06",
+  "updated": "2026-11-08",
   "items": [
     {
       "order": 1,
@@ -725,11 +725,12 @@
     },
     {
       "order": 83,
-      "category": "preparation",
+      "category": "health",
       "slug": "pregnancy-nosebleed-rhinitis",
       "title": "임신 비염 코막힘 원인 — 먹어도 되는 약과 코피 대처",
       "keywords": "",
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-11-08"
     },
     {
       "order": 84,

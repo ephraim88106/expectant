@@ -216,8 +216,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "af215bc5e3380b54d92d933a8da828b429806a7fda3c8cb12d77324a4a3cf51f",
-  "modified": "2026-11-06",
+  "hash": "25a4665c82c7c5f335b7fcb196e4961509752f65fa2db5e05b5925ce4e6eb342",
+  "modified": "2026-11-08",
   "published": "2026-07-25",
   "v": 2
  },
@@ -255,6 +255,12 @@
   "hash": "3d2a3e5d9d6d9961c0fc4847e036de13c6f59cd483231dd3086666547bdc0ca4",
   "modified": "2026-10-27",
   "published": "2026-10-26",
+  "v": 2
+ },
+ "guide/health/pregnancy-nosebleed-rhinitis.html": {
+  "hash": "125b0d5f5f0e129b3d2679f3316ac99dbe466690a2653d06e65805cfd6d9e179",
+  "modified": "2026-11-08",
+  "published": "2026-11-08",
   "v": 2
  },
  "guide/health/pregnancy-voucher.html": {
@@ -300,8 +306,8 @@
   "v": 2
  },
  "guide/health/thyroid-pregnancy.html": {
-  "hash": "e26ce45ae21f4e875b28848d4e3b458edca48f4b7b7c0f2de830e82ba2644745",
-  "modified": "2026-11-03",
+  "hash": "edc122e4a17b56b327006a30f0c7e8f4527d381b8c7b16c5cc07cf7e900c00cb",
+  "modified": "2026-11-08",
   "published": "2026-11-03",
   "v": 2
  },
@@ -330,8 +336,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "a8c4d5d2a795c770b5b7c8d86eeb7a8dbf4afb86b630e8cdaa0eddb93e7b2dd5",
-  "modified": "2026-11-06",
+  "hash": "cfdb5bf6225078e7c1283206edecd4aefae6dd45b27e14f804a48ecbf911c5c5",
+  "modified": "2026-11-08",
   "published": "2026-07-25",
   "v": 2
  },
@@ -474,8 +480,8 @@
   "v": 2
  },
  "guide/preparation/index.html": {
-  "hash": "6bc375c1fb88557a058feac06518b4cbf75efe72288149a0b27f01948c45780c",
-  "modified": "2026-11-05",
+  "hash": "225219ea23e565cbff3696675715d39756c75877db2af739baee75a2aed60ef4",
+  "modified": "2026-11-08",
   "published": "2026-07-25",
   "v": 2
  },
