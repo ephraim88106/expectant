@@ -336,9 +336,15 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "cfdb5bf6225078e7c1283206edecd4aefae6dd45b27e14f804a48ecbf911c5c5",
-  "modified": "2026-11-08",
+  "hash": "ee5ea785ff0d7b8032d42b2c21a555bc338f7762ebf9de15819b88e61d08704f",
+  "modified": "2026-11-09",
   "published": "2026-07-25",
+  "v": 2
+ },
+ "guide/postpartum/afterpains.html": {
+  "hash": "61d7febec10cdb3d3ebac5ff243d09944825d1510894f2f522503bf3bec00057",
+  "modified": "2026-11-09",
+  "published": "2026-11-09",
   "v": 2
  },
  "guide/postpartum/breastfeeding.html": {
@@ -372,8 +378,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "cb40873ee647903b44beb871415af7a696f196fdfab170d7ebaa9ddf6c418e6d",
-  "modified": "2026-11-06",
+  "hash": "a0c7a7edfe610428dead112480713c7c98227c0a8f30fd75aabd56dff0cacee9",
+  "modified": "2026-11-09",
   "published": "2026-07-25",
   "v": 2
  },
@@ -390,8 +396,8 @@
   "v": 2
  },
  "guide/postpartum/nipple-pain-mastitis.html": {
-  "hash": "116cfb6ccf2503866876b8919629c5890fcb08ee86cd925cf4eb4172706efc4d",
-  "modified": "2026-11-06",
+  "hash": "0f586d9485d12021925fdc0cc4c2616298d2d8fa560c21dcc0f3971731534ba5",
+  "modified": "2026-11-09",
   "published": "2026-11-06",
   "v": 2
  },
