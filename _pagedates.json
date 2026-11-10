@@ -60,8 +60,8 @@
   "v": 2
  },
  "guide/birth/index.html": {
-  "hash": "a12d5e81fbbb7e8b52c0dcc368f26293eae5670752b57d62e3578b23fbbe93d0",
-  "modified": "2026-11-05",
+  "hash": "faa853e19fa8802b32225de28843fb6f634f6fc0333f3bfc75b5e671290f8cbd",
+  "modified": "2026-11-10",
   "published": "2026-07-25",
   "v": 2
  },
@@ -69,6 +69,12 @@
   "hash": "2f47e24c3608876f510061a72a2e30fea9685afb3ca38f5cb026f83d6f0cb6b0",
   "modified": "2026-08-14",
   "published": "2026-08-14",
+  "v": 2
+ },
+ "guide/birth/labor-hospital-transport.html": {
+  "hash": "70da9d92f8819c621f26a934a3ccd59c6154b4cf6457643d0116604b931e6885",
+  "modified": "2026-11-10",
+  "published": "2026-11-10",
   "v": 2
  },
  "guide/birth/labor-stages.html": {
@@ -120,8 +126,8 @@
   "v": 2
  },
  "guide/birth/water-breaking.html": {
-  "hash": "124bf6ee690a21226b718ac0d9fac8847272f22224879da9e84e6f459a204978",
-  "modified": "2026-11-05",
+  "hash": "e03c59bbaf1850e09ce43db75c11ddb9cfa4352c92f728105abee15747efbe60",
+  "modified": "2026-11-10",
   "published": "2026-11-05",
   "v": 2
  },
@@ -336,8 +342,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "ee5ea785ff0d7b8032d42b2c21a555bc338f7762ebf9de15819b88e61d08704f",
-  "modified": "2026-11-09",
+  "hash": "ba308b8b76971b1d210cd86eee0f91c7e92df28bae4e1c47ea5c59273dd9bf11",
+  "modified": "2026-11-10",
   "published": "2026-07-25",
   "v": 2
  },

@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "items": [
     {
       "order": 1,
@@ -745,9 +745,10 @@
       "order": 85,
       "category": "birth",
       "slug": "labor-hospital-transport",
-      "title": "진통 시작 후 병원 이동 방법 — 119 이용 기준과 준비물",
+      "title": "진통 시작 후 병원 이동 — 119 이용 기준과 준비물",
       "keywords": "",
-      "status": "pending"
+      "status": "published",
+      "published_at": "2026-11-10"
     },
     {
       "order": 86,
