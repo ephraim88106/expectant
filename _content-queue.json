@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "items": [
     {
       "order": 1,
@@ -754,9 +754,56 @@
       "order": 86,
       "category": "health",
       "slug": "gum-bleeding-pregnancy",
-      "title": "임신 중 잇몸 출혈 원인 — 임신성 치은염 관리와 치과 가는 시기",
-      "keywords": "",
-      "status": "pending"
+      "title": "임신성 치은염 증상과 관리 — 잇몸 피 나는 이유와 치과 가는 주수",
+      "keywords": "임신성 치은염,임신 잇몸 출혈,임산부 잇몸 피,임신성 치은종",
+      "status": "published",
+      "published_at": "2026-11-11",
+      "note": "게이트 소주제 포화(임신/시기/임산부/원인과 8편 이상)로 원래 제목에서 토큰 교체 (2026-11-11)"
+    },
+    {
+      "order": 87,
+      "category": "health",
+      "slug": "fetal-hiccups",
+      "title": "태아 딸꾹질 느낌과 횟수 — 자주 하는 이유와 태동 구분",
+      "keywords": "태아 딸꾹질,태아 딸꾹질 느낌,태아 딸꾹질 횟수,태동 구분",
+      "status": "pending",
+      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS"
+    },
+    {
+      "order": 88,
+      "category": "health",
+      "slug": "carpal-tunnel-pregnancy",
+      "title": "임신기 손 저림 손목터널증후군 이유 — 밤에 심해지는 까닭과 보호대 사용법",
+      "keywords": "임신 손 저림,임산부 손목터널증후군,임신 손목 저림,손목 보호대",
+      "status": "pending",
+      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS"
+    },
+    {
+      "order": 89,
+      "category": "postpartum",
+      "slug": "postpartum-swelling",
+      "title": "산후 붓기 빠지는 기간 — 분만 후 부종 이유별 경과와 확인할 신호",
+      "keywords": "산후 붓기,산후 부종,출산 후 붓기 언제 빠지나,산후 부종 원인",
+      "status": "pending",
+      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS"
+    },
+    {
+      "order": 90,
+      "category": "health",
+      "slug": "melasma-pregnancy",
+      "title": "기미 생기는 이유 — 임신기 자외선 차단 주의사항과 레이저 치료 가능 시점",
+      "keywords": "임신 기미,임산부 기미,임신 기미 없어지나,임신 자외선 차단제",
+      "status": "pending",
+      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS"
+    },
+    {
+      "order": 91,
+      "category": "health",
+      "slug": "varicose-veins-pregnancy",
+      "title": "하지정맥류 임신기 생기는 이유 — 압박스타킹 착용법과 좋아지는 시점",
+      "keywords": "임신 하지정맥류,임산부 정맥류,임산부 압박스타킹,임신 다리 혈관",
+      "status": "pending",
+      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS"
     }
   ]
 }

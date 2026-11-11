@@ -203,6 +203,12 @@
   "published": "2026-08-02",
   "v": 2
  },
+ "guide/health/gum-bleeding-pregnancy.html": {
+  "hash": "2dcdd1d7cff24b9e5566980f3f31561b6e5e074d6e7ab84833b3a5002a70b246",
+  "modified": "2026-11-11",
+  "published": "2026-11-11",
+  "v": 2
+ },
  "guide/health/hair-dye.html": {
   "hash": "3190f01c8402e4ed70df7a86c2c85df28aed5a2417b6c6b6119f0e78c75694c9",
   "modified": "2026-10-20",
@@ -222,8 +228,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "25a4665c82c7c5f335b7fcb196e4961509752f65fa2db5e05b5925ce4e6eb342",
-  "modified": "2026-11-08",
+  "hash": "a2502103593529c1fbcd40f92869d183ba09a54616dc1d9e1d6b32b17c91b2ab",
+  "modified": "2026-11-11",
   "published": "2026-07-25",
   "v": 2
  },
@@ -264,8 +270,8 @@
   "v": 2
  },
  "guide/health/pregnancy-nosebleed-rhinitis.html": {
-  "hash": "125b0d5f5f0e129b3d2679f3316ac99dbe466690a2653d06e65805cfd6d9e179",
-  "modified": "2026-11-08",
+  "hash": "1ce6e42844d7ceed0255407c9f631ec8d475353c11e4603c3ac1ec669a18a16e",
+  "modified": "2026-11-11",
   "published": "2026-11-08",
   "v": 2
  },
@@ -342,8 +348,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "ba308b8b76971b1d210cd86eee0f91c7e92df28bae4e1c47ea5c59273dd9bf11",
-  "modified": "2026-11-10",
+  "hash": "29c14f2da9df233eb5852448ae650f85419096f023c228a1d749ba1d728ed805",
+  "modified": "2026-11-11",
   "published": "2026-07-25",
   "v": 2
  },
