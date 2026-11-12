@@ -185,6 +185,12 @@
   "published": "2026-08-10",
   "v": 2
  },
+ "guide/health/fetal-hiccups.html": {
+  "hash": "e2e82e256c10609430e86285385f5bb9fa6d0ba425cd5720b9cd3cab5dd00433",
+  "modified": "2026-11-12",
+  "published": "2026-11-12",
+  "v": 2
+ },
  "guide/health/fetal-movement.html": {
   "hash": "f011fc7fefde5bde97baa1375083cd9ee1bd062457604e378e7ca71202e4761a",
   "modified": "2026-09-29",
@@ -204,8 +210,8 @@
   "v": 2
  },
  "guide/health/gum-bleeding-pregnancy.html": {
-  "hash": "2dcdd1d7cff24b9e5566980f3f31561b6e5e074d6e7ab84833b3a5002a70b246",
-  "modified": "2026-11-11",
+  "hash": "d20b33f8f1ae2e431d9d61f5b4775291ffcad73eb81d1cfa3cfdfea0caf0e050",
+  "modified": "2026-11-12",
   "published": "2026-11-11",
   "v": 2
  },
@@ -228,8 +234,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "a2502103593529c1fbcd40f92869d183ba09a54616dc1d9e1d6b32b17c91b2ab",
-  "modified": "2026-11-11",
+  "hash": "6dd3d828a5032d50ac731772b9533ab56b0a6f1028b745b7525b8a459d2259f9",
+  "modified": "2026-11-12",
   "published": "2026-07-25",
   "v": 2
  },
@@ -348,8 +354,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "29c14f2da9df233eb5852448ae650f85419096f023c228a1d749ba1d728ed805",
-  "modified": "2026-11-11",
+  "hash": "f15e6cf825e29bfb90d7d2b7b85dfdf77fb9f70244878325bd0ad513a826297a",
+  "modified": "2026-11-12",
   "published": "2026-07-25",
   "v": 2
  },
@@ -390,8 +396,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "a0c7a7edfe610428dead112480713c7c98227c0a8f30fd75aabd56dff0cacee9",
-  "modified": "2026-11-09",
+  "hash": "98ae00362f36438d684b7b9201793410403760f964e60555c497cc9113d37b66",
+  "modified": "2026-11-12",
   "published": "2026-07-25",
   "v": 2
  },
