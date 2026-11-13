@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "items": [
     {
       "order": 1,
@@ -776,8 +776,9 @@
       "slug": "carpal-tunnel-pregnancy",
       "title": "임신기 손 저림 손목터널증후군 이유 — 밤에 심해지는 까닭과 보호대 사용법",
       "keywords": "임신 손 저림,임산부 손목터널증후군,임신 손목 저림,손목 보호대",
-      "status": "pending",
-      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS"
+      "status": "published",
+      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS",
+      "published_at": "2026-11-13"
     },
     {
       "order": 89,

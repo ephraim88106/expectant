@@ -149,6 +149,12 @@
   "published": "2026-10-05",
   "v": 2
  },
+ "guide/health/carpal-tunnel-pregnancy.html": {
+  "hash": "71996ce2b19073b3f6d616057f0838555afec9933c95601f9ccad16a8fab9700",
+  "modified": "2026-11-13",
+  "published": "2026-11-13",
+  "v": 2
+ },
  "guide/health/cold-flu.html": {
   "hash": "88574da52018491e3eea238bc1bc97ea08d18abfdeedf21ec839bb382d3d59ff",
   "modified": "2026-08-16",
@@ -186,8 +192,8 @@
   "v": 2
  },
  "guide/health/fetal-hiccups.html": {
-  "hash": "e2e82e256c10609430e86285385f5bb9fa6d0ba425cd5720b9cd3cab5dd00433",
-  "modified": "2026-11-12",
+  "hash": "c2119301afbac74f20e22e5c707096a207058667170bd9d8e1be91a7a885f3af",
+  "modified": "2026-11-13",
   "published": "2026-11-12",
   "v": 2
  },
@@ -234,8 +240,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "6dd3d828a5032d50ac731772b9533ab56b0a6f1028b745b7525b8a459d2259f9",
-  "modified": "2026-11-12",
+  "hash": "ecf973330ebb6e2196122a07d4803a7f06fdf6210e9aaf312d045a6bd738a4aa",
+  "modified": "2026-11-13",
   "published": "2026-07-25",
   "v": 2
  },
@@ -354,8 +360,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "f15e6cf825e29bfb90d7d2b7b85dfdf77fb9f70244878325bd0ad513a826297a",
-  "modified": "2026-11-12",
+  "hash": "dbe31b91c92e2d00a41b890c19d96a2d352afb1557230d6f50dd72118b5bdac6",
+  "modified": "2026-11-13",
   "published": "2026-07-25",
   "v": 2
  },
