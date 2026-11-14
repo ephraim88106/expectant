@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "items": [
     {
       "order": 1,
@@ -786,8 +786,9 @@
       "slug": "postpartum-swelling",
       "title": "산후 붓기 빠지는 기간 — 분만 후 부종 이유별 경과와 확인할 신호",
       "keywords": "산후 붓기,산후 부종,출산 후 붓기 언제 빠지나,산후 부종 원인",
-      "status": "pending",
-      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS"
+      "status": "published",
+      "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS",
+      "published_at": "2026-11-14"
     },
     {
       "order": 90,

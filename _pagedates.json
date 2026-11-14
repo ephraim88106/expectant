@@ -360,14 +360,14 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "dbe31b91c92e2d00a41b890c19d96a2d352afb1557230d6f50dd72118b5bdac6",
-  "modified": "2026-11-13",
+  "hash": "3da1dbd47d27879ffea6afb6aa28435910ed480cdc73c3d5d756f672f5c0da9b",
+  "modified": "2026-11-14",
   "published": "2026-07-25",
   "v": 2
  },
  "guide/postpartum/afterpains.html": {
-  "hash": "61d7febec10cdb3d3ebac5ff243d09944825d1510894f2f522503bf3bec00057",
-  "modified": "2026-11-09",
+  "hash": "ba3d3d0b954d4be8410f13636e2deb16c60f8f975d4f710a5bd0ccaa2f850d0c",
+  "modified": "2026-11-14",
   "published": "2026-11-09",
   "v": 2
  },
@@ -402,8 +402,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "98ae00362f36438d684b7b9201793410403760f964e60555c497cc9113d37b66",
-  "modified": "2026-11-12",
+  "hash": "7f672e8fab70aad2e0bf9b71885106821c00daee76a733b8fdfe19d44fe68d49",
+  "modified": "2026-11-14",
   "published": "2026-07-25",
   "v": 2
  },
@@ -471,6 +471,12 @@
   "hash": "9d8ff598608beefd8ab70af09623ae8139bece5b2bedea713a8074225e7d939e",
   "modified": "2026-11-04",
   "published": "2026-11-02",
+  "v": 2
+ },
+ "guide/postpartum/postpartum-swelling.html": {
+  "hash": "4bd9a7a9463527ead65385297a30192c648652bbcdb2d62bf4f615302737334c",
+  "modified": "2026-11-14",
+  "published": "2026-11-14",
   "v": 2
  },
  "guide/postpartum/pumping.html": {
