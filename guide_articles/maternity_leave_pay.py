@@ -7,9 +7,9 @@ DESC     = "출산전후휴가는 단태아 90일, 다태아 120일입니다. �
 KEYWORDS = "출산휴가 급여 신청,출산전후휴가 급여,출산휴가 90일,출산휴가 급여 상한액,출산휴가 서류,배우자 출산휴가 20일,우선지원대상기업"
 READING  = "7"
 RELATED  = [
-    ("국민행복카드 신청 순서와 사용처", "진료비 100만원 지원", "guide/health/pregnancy-voucher"),
-    ("출산가방 체크리스트", "휴가 시작 전 준비물", "guide/birth/hospital-bag"),
-    ("출산 예정일 계산기", "휴가 시작일 계산", "tools/due-date"),
+    ("국민행복카드 신청 순서와 사용처", "진료비 100만원 지원", "guide/health/pregnancy-voucher.html"),
+    ("출산가방 체크리스트", "휴가 시작 전 준비물", "guide/birth/hospital-bag.html"),
+    ("출산 예정일 계산기", "휴가 시작일 계산", "tools/due-date.html"),
 ]
 
 

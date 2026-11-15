@@ -7,9 +7,9 @@ DESC     = "산후조리원 2주 이용 요금은 일반실 300만~400만 원대
 KEYWORDS = "산후조리원 비용,산후조리원 가격,산후조리원 고르는 기준,산후조리원 체크리스트,산후조리원 계약,산후조리원 환불,산후조리 지원금"
 READING  = "8"
 RELATED  = [
-    ("산후조리 기간과 주의사항", "산욕기 6주 회복 타임라인", "guide/postpartum/recovery-period"),
-    ("출산가방 체크리스트", "조리원 입소 짐까지 함께 챙기기", "guide/birth/hospital-bag"),
-    ("모유수유 시작하기", "조리원 모유수유 지원 확인 포인트", "guide/postpartum/breastfeeding"),
+    ("산후조리 기간과 주의사항", "산욕기 6주 회복 타임라인", "guide/postpartum/recovery-period.html"),
+    ("출산가방 체크리스트", "조리원 입소 짐까지 함께 챙기기", "guide/birth/hospital-bag.html"),
+    ("모유수유 시작하기", "조리원 모유수유 지원 확인 포인트", "guide/postpartum/breastfeeding.html"),
 ]
 
 

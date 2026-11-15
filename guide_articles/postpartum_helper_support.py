@@ -7,9 +7,9 @@ DESC     = "산모·신생아 건강관리 지원사업(산후도우미)은 출�
 KEYWORDS = "산후도우미 지원,산모신생아 건강관리 지원사업,산후도우미 신청,산후도우미 정부지원,산모도우미 소득기준,복지로 산후도우미,산후도우미 본인부담금"
 READING  = "7"
 RELATED  = [
-    ("산후조리원 비용과 고르는 법", "조리원과 도우미 중 무엇을 쓸지", "guide/postpartum/postpartum-care-center"),
-    ("산후조리 기간과 주의사항", "산욕기 6주 회복 타임라인", "guide/postpartum/recovery-period"),
-    ("국민행복카드 신청 순서와 사용처", "임신·출산 진료비 지원", "guide/health/pregnancy-voucher"),
+    ("산후조리원 비용과 고르는 법", "조리원과 도우미 중 무엇을 쓸지", "guide/postpartum/postpartum-care-center.html"),
+    ("산후조리 기간과 주의사항", "산욕기 6주 회복 타임라인", "guide/postpartum/recovery-period.html"),
+    ("국민행복카드 신청 순서와 사용처", "임신·출산 진료비 지원", "guide/health/pregnancy-voucher.html"),
 ]
 
 

@@ -7,9 +7,9 @@ DESC     = "임신 중 코막힘은 호르몬과 혈류량 증가로 생기는 �
 KEYWORDS = "임신 비염,임신 코막힘,임신성 비염,임산부 코피,임산부 비염약,임신 중 코피,비충혈제거제"
 READING  = "8"
 RELATED  = [
-    ("임신 중 감기 대처법", "증상별 관리와 병원 가야 하는 기준", "guide/health/cold-flu"),
-    ("임신 중 먹어도 되는 약", "진통제·감기약·소화제 기준", "guide/health/safe-medications"),
-    ("임신중독증 증상과 진단 수치", "코피와 함께 나타나는 신호", "guide/health/preeclampsia"),
+    ("임신 중 감기 대처법", "증상별 관리와 병원 가야 하는 기준", "guide/health/cold-flu.html"),
+    ("임신 중 먹어도 되는 약", "진통제·감기약·소화제 기준", "guide/health/safe-medications.html"),
+    ("임신중독증 증상과 진단 수치", "코피와 함께 나타나는 신호", "guide/health/preeclampsia.html"),
 ]
 
 

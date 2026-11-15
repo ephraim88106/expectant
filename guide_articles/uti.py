@@ -9,7 +9,7 @@ READING  = "7"
 RELATED  = [
     ("임신 중 먹어도 되는 약", "진통제·감기약·소화제 기준", "guide/health/safe-medications.html"),
     ("임산부 냉 색깔별 차이", "정상 분비물과 질염 비교", "guide/health/pregnancy-discharge.html"),
-    ("조기진통 증상과 원인", "자궁수축 구분 기준", "guide/health/preterm-labor.html"),
+    ("조기진통 증상과 원인", "자궁수축 구분 기준", "guide/birth/preterm-labor.html"),
 ]
 
 
@@ -75,7 +75,7 @@ def body(H):
 """ + c("alert", "이럴 때는 병원으로",
         "<b>38℃ 이상의 열과 오한, 옆구리나 등 통증, 반복되는 구토</b>가 있거나 소변에 피가 보이면 바로 진료를 받으세요. "
         "소변을 거의 보지 못하거나, 아랫배 통증이 규칙적으로 반복된다면 감염으로 인한 자궁수축일 수도 있으니 "
-        "<a href=\"/guide/health/preterm-labor\">조기진통 증상</a>도 함께 확인하고 병원에 연락하세요.") + """
+        "<a href=\"/guide/birth/preterm-labor\">조기진통 증상</a>도 함께 확인하고 병원에 연락하세요.") + """
 <h2>일상에서 해볼 수 있는 예방 습관</h2>
 <ul>
   <li><b>수분 충분히 마시기</b> — 소변을 자주 보며 요로를 씻어내는 데 도움이 됩니다. 붓기나 의료진의 수분 제한 지시가 있다면 그에 따르세요.</li>

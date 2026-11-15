@@ -7,9 +7,9 @@ DESC     = "건강보험 임신·출산 진료비 지원은 단태아 100만 원
 KEYWORDS = "임신 출산 진료비 지원금,국민행복카드,임신 바우처,임신확인서,임신 100만원 지원,다태아 140만원,임산부 진료비"
 READING  = "7"
 RELATED  = [
-    ("산후조리원 비용과 고르는 법", "조리원 지원 제도와 계약 체크", "guide/postpartum/postpartum-care-center"),
-    ("임신 전 검사 체크리스트", "임신 전에 받아 둘 검사", "guide/preparation/preconception-checkup"),
-    ("출산 예정일 계산기", "임신 확인 후 D-day", "tools/due-date"),
+    ("산후조리원 비용과 고르는 법", "조리원 지원 제도와 계약 체크", "guide/postpartum/postpartum-care-center.html"),
+    ("임신 전 검사 체크리스트", "임신 전에 받아 둘 검사", "guide/preparation/preconception-checkup.html"),
+    ("출산 예정일 계산기", "임신 확인 후 D-day", "tools/due-date.html"),
 ]
 
 
