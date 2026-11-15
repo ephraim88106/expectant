@@ -150,8 +150,8 @@
   "v": 2
  },
  "guide/health/carpal-tunnel-pregnancy.html": {
-  "hash": "71996ce2b19073b3f6d616057f0838555afec9933c95601f9ccad16a8fab9700",
-  "modified": "2026-11-13",
+  "hash": "ddaef9400d42bb4e00c5895d5129d1cebbd647d28b0984f20be0a8b0cc385170",
+  "modified": "2026-11-15",
   "published": "2026-11-13",
   "v": 2
  },
@@ -240,8 +240,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "ecf973330ebb6e2196122a07d4803a7f06fdf6210e9aaf312d045a6bd738a4aa",
-  "modified": "2026-11-13",
+  "hash": "da12bcccb3f323dacc0693891fe58cca2be7687a997980335caca3a4852d13d6",
+  "modified": "2026-11-15",
   "published": "2026-07-25",
   "v": 2
  },
@@ -249,6 +249,12 @@
   "hash": "094c1901790beeef1f09305d5a5b1d6c9481f74b2b1e7c70186400c878a3ad5f",
   "modified": "2026-10-22",
   "published": "2026-10-21",
+  "v": 2
+ },
+ "guide/health/melasma-pregnancy.html": {
+  "hash": "07dca6b0ba46b8e652b5c103b6f8e5167be9acfd9e1679e3616969588ced8510",
+  "modified": "2026-11-15",
+  "published": "2026-11-15",
   "v": 2
  },
  "guide/health/morning-sickness.html": {
@@ -360,8 +366,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "3da1dbd47d27879ffea6afb6aa28435910ed480cdc73c3d5d756f672f5c0da9b",
-  "modified": "2026-11-14",
+  "hash": "1cc07619642b67942c9b89513a3dc6820531be911a07f3abc48958639cfd00e8",
+  "modified": "2026-11-15",
   "published": "2026-07-25",
   "v": 2
  },
