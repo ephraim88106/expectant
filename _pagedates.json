@@ -240,8 +240,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "da12bcccb3f323dacc0693891fe58cca2be7687a997980335caca3a4852d13d6",
-  "modified": "2026-11-15",
+  "hash": "a65e8e8b576552249272020c672e864bc5a0b2f3569230f384d8eb4b16f64863",
+  "modified": "2026-11-16",
   "published": "2026-07-25",
   "v": 2
  },
@@ -252,8 +252,8 @@
   "v": 2
  },
  "guide/health/melasma-pregnancy.html": {
-  "hash": "07dca6b0ba46b8e652b5c103b6f8e5167be9acfd9e1679e3616969588ced8510",
-  "modified": "2026-11-15",
+  "hash": "c337d63d9f49aed1799d0a62d50e1cac05a807cd17e101140d0d7f06e0850501",
+  "modified": "2026-11-16",
   "published": "2026-11-15",
   "v": 2
  },
@@ -359,6 +359,12 @@
   "published": "2026-09-29",
   "v": 2
  },
+ "guide/health/varicose-veins-pregnancy.html": {
+  "hash": "2da39cf7b202f95ef4a935f6b5a3fdb89709d7b46bcb4c871c7874e60e40139b",
+  "modified": "2026-11-16",
+  "published": "2026-11-16",
+  "v": 2
+ },
  "guide/health/weight-gain.html": {
   "hash": "4079f7186d53e4a365de9b2605576ddd972baf1468dfb34fe343a98b18a59a6b",
   "modified": "2026-08-01",
@@ -366,8 +372,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "1cc07619642b67942c9b89513a3dc6820531be911a07f3abc48958639cfd00e8",
-  "modified": "2026-11-15",
+  "hash": "396aa3f8bce113374d5ed97c5bbbb355a23695c0f6e3524f71266e24953f4f15",
+  "modified": "2026-11-16",
   "published": "2026-07-25",
   "v": 2
  },
