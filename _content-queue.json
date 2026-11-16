@@ -809,6 +809,51 @@
       "status": "published",
       "note": "2026-11-11 추가, index_gate 스텁 사전검사 PASS",
       "published_at": "2026-11-16"
+    },
+    {
+      "order": 92,
+      "category": "health",
+      "slug": "fetal-sex-ultrasound",
+      "title": "태아 성별 확인 주수 — 초음파로 알 수 있는 정확도와 알려주는 조건",
+      "keywords": "태아 성별 확인 시기,태아 성별 초음파 몇주,태아 성별 정확도,성별 고지 32주 폐지",
+      "status": "pending",
+      "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+    },
+    {
+      "order": 93,
+      "category": "health",
+      "slug": "oligohydramnios",
+      "title": "양수과소증 수치와 원인 — 양수 적을 때 수분 섭취 효과와 유도분만 결정",
+      "keywords": "양수과소증,양수 적을 때,양수지수 AFI 정상 수치,양수 늘리는 법",
+      "status": "pending",
+      "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+    },
+    {
+      "order": 94,
+      "category": "birth",
+      "slug": "short-cervix",
+      "title": "자궁경부 길이 짧을 때 — 조산 위험 수치와 봉축술·프로게스테론 조건",
+      "keywords": "자궁경부 길이 짧음,자궁경부 길이 25mm,자궁경부 봉축술 시기,조산 예방 프로게스테론",
+      "status": "pending",
+      "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+    },
+    {
+      "order": 95,
+      "category": "postpartum",
+      "slug": "breastfeeding-medications",
+      "title": "수유 중 먹어도 되는 약 종류 — 감기약·진통제·항생제 기준과 복용 시간",
+      "keywords": "수유 중 먹어도 되는 약,모유수유 감기약,수유 중 진통제,수유 중 항생제",
+      "status": "pending",
+      "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+    },
+    {
+      "order": 96,
+      "category": "postpartum",
+      "slug": "diastasis-recti",
+      "title": "복직근 이개 확인하는 법 — 손가락 자가 검사와 운동 시작 조건",
+      "keywords": "복직근 이개,복직근 이개 자가진단,산후 복직근 운동,출산 후 배 벌어짐",
+      "status": "pending",
+      "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
     }
   ]
 }
