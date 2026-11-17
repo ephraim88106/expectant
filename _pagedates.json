@@ -203,6 +203,12 @@
   "published": "2026-09-23",
   "v": 2
  },
+ "guide/health/fetal-sex-ultrasound.html": {
+  "hash": "8ede37bc1558c3488a8860ffd9674af77cac949df70840bf90a26c1ba39a7d06",
+  "modified": "2026-11-17",
+  "published": "2026-11-17",
+  "v": 2
+ },
  "guide/health/foods-to-avoid.html": {
   "hash": "3d3d8b6f1ad4ca79eb3ad9bb42a90737b3402ed5b68c340fb991bfc3ed811a61",
   "modified": "2026-07-26",
@@ -240,8 +246,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "39eb98dfd9d917334a77db4c9b1a2e5eba1f9c5c74ea371e35f035ba75b40d13",
-  "modified": "2026-11-16",
+  "hash": "aaae2b6acaf34d30110f428654c74703189a363f3074a26c2eaf7dc818b49d44",
+  "modified": "2026-11-17",
   "published": "2026-07-25",
   "v": 2
  },
@@ -360,8 +366,8 @@
   "v": 2
  },
  "guide/health/varicose-veins-pregnancy.html": {
-  "hash": "2da39cf7b202f95ef4a935f6b5a3fdb89709d7b46bcb4c871c7874e60e40139b",
-  "modified": "2026-11-16",
+  "hash": "e08f096f9986e94851632103b149f50dbe9d80562a495e55ea42db6ea84200af",
+  "modified": "2026-11-17",
   "published": "2026-11-16",
   "v": 2
  },
@@ -372,8 +378,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "b7db282733b762635997e63cdc0891164a11f3864b20c6e249f48103eeface00",
-  "modified": "2026-11-16",
+  "hash": "398d7a241a302aac38a18c8a0e5f75f7c8486ea6534b919daac963d10703b192",
+  "modified": "2026-11-17",
   "published": "2026-07-25",
   "v": 2
  },
