@@ -886,6 +886,11 @@ if __name__ == "__main__":
                       'article:modified_time" content="%sT00:00:00+09:00"' % d["modified"])
         h = h.replace("\ucd5c\uc885 \uc5c5\ub370\uc774\ud2b8 %s" % TODAY,
                       "\ucd5c\uc885 \uc5c5\ub370\uc774\ud2b8 %s" % d["modified"])
+        # \uae00 \uba38\ub9ac\uc758 "YYYY-MM-DD \uc5c5\ub370\uc774\ud2b8" \ud45c\uc2dc\ub3c4 \uc2e4\uc81c \ubcf8\ubb38 \uc218\uc815\uc77c\ub85c \ub9de\ucd98\ub2e4.
+        # (\uc774\uc804\uc5d4 \uc774 \uc790\ub9ac\ub9cc \ube60\uc838 \uc788\uc5b4\uc11c, \ubcf8\ubb38\uc774 \uadf8\ub300\ub85c\uc5ec\ub3c4 \ub9e4\uc77c \ube4c\ub4dc \ub0a0\uc9dc\ub85c \ubc14\ub00c\uc5c8\uace0
+        #  dateModified(JSON-LD)\uc640\ub3c4 \uc5b4\uae0b\ub0ac\ub2e4.)
+        h = h.replace("</svg>%s \uc5c5\ub370\uc774\ud2b8</span>" % TODAY,
+                      "</svg>%s \uc5c5\ub370\uc774\ud2b8</span>" % d["modified"])
         PAGES[p] = h
 
     # sitemap + robots
