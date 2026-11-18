@@ -116,6 +116,15 @@ CDC는 면역의 기준선을 <b>10 IU/mL 초과</b>로 제시합니다.</p>
            "MMR은 생후 12~15개월과 만 4~6세에 2회 맞는 어린이 국가예방접종 항목이라 <b>영유아만 무료</b>입니다. "
            "성인이 임신 준비로 맞을 때는 대개 <b>본인 부담</b>이고, 의료기관에 따라 1만 원대 후반에서 5만 원 사이로 폭이 넓습니다. "
            "다만 보건소 예비부부 검진에서 음성이 나온 경우처럼 <b>무료 접종을 제공하는 지자체</b>도 있으니 먼저 확인해 보세요.") + """
+<h2>접종했는데 또 음성이 나왔다면 — 몇 번까지 맞나</h2>
+<p>MMR을 맞고도 항체 검사에서 다시 음성이나 경계가 나와 당황하는 경우가 꽤 있습니다. 나라별 기준은 이렇습니다.</p>
+""" + tb(["기준", "접종 후 재검사", "또 음성일 때"], [
+        ["미국 CDC·예방접종자문위원회(2013)", "다시 검사할 필요 없음", "1~2회 맞은 가임기 여성이 뚜렷한 양성이 아니면 <b>1회 추가 접종(최대 3회까지)</b>, 이후 재검사 권하지 않음"],
+        ["호주 예방접종 지침", "접종 6~8주 뒤 확인 권장", "2회 맞은 뒤에도 음성이면 대개 <b>추가 검사·접종 불필요</b>"],
+    ]) + """
+<p>두 기준이 다른 이유는, 접종 후 항체가 <b>일반 검사로 잡히지 않을 만큼 낮게 생기는 경우</b>가 있기 때문입니다.
+호주 지침도 2회 접종 기록이 있는데 음성이 나오면 '실제로는 면역이 있는데 수치만 낮게 나온 가짜 음성'일 수 있다고 설명합니다.
+국내에는 이 상황에 대한 별도 지침이 없어 병원마다 판단이 다르니, <b>접종 기록을 챙겨 가서</b> 추가 접종 여부를 상의하세요.</p>
 <h2>접종하고 나서 4주를 못 채우고 임신했다면</h2>
 <p>드물지 않게 생기는 일이고, 대부분 걱정하시는 것보다 상황이 낫습니다.
 MotherToBaby가 정리한 근거는 이렇습니다.</p>
@@ -173,4 +182,14 @@ MotherToBaby가 정리한 근거는 이렇습니다.</p>
          "항체가 없다는 것은 <b>감염되면 위험하다</b>는 뜻이지, 이미 감염됐다는 뜻이 아닙니다. "
          "실제로 풍진에 걸리지 않으면 아기에게 영향은 없습니다. 임신 기간 동안 노출을 피하고, "
          "출산 직후 접종을 받아 다음 임신을 대비하시면 됩니다."),
-    ])
+        ("MMR을 2번 맞았는데도 항체가 음성이에요. 또 맞아야 하나요?",
+         "미국 CDC는 가임기 여성에게 1회 추가 접종(최대 3회)을 권하고 그 뒤에는 다시 검사하지 않도록 합니다. 호주 지침은 2회 접종 후 음성이면 대개 추가 접종이 필요 없다고 봅니다. "
+         "접종 기록을 가지고 담당 의료진과 상의하세요. 추가 접종을 하면 다시 4주 피임이 필요합니다."),
+    ]) + """
+<h2>참고 자료</h2>
+<ul class="refs">
+  <li>미국 CDC — <a href="https://www.cdc.gov/rubella/hcp/vaccine-considerations/index.html" rel="nofollow noopener" target="_blank">Rubella Vaccine Recommendations</a></li>
+  <li>Immunize.org Ask the Experts — <a href="https://www.immunize.org/ask-experts/if-a-womans-rubella-test-result-shows-she-is-not-immune-during-a-prenatal-visit-but-she-has-2-documented-doses-of-mmr-vaccine-does-she-need-a-third-dose-of-mmr-vaccine-postpartum" rel="nofollow noopener" target="_blank">2회 접종 후 비면역 결과일 때 (ACIP 2013, MMWR RR-62(4))</a></li>
+  <li>호주 예방접종 지침 — <a href="https://immunisationhandbook.health.gov.au/node/660" rel="nofollow noopener" target="_blank">Serological testing for immunity to rubella</a></li>
+</ul>
+"""
