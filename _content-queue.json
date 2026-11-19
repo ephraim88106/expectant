@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "items": [
     {
       "order": 1,
@@ -826,8 +826,9 @@
       "slug": "oligohydramnios",
       "title": "양수과소증 수치와 원인 — 양수 적을 때 수분 섭취 효과와 유도분만 결정",
       "keywords": "양수과소증,양수 적을 때,양수지수 AFI 정상 수치,양수 늘리는 법",
-      "status": "pending",
-      "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+      "status": "published",
+      "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증",
+      "published_at": "2026-11-19"
     },
     {
       "order": 94,
