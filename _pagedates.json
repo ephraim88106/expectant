@@ -60,8 +60,8 @@
   "v": 2
  },
  "guide/birth/index.html": {
-  "hash": "676ed2933292a36c84fb817b6ade8143464409286e54f3db3bf5a954a5f40bc3",
-  "modified": "2026-11-16",
+  "hash": "25490ed477a6a255ae557e1dacebe30aa14aff4b37cab14d81f10c6c02986144",
+  "modified": "2026-11-20",
   "published": "2026-07-25",
   "v": 2
  },
@@ -72,8 +72,8 @@
   "v": 2
  },
  "guide/birth/labor-hospital-transport.html": {
-  "hash": "70da9d92f8819c621f26a934a3ccd59c6154b4cf6457643d0116604b931e6885",
-  "modified": "2026-11-10",
+  "hash": "6646b4d6b4b7b6c720cd7428b6efe134a0b48dd876385bfae1d0e607a9491d65",
+  "modified": "2026-11-20",
   "published": "2026-11-10",
   "v": 2
  },
@@ -99,6 +99,12 @@
   "hash": "e6f39d25e4ed665499415ffdbb47103063364911246a4171cde6b212b2afd071",
   "modified": "2026-08-19",
   "published": "2026-08-19",
+  "v": 2
+ },
+ "guide/birth/short-cervix.html": {
+  "hash": "f251ffc0582c27a8d2a2c65aa21908d15305676cf4bd26cf4b3a4b008b58f9c0",
+  "modified": "2026-11-20",
+  "published": "2026-11-20",
   "v": 2
  },
  "guide/birth/term-tests.html": {
@@ -384,8 +390,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "0fc6c0dd4a116d99ad02d4bd15842032e6da7859ce20724c2dccf17b1a79a8d8",
-  "modified": "2026-11-19",
+  "hash": "84a2c849babc29e821a8265fd3fd66cbd21cb4ec289ca02787c7d09ada26bc64",
+  "modified": "2026-11-20",
   "published": "2026-07-25",
   "v": 2
  },
