@@ -390,8 +390,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "84a2c849babc29e821a8265fd3fd66cbd21cb4ec289ca02787c7d09ada26bc64",
-  "modified": "2026-11-20",
+  "hash": "1cf0c7a9940a8a7c0b874409f124bd9f3b433e3c2684c0f10b52fd2c4c988386",
+  "modified": "2026-11-21",
   "published": "2026-07-25",
   "v": 2
  },
@@ -399,6 +399,12 @@
   "hash": "ba3d3d0b954d4be8410f13636e2deb16c60f8f975d4f710a5bd0ccaa2f850d0c",
   "modified": "2026-11-14",
   "published": "2026-11-09",
+  "v": 2
+ },
+ "guide/postpartum/breastfeeding-medications.html": {
+  "hash": "9d4f5a3d604de126d6bfa4e1009e85f646d54287957338c2d73d754cc86c1fc6",
+  "modified": "2026-11-21",
+  "published": "2026-11-21",
   "v": 2
  },
  "guide/postpartum/breastfeeding.html": {
@@ -432,8 +438,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "3b3f6e02e83b923ed69bd20a5b17772e62f2d5304936901a129fef023425461e",
-  "modified": "2026-11-19",
+  "hash": "1c7b8526f06edd0ce136bddc096e190ac0f88683d58c176842643508ee34defa",
+  "modified": "2026-11-21",
   "published": "2026-07-25",
   "v": 2
  },
@@ -504,8 +510,8 @@
   "v": 2
  },
  "guide/postpartum/postpartum-swelling.html": {
-  "hash": "4bd9a7a9463527ead65385297a30192c648652bbcdb2d62bf4f615302737334c",
-  "modified": "2026-11-14",
+  "hash": "d9d74c4cf556f2aff8c32167b873d8ca7996c5ef61e90194c210936588d326d6",
+  "modified": "2026-11-21",
   "published": "2026-11-14",
   "v": 2
  },
