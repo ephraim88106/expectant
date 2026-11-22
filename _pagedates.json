@@ -390,8 +390,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "1cf0c7a9940a8a7c0b874409f124bd9f3b433e3c2684c0f10b52fd2c4c988386",
-  "modified": "2026-11-21",
+  "hash": "761403a668729b7e485dbce4b23a52d51cbbd17fffddd057e29d34988238540d",
+  "modified": "2026-11-22",
   "published": "2026-07-25",
   "v": 2
  },
@@ -402,8 +402,8 @@
   "v": 2
  },
  "guide/postpartum/breastfeeding-medications.html": {
-  "hash": "9d4f5a3d604de126d6bfa4e1009e85f646d54287957338c2d73d754cc86c1fc6",
-  "modified": "2026-11-21",
+  "hash": "c4cc16cb1f5a4fc8f209c2f5694f3487cd03edb3f7178b0e568f84215fdebd97",
+  "modified": "2026-11-22",
   "published": "2026-11-21",
   "v": 2
  },
@@ -431,6 +431,12 @@
   "published": "2026-08-07",
   "v": 2
  },
+ "guide/postpartum/diastasis-recti.html": {
+  "hash": "ab4b23c405d309626fcbcfc8c3e47f564ac94c9c33e03947deac84552f5ef521",
+  "modified": "2026-11-22",
+  "published": "2026-11-22",
+  "v": 2
+ },
  "guide/postpartum/hair-loss.html": {
   "hash": "390fbf1eb66869a52a79586794aee08c68753821e8823389b24572619faa422f",
   "modified": "2026-08-20",
@@ -438,8 +444,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "1c7b8526f06edd0ce136bddc096e190ac0f88683d58c176842643508ee34defa",
-  "modified": "2026-11-21",
+  "hash": "a0b5232fd3c164a711712cc3d3e5b26ce3b5cbf9978fdd083f6499ac7a989c15",
+  "modified": "2026-11-22",
   "published": "2026-07-25",
   "v": 2
  },
