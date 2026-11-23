@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "items": [
     {
       "order": 1,
@@ -859,6 +859,52 @@
       "status": "published",
       "note": "2026-11-16 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증",
       "published_at": "2026-11-22"
+    },
+    {
+      "order": 97,
+      "category": "health",
+      "slug": "rib-pain",
+      "title": "산모 갈비뼈 통증 이유 — 후기 명치·옆구리 아플 때 편한 자세와 진료 신호",
+      "keywords": "임신 갈비뼈 통증,임산부 갈비뼈 통증,임신 후기 갈비뼈 통증,임신 명치 통증",
+      "status": "published",
+      "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증",
+      "published_at": "2026-11-23"
+    },
+    {
+      "order": 98,
+      "category": "health",
+      "slug": "shortness-of-breath",
+      "title": "임신부 숨참 이유 — 초기·후기 호흡곤란 구분과 바로 진료받을 증상",
+      "keywords": "임산부 숨참,임신 중 숨이 차요,임신 호흡곤란,임신 후기 숨참",
+      "status": "pending",
+      "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+    },
+    {
+      "order": 99,
+      "category": "health",
+      "slug": "fibroids-pregnancy",
+      "title": "자궁근종 있는 산모 주의사항 — 크기 변화와 통증 대처, 제왕절개 판단",
+      "keywords": "임신 중 자궁근종,자궁근종 임신,임신 자궁근종 통증,자궁근종 제왕절개",
+      "status": "pending",
+      "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+    },
+    {
+      "order": 100,
+      "category": "health",
+      "slug": "frequent-urination",
+      "title": "임신기 빈뇨 이유 — 소변 자주 마려운 주수와 방광염 구분하는 법",
+      "keywords": "임신 빈뇨,임신 초기 소변 자주,임산부 빈뇨,임신 소변 자주 마려움",
+      "status": "pending",
+      "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+    },
+    {
+      "order": 101,
+      "category": "health",
+      "slug": "pregnancy-acne",
+      "title": "임신부 여드름 연고 종류 — 바르면 안 되는 성분과 써도 되는 치료제",
+      "keywords": "임산부 여드름,임신 중 여드름 연고,임신 여드름 치료,임산부 피부 트러블",
+      "status": "pending",
+      "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
     }
   ]
 }

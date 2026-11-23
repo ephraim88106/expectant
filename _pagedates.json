@@ -252,8 +252,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "ee642f0ebc6cea363471109a3586c8d553aaa4e438e3d33eb0030d5b2636280f",
-  "modified": "2026-11-19",
+  "hash": "049b4778b33eb47c1fb9c691f8c41727b8565d76d1ece7fb65e8621880bd2d4b",
+  "modified": "2026-11-23",
   "published": "2026-07-25",
   "v": 2
  },
@@ -276,8 +276,8 @@
   "v": 2
  },
  "guide/health/oligohydramnios.html": {
-  "hash": "5950e556519537cd002494b4fa35eacdd617fcb36753347fa7bb6ad900a1c3af",
-  "modified": "2026-11-19",
+  "hash": "42f76bd04b42d5d62a5c8d83e20c7474d2db52c87dee8e62a3d6b09103587b71",
+  "modified": "2026-11-23",
   "published": "2026-11-19",
   "v": 2
  },
@@ -321,6 +321,12 @@
   "hash": "138fc0c197d3bab71765672986ad82626b22eda1e7c585977b099042fbf5f11e",
   "modified": "2026-08-29",
   "published": "2026-08-29",
+  "v": 2
+ },
+ "guide/health/rib-pain.html": {
+  "hash": "d323bb5e0e15117a206b049462d17c961e71bc38a9470b3693fd3e9e46923441",
+  "modified": "2026-11-23",
+  "published": "2026-11-23",
   "v": 2
  },
  "guide/health/safe-medications.html": {
@@ -390,8 +396,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "761403a668729b7e485dbce4b23a52d51cbbd17fffddd057e29d34988238540d",
-  "modified": "2026-11-22",
+  "hash": "3e2351eb0313bfdfcac26070a6c7cdfe50428a52d944ab0058a4a2b26cea0172",
+  "modified": "2026-11-23",
   "published": "2026-07-25",
   "v": 2
  },
