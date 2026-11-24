@@ -252,8 +252,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "049b4778b33eb47c1fb9c691f8c41727b8565d76d1ece7fb65e8621880bd2d4b",
-  "modified": "2026-11-23",
+  "hash": "d5c31a72ba888a27b74a09ef2666131133b951a9145516713fb614770e969db7",
+  "modified": "2026-11-24",
   "published": "2026-07-25",
   "v": 2
  },
@@ -324,8 +324,8 @@
   "v": 2
  },
  "guide/health/rib-pain.html": {
-  "hash": "d323bb5e0e15117a206b049462d17c961e71bc38a9470b3693fd3e9e46923441",
-  "modified": "2026-11-23",
+  "hash": "b08cd023fe8ee2913d183e45ba248e51bc070d36076ac77ae1f4101d7aea9084",
+  "modified": "2026-11-24",
   "published": "2026-11-23",
   "v": 2
  },
@@ -339,6 +339,12 @@
   "hash": "90e0984a70ce04286f61401c0a6c711f016c41a50a075288880a8327801a3e70",
   "modified": "2026-10-15",
   "published": "2026-10-14",
+  "v": 2
+ },
+ "guide/health/shortness-of-breath.html": {
+  "hash": "f0cb37de69655a7f7fff159a18ccbc3c820a77cee238d52773c04ccd64686abc",
+  "modified": "2026-11-24",
+  "published": "2026-11-24",
   "v": 2
  },
  "guide/health/sleep-position.html": {
@@ -396,8 +402,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "3e2351eb0313bfdfcac26070a6c7cdfe50428a52d944ab0058a4a2b26cea0172",
-  "modified": "2026-11-23",
+  "hash": "96b3b27a98cfe1e715ca4126dfb1e85166936e6adca8835620d689678d3f9c3e",
+  "modified": "2026-11-24",
   "published": "2026-07-25",
   "v": 2
  },
