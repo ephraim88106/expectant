@@ -215,6 +215,12 @@
   "published": "2026-11-17",
   "v": 2
  },
+ "guide/health/fibroids-pregnancy.html": {
+  "hash": "bd3ec11c9c8da3ac8684d2aed7cab1b5418c92722f39a94911718cfd4e05e1ad",
+  "modified": "2026-11-25",
+  "published": "2026-11-25",
+  "v": 2
+ },
  "guide/health/foods-to-avoid.html": {
   "hash": "3d3d8b6f1ad4ca79eb3ad9bb42a90737b3402ed5b68c340fb991bfc3ed811a61",
   "modified": "2026-07-26",
@@ -252,8 +258,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "d5c31a72ba888a27b74a09ef2666131133b951a9145516713fb614770e969db7",
-  "modified": "2026-11-24",
+  "hash": "151d06c7955b3956837ffcc4715568b2099bb8ff6f090a0740cbc4b79bd0dc2f",
+  "modified": "2026-11-25",
   "published": "2026-07-25",
   "v": 2
  },
@@ -342,8 +348,8 @@
   "v": 2
  },
  "guide/health/shortness-of-breath.html": {
-  "hash": "f0cb37de69655a7f7fff159a18ccbc3c820a77cee238d52773c04ccd64686abc",
-  "modified": "2026-11-24",
+  "hash": "04e3df430e1a90c529b547551e20429a8ea6e1e6f3534e6ea2af5c1050428610",
+  "modified": "2026-11-25",
   "published": "2026-11-24",
   "v": 2
  },
@@ -402,8 +408,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "96b3b27a98cfe1e715ca4126dfb1e85166936e6adca8835620d689678d3f9c3e",
-  "modified": "2026-11-24",
+  "hash": "2f921aa69834ca6eeebf12c69fd0f5ed0b3dc9d185dc87556ab7fb56f3adab6d",
+  "modified": "2026-11-25",
   "published": "2026-07-25",
   "v": 2
  },
