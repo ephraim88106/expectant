@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "items": [
     {
       "order": 1,
@@ -896,8 +896,9 @@
       "slug": "frequent-urination",
       "title": "임신기 빈뇨 이유 — 소변 자주 마려운 주수와 방광염 구분하는 법",
       "keywords": "임신 빈뇨,임신 초기 소변 자주,임산부 빈뇨,임신 소변 자주 마려움",
-      "status": "pending",
-      "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증"
+      "status": "published",
+      "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증",
+      "published_at": "2026-11-26"
     },
     {
       "order": 101,
