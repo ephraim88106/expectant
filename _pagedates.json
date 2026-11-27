@@ -228,8 +228,8 @@
   "v": 2
  },
  "guide/health/frequent-urination.html": {
-  "hash": "d36eb2dc0cc2cf2966c295273416a87fb78d00cd1a20a36829b0a9430477ee02",
-  "modified": "2026-11-26",
+  "hash": "a2f9c927f6a3d97db785c3c67d8a96c74fa614c8b0d76ccc17a8f6de205fbfa2",
+  "modified": "2026-11-27",
   "published": "2026-11-26",
   "v": 2
  },
@@ -264,8 +264,8 @@
   "v": 2
  },
  "guide/health/index.html": {
-  "hash": "d9031f73c13c10a35fdc2a440d949a55892daf44fd8f98725b8bcde5cc717095",
-  "modified": "2026-11-26",
+  "hash": "f1d75c6f7b8059179713a09d1dcc9fb099e2e3dcdacc343f94f1c7fa793abde7",
+  "modified": "2026-11-27",
   "published": "2026-07-25",
   "v": 2
  },
@@ -297,6 +297,12 @@
   "hash": "3a2b99fc046bf7190e5671c067f3ac88eb0c6093a842719045357314d2e2fca8",
   "modified": "2026-10-02",
   "published": "2026-10-01",
+  "v": 2
+ },
+ "guide/health/pregnancy-acne.html": {
+  "hash": "d78f81f9c70444305c86d59491e9f9ce03d3fc54502ba002fff81d4b4a842e26",
+  "modified": "2026-11-27",
+  "published": "2026-11-27",
   "v": 2
  },
  "guide/health/pregnancy-discharge.html": {
@@ -414,8 +420,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "fd3cacf1ca61f16b42fcc7cb449c8e8359c33dc4395cfadf2602953da8182f8d",
-  "modified": "2026-11-26",
+  "hash": "3306a669393deb8008d8d7ff2046ddf1358a3a89b9ce3fbb29363d8def93c937",
+  "modified": "2026-11-27",
   "published": "2026-07-25",
   "v": 2
  },
