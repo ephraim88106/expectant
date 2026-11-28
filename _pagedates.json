@@ -420,8 +420,8 @@
   "v": 2
  },
  "guide/index.html": {
-  "hash": "3306a669393deb8008d8d7ff2046ddf1358a3a89b9ce3fbb29363d8def93c937",
-  "modified": "2026-11-27",
+  "hash": "a54369bf48158d2af1994e51d1db46d2d577bff4770d8d93d5d17c060f812e1d",
+  "modified": "2026-11-28",
   "published": "2026-07-25",
   "v": 2
  },
@@ -462,8 +462,8 @@
   "v": 2
  },
  "guide/postpartum/diastasis-recti.html": {
-  "hash": "ab4b23c405d309626fcbcfc8c3e47f564ac94c9c33e03947deac84552f5ef521",
-  "modified": "2026-11-22",
+  "hash": "7c1136be68753009b897cbdaf6b8b85ff1a76a7ecbcc8f5da4c41da5f6319faa",
+  "modified": "2026-11-28",
   "published": "2026-11-22",
   "v": 2
  },
@@ -474,8 +474,8 @@
   "v": 2
  },
  "guide/postpartum/index.html": {
-  "hash": "a0b5232fd3c164a711712cc3d3e5b26ce3b5cbf9978fdd083f6499ac7a989c15",
-  "modified": "2026-11-22",
+  "hash": "b478321ace01be229e0a8e3438784bd9735594ebcb0f2d405cb1455711dbce71",
+  "modified": "2026-11-28",
   "published": "2026-07-25",
   "v": 2
  },
@@ -561,6 +561,12 @@
   "hash": "50365dad11084d4be074da1914a3ba11eef7b58acf423f78aa156cdb2eba531b",
   "modified": "2026-07-28",
   "published": "2026-07-28",
+  "v": 2
+ },
+ "guide/postpartum/weaning-milk-drying.html": {
+  "hash": "ea40c0df2867e652d199e93e8782b990622c28168fa2e83a27647c8084f5130b",
+  "modified": "2026-11-28",
+  "published": "2026-11-28",
   "v": 2
  },
  "guide/preparation/advanced-maternal-age.html": {

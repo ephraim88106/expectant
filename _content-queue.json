@@ -1,6 +1,6 @@
 {
   "_comment": "매일 21:00(KST) 자동 발행 대기열. status가 pending인 것 중 order가 가장 작은 항목을 발행한다. 발행 후 status를 published로 바꾸고 published_at을 기록할 것.",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "items": [
     {
       "order": 1,
@@ -909,6 +909,16 @@
       "status": "published",
       "note": "2026-11-23 추가, index_gate 스텁 사전검사 PASS, 자동완성 API 차단으로 WebSearch 대체 검증",
       "published_at": "2026-11-27"
+    },
+    {
+      "order": 102,
+      "category": "postpartum",
+      "slug": "weaning-milk-drying",
+      "title": "젖 말리는 법 — 단유 중 울혈 대처와 단유약 처방 전 확인할 것",
+      "keywords": "단유 방법,젖 말리는 법,단유,단유 울혈,단유약",
+      "status": "published",
+      "note": "자동완성 403 → WebSearch 대체",
+      "published_at": "2026-11-28"
     }
   ]
 }
